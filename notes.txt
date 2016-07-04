@@ -1,0 +1,19 @@
+Bower
+When intsalling bower packages use -save (This makes it a dependency)
+eg. bower install bourbon --save
+
+Update bower packages
+eg. bower bourbon update
+all packages: bower update
+
+
+Grunt
+npm install creates package.json
+npm install grunt-contrib-uglify --save-dev
+
+*NB Grunt Watch task should always be the last in the registerTalk call. 
+To update other tasks on watch i.e. cssmin or combine, on watch add them to the tasks list
+
+BrowserSync sometimes needs to be removed from registered tasks and connect needs to run alone. Then bring sync back in.
+
+Added a .gitignore for all Grunt’s node_modules and .sass-cache
