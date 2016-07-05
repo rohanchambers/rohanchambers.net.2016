@@ -9,63 +9,11 @@
 @import "partials/_typography";
 @import "partials/_mixins";
 @import "partials/_layout";
-@import "partials/_mobile";
+@import "modules/_refills";
 @import "vendor/_jssor";
 
 body {
 	background-color: pink;
 }
 
-// Two columms
-.col-1 {
-	@include span-columns(12);
-}
-
-.col-1.carousel {
-	height: auto;
-	@include span-columns(12);
-}
-
-// Two columms
-.col-2 {
-	@include span-columns(6);
-}
-
-// Three columms
-.col-3 {
-	@include span-columns(4);
-}
-
-// Three columms
-.col-4 {
-	@include span-columns(3);
-	background-color: blue;
-}
-
-.element {
-    @include pad(15px);
-}
-
-#element-1 {
-	background-color: red;
-}
-
-#element-2 {
-	background-color: orange;
-}
-
-#element-3 {
-	background-color: green;
-}
-
-#element-4 {
-	background-color: blue;
-}
-
-#element-5 {
-	background-color: pink;
-}
-
-#element-6 {
-	background-color: purple;
-}
+@import "partials/_mobile";

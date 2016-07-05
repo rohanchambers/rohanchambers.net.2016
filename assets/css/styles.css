@@ -39,6 +39,95 @@ p {
     content: "";
     display: block; }
 
+.col-1 {
+  float: left;
+  display: block;
+  margin-right: 0.95602%;
+  width: 100%; }
+  .col-1:last-child {
+    margin-right: 0; }
+
+.col-2 {
+  float: left;
+  display: block;
+  margin-right: 0.95602%;
+  width: 49.52199%; }
+  .col-2:last-child {
+    margin-right: 0; }
+
+.col-3 {
+  float: left;
+  display: block;
+  margin-right: 0.95602%;
+  width: 32.69598%; }
+  .col-3:last-child {
+    margin-right: 0; }
+
+.col-4 {
+  float: left;
+  display: block;
+  margin-right: 0.95602%;
+  width: 24.28298%;
+  background-color: blue; }
+  .col-4:last-child {
+    margin-right: 0; }
+
+.element {
+  padding: 15px; }
+
+#intro,
+#services article {
+  background-color: red; }
+
+#skills {
+  background-color: orange; }
+
+#contact {
+  background-color: green; }
+
+.accordion-tabs-minimal {
+  line-height: 1.5;
+  padding: 0; }
+  .accordion-tabs-minimal::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .accordion-tabs-minimal .tab-header-and-content {
+    list-style: none; }
+    @media screen and (min-width: 40em) {
+      .accordion-tabs-minimal .tab-header-and-content {
+        display: inline; } }
+  .accordion-tabs-minimal .tab-link {
+    background-color: #fff;
+    border-top: 1px solid #dcdcdc;
+    color: #333;
+    display: block;
+    padding: 0.75em 5px;
+    text-decoration: none; }
+    @media screen and (min-width: 40em) {
+      .accordion-tabs-minimal .tab-link {
+        border-top: 0;
+        display: inline-block; } }
+    .accordion-tabs-minimal .tab-link:hover {
+      color: #477dca; }
+    .accordion-tabs-minimal .tab-link:focus {
+      outline: none; }
+    .accordion-tabs-minimal .tab-link.is-active {
+      border-bottom: 0; }
+      @media screen and (min-width: 40em) {
+        .accordion-tabs-minimal .tab-link.is-active {
+          border: 1px solid #dcdcdc;
+          border-bottom-color: #fff;
+          margin-bottom: -1px; } }
+  .accordion-tabs-minimal .tab-content {
+    display: none;
+    padding: 1.5em 5px;
+    width: 100%; }
+    @media screen and (min-width: 40em) {
+      .accordion-tabs-minimal .tab-content {
+        border-top: 1px solid #dcdcdc;
+        float: left; } }
+
 .jssora22l, .jssora22r {
   display: block;
   position: absolute;
@@ -70,67 +159,53 @@ p {
 body {
   background-color: pink; }
 
-.col-1 {
-  float: left;
-  display: block;
-  margin-right: 0.95602%;
-  width: 100%; }
-  .col-1:last-child {
-    margin-right: 0; }
+@media screen and (max-width: 867px) {
+  #intro,
+  .col-4 {
+    margin-bottom: 10px; }
 
-.col-1.carousel {
-  height: auto;
-  float: left;
-  display: block;
-  margin-right: 0.95602%;
-  width: 100%; }
-  .col-1.carousel:last-child {
-    margin-right: 0; }
+  .col-3 {
+    float: left;
+    display: block;
+    margin-right: 0.95602%;
+    width: 100%; }
+    .col-3:last-child {
+      margin-right: 0; }
 
-.col-2 {
-  float: left;
-  display: block;
-  margin-right: 0.95602%;
-  width: 49.52199%; }
-  .col-2:last-child {
-    margin-right: 0; }
+  .mob-2 {
+    float: left;
+    display: block;
+    margin-right: 0.95602%;
+    width: 49.52199%; }
+    .mob-2:last-child {
+      margin-right: 0; }
 
-.col-3 {
-  float: left;
-  display: block;
-  margin-right: 0.95602%;
-  width: 32.69598%; }
-  .col-3:last-child {
-    margin-right: 0; }
+  .col-4 {
+    float: left;
+    display: block;
+    margin-right: 0.95602%;
+    width: 49.52199%; }
+    .col-4:last-child {
+      margin-right: 0; }
 
-.col-4 {
-  float: left;
-  display: block;
-  margin-right: 0.95602%;
-  width: 24.28298%;
-  background-color: blue; }
-  .col-4:last-child {
-    margin-right: 0; }
+  #web-dev,
+  #software {
+    margin: 0; } }
+@media screen and (max-width: 479px) {
+  #skills,
+  #what-i-do article {
+    margin-bottom: 10px; }
 
-.element {
-  padding: 15px; }
-
-#element-1 {
-  background-color: red; }
-
-#element-2 {
-  background-color: orange; }
-
-#element-3 {
-  background-color: green; }
-
-#element-4 {
-  background-color: blue; }
-
-#element-5 {
-  background-color: pink; }
-
-#element-6 {
-  background-color: purple; }
+  .col-2,
+  .col-3,
+  .col-4 {
+    float: left;
+    display: block;
+    margin-right: 0.95602%;
+    width: 100%; }
+    .col-2:last-child,
+    .col-3:last-child,
+    .col-4:last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

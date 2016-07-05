@@ -6,12 +6,43 @@
 @include media($desktop) {
 }
 
-// TABLET | Max width 800px
+// TABLET | Max width 867px
 @include media($tablet) {
+	#intro,
+	.col-4 {
+		margin-bottom: 10px;
+	}
+
+	.col-3 {
+		@include span-columns(12);	
+	}
+
+	.mob-2 {
+		@include span-columns(6);
+	}
+
+	.col-4 {
+		@include span-columns(6);
+	}
+
+	#web-dev,
+	#software {
+ 		margin: 0;
+	}
 }
 
 // MOBILE | max width 479px
 @include media($mobile) {
+	#skills,
+	#what-i-do article {
+		margin-bottom: 10px;
+	}
+	
+	.col-2,
+	.col-3,
+	.col-4, {
+		@include span-columns(12);
+	}	
 }
 
 // MOBILE SMALL | max width 320px

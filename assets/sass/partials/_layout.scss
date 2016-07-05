@@ -8,3 +8,42 @@
         @include row( $display: default, $direction: LTR);
         margin-bottom: 10px;
     }
+
+	// One columms
+	.col-1 {
+		@include span-columns(12);
+	}
+
+	// Two columms
+	.col-2 {
+		@include span-columns(6);
+	}
+
+	// Four columms
+	.col-3 {
+		@include span-columns(4);
+	}
+
+	// Three columms
+	.col-4 {
+		@include span-columns(3);
+		background-color: blue;
+	}
+	
+	// Padding on all elements
+	.element {
+	    @include pad(15px);
+	}
+
+	#intro,
+	#services article {
+		background-color: red;
+	}
+
+	#skills {
+		background-color: orange;
+	}
+
+	#contact {
+		background-color: green;
+	}    
