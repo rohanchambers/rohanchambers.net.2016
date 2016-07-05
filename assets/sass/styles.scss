@@ -10,6 +10,7 @@
 @import "partials/_mixins";
 @import "partials/_layout";
 @import "partials/_mobile";
+@import "vendor/_jssor";
 
 body {
 	background-color: pink;
@@ -17,20 +18,28 @@ body {
 
 // Two columms
 .col-1 {
-	height: 200px;
+	@include span-columns(12);
+}
+
+.col-1.carousel {
+	height: auto;
 	@include span-columns(12);
 }
 
 // Two columms
 .col-2 {
-	height: 200px;
 	@include span-columns(6);
 }
 
 // Three columms
 .col-3 {
-	height: 200px;
 	@include span-columns(4);
+}
+
+// Three columms
+.col-4 {
+	@include span-columns(3);
+	background-color: blue;
 }
 
 .element {

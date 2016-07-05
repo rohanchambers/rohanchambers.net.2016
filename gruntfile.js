@@ -151,7 +151,7 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-connect');
 
 	// Dev
-	grunt.registerTask('default', ['connect', 'browserSync', 'jshint', 'watch']);	
+	grunt.registerTask('default', ['connect', 'browserSync', 'watch']);	
 	
 	// Production - Build app
 	grunt.registerTask('prod', ['concat' ,'cssmin', 'jshint', 'uglify', 'targethtml', 'watch']);

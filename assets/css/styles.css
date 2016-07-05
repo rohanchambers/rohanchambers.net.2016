@@ -29,7 +29,7 @@ p {
   .container::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 .row {
   display: block;
@@ -37,13 +37,40 @@ p {
   .row::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
+
+.jssora22l, .jssora22r {
+  display: block;
+  position: absolute;
+  /* size of arrow element */
+  width: 40px;
+  height: 58px;
+  cursor: pointer;
+  background: url(../img/global/a22.png) center center no-repeat;
+  overflow: hidden; }
+
+.jssora22l {
+  background-position: -10px -31px; }
+
+.jssora22r {
+  background-position: -70px -31px; }
+
+.jssora22l:hover {
+  background-position: -130px -31px; }
+
+.jssora22r:hover {
+  background-position: -190px -31px; }
+
+.jssora22l.jssora22ldn {
+  background-position: -250px -31px; }
+
+.jssora22r.jssora22rdn {
+  background-position: -310px -31px; }
 
 body {
   background-color: pink; }
 
 .col-1 {
-  height: 200px;
   float: left;
   display: block;
   margin-right: 0.95602%;
@@ -51,8 +78,16 @@ body {
   .col-1:last-child {
     margin-right: 0; }
 
+.col-1.carousel {
+  height: auto;
+  float: left;
+  display: block;
+  margin-right: 0.95602%;
+  width: 100%; }
+  .col-1.carousel:last-child {
+    margin-right: 0; }
+
 .col-2 {
-  height: 200px;
   float: left;
   display: block;
   margin-right: 0.95602%;
@@ -61,12 +96,20 @@ body {
     margin-right: 0; }
 
 .col-3 {
-  height: 200px;
   float: left;
   display: block;
   margin-right: 0.95602%;
   width: 32.69598%; }
   .col-3:last-child {
+    margin-right: 0; }
+
+.col-4 {
+  float: left;
+  display: block;
+  margin-right: 0.95602%;
+  width: 24.28298%;
+  background-color: blue; }
+  .col-4:last-child {
     margin-right: 0; }
 
 .element {
