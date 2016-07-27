@@ -1,5 +1,5 @@
 $(function($){
-		// Carousel Jssor
+		// Init Carousel Jssor
         var options = {
         	//$SlideHeight: 400,
         	$ArrowNavigatorOptions: true,
@@ -11,18 +11,21 @@ $(function($){
 	            $Class: $JssorArrowNavigator$
 	        }
     	};
+
         var jssor_slider1 = new $JssorSlider$('carousel', options);
 
         //responsive code begin | you can remove responsive code if you don't want the slider scales
         //while window resizing
         function ScaleSlider() {
-            var parentWidth = $('#carousel').parent().width();
-            if (parentWidth) {
-                jssor_slider1.$ScaleWidth(parentWidth);
-            }
-            else
-                window.setTimeout(ScaleSlider, 30);
-        }
+	        var parentWidth = $('#carousel').parent().width();
+	        
+	        if (parentWidth) {
+	            jssor_slider1.$ScaleWidth(parentWidth);
+	        } else {
+	        	window.setTimeout(ScaleSlider, 30);
+	        }
+	    }
+
         //Scale slider after document ready
         ScaleSlider();
                                         
@@ -31,7 +34,7 @@ $(function($){
         $(window).bind("resize", ScaleSlider);
         $(window).bind("orientationchange", ScaleSlider);
         //responsive code end
-
+	    
 
         // Bourbon Refill Accordion
 		$('.accordion-tabs-minimal').each(function(index) {
@@ -51,6 +54,4 @@ $(function($){
 				event.preventDefault();
 			}
 		});
-
-
 });

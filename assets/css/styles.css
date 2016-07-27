@@ -4,17 +4,96 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+a {
+  color: #0074c0; }
+
+a:hover {
+  background-color: #0074c0;
+  color: #FFF;
+  text-decoration: none; }
+
+.btn-global {
+  position: relative;
+  display: inline-block;
+  padding: 5px 18px 5px 12px;
+  background-color: #171922;
+  font-size: 1.2rem;
+  color: #FFF;
+  text-decoration: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px; }
+
+.btn-global:after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  height: 0;
+  width: 0;
+  border-bottom: 4.5px solid transparent;
+  border-left: 4.5px solid white;
+  border-top: 4.5px solid transparent; }
+
+.btn-global:hover {
+  background-color: #0074c0; }
+
+ul.bullets {
+  padding-left: 13px; }
+  ul.bullets li {
+    position: relative;
+    margin-bottom: 8px;
+    list-style-type: none; }
+  ul.bullets li:before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 3px;
+    height: 0;
+    width: 0;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #0074c0;
+    border-top: 5px solid transparent; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.4rem; }
+
 @font-face {
-  font-family: 'arial_blackregular';
-  src: url("../fonts/arial_black-webfont.eot");
-  src: url("../fonts/arial_black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/arial_black-webfont.woff2") format("woff2"), url("../fonts/arial_black-webfont.woff") format("woff"), url("../fonts/arial_black-webfont.svg#arial_blackregular") format("svg");
+  font-family: 'futura_lt';
+  src: url("../fonts/futura/futura_lt_condensed_bold.eot");
+  src: url("../fonts/futura/futura_lt_condensed_bold.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/futura_lt_condensed_bold.woff") format("woff"), url("../fonts/futura/futura_lt_condensed_bold.svg#futura_lt") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'rockwell';
+  src: url("../fonts/rockwell/rockwell.eot");
+  src: url("../fonts/rockwell/rockwell.eot?#iefix") format("embedded-opentype"), url("../fonts/rockwell/rockwell.woff") format("woff"), url("../fonts/rockwell/rockwell.svg#rockwell") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+h1,
+h2,
+nav[role="navigation"] {
+  font-family: futura_lt, verdana, arial, sans-serif;
+  text-transform: uppercase; }
+
+article h1, article h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #0074c0;
+  text-transform: uppercase; }
+
 p {
-  font-family: Helvetica, Verdana, sans-serif;
-  font-size: 0.875rem;
+  font-family: sans-serif;
+  color: #333;
   line-height: 1.5em;
-  color: #FFF;
   margin-bottom: 8px; }
 
 .antialiased {
@@ -67,23 +146,33 @@ p {
   float: left;
   display: block;
   margin-right: 0.95602%;
-  width: 24.28298%;
-  background-color: blue; }
+  width: 24.28298%; }
   .col-4:last-child {
     margin-right: 0; }
 
-.element {
+.col-5 {
+  float: left;
+  display: block;
+  margin-right: 0.95602%;
+  width: 41.10899%; }
+  .col-5:last-child {
+    margin-right: 0; }
+
+.col-5-1 {
+  float: left;
+  display: block;
+  margin-right: 0.95602%;
+  width: 28.48948%; }
+  .col-5-1:last-child {
+    margin-right: 0; }
+
+article {
   padding: 15px; }
 
-#intro,
-#services article {
-  background-color: red; }
-
-#skills {
-  background-color: orange; }
-
-#contact {
-  background-color: green; }
+footer {
+  width: 100%;
+  min-height: 350px;
+  background: url(../img/global/bg-footer.jpg); }
 
 .accordion-tabs-minimal {
   line-height: 1.5;
@@ -157,19 +246,81 @@ p {
   background-position: -310px -31px; }
 
 body {
-  background-color: pink; }
+  background: #F5F6F7 url(../img/global/bg-main.jpg) repeat-x; }
+
+#header-main {
+  padding-top: 15px; }
+  #header-main #logo {
+    float: left; }
+    #header-main #logo a {
+      float: left;
+      width: 175px;
+      height: 55px;
+      background: url(../img/global/rohanchambers_logo.png) no-repeat 0 0;
+      overflow: hidden;
+      text-indent: 101%;
+      white-space: nowrap; }
+    #header-main #logo img {
+      position: absolute;
+      top: -9999px;
+      left: -9999px; }
+  #header-main nav[role="navigation"] {
+    float: right; }
+    #header-main nav[role="navigation"] ul {
+      list-style-type: none; }
+      #header-main nav[role="navigation"] ul li {
+        float: left;
+        position: relative;
+        display: block;
+        width: 140px;
+        min-height: 44px;
+        margin: 0 5px 0;
+        box-sizing: border-box;
+        background: #171922; }
+        #header-main nav[role="navigation"] ul li a {
+          display: inline-block;
+          width: 140px;
+          height: auto;
+          padding: 4px 0;
+          text-decoration: none;
+          color: #FFF;
+          text-align: center;
+          font-size: 16px;
+          text-transform: uppercase;
+          letter-spacing: 1px; }
+          #header-main nav[role="navigation"] ul li a span {
+            display: block;
+            text-transform: none;
+            font-size: 14px; }
+        #header-main nav[role="navigation"] ul li a:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          content: "";
+          width: 11px;
+          height: 100%;
+          background: #0074c0;
+          border-right: 1px solid #FFF; }
+      #header-main nav[role="navigation"] ul li:hover {
+        background: #0074c0;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-border-radius: all 500ms ease;
+        transition: all 500ms ease; }
 
 @media screen and (max-width: 867px) {
   #intro,
   .col-4 {
     margin-bottom: 10px; }
 
-  .col-3 {
+  .col-3,
+  .col-5 {
     float: left;
     display: block;
     margin-right: 0.95602%;
     width: 100%; }
-    .col-3:last-child {
+    .col-3:last-child,
+    .col-5:last-child {
       margin-right: 0; }
 
   .mob-2 {
@@ -198,14 +349,16 @@ body {
 
   .col-2,
   .col-3,
-  .col-4 {
+  .col-4,
+  .col-5-1 {
     float: left;
     display: block;
     margin-right: 0.95602%;
     width: 100%; }
     .col-2:last-child,
     .col-3:last-child,
-    .col-4:last-child {
+    .col-4:last-child,
+    .col-5-1:last-child {
       margin-right: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

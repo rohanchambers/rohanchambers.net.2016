@@ -1,18 +1,54 @@
+html {
+    font-size: 62.5%;
+}
+
+$site-font: sans-serif, verdana, arial;
+$site-font-size: 1.4rem; // 1rem = 10px
+$site-font-color: #333;
+
+body {
+    font-size: $site-font-size;
+}
+
 @font-face {
-    font-family: 'arial_blackregular';
-    src: url('../fonts/arial_black-webfont.eot');
-    src: url('../fonts/arial_black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/arial_black-webfont.woff2') format('woff2'),
-         url('../fonts/arial_black-webfont.woff') format('woff'),
-         url('../fonts/arial_black-webfont.svg#arial_blackregular') format('svg');
+    font-family: 'futura_lt';
+    src: url('../fonts/futura/futura_lt_condensed_bold.eot');
+    src: url('../fonts/futura/futura_lt_condensed_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura/futura_lt_condensed_bold.woff') format('woff'),
+         url('../fonts/futura/futura_lt_condensed_bold.svg#futura_lt') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'rockwell';
+    src: url('../fonts/rockwell/rockwell.eot');
+    src: url('../fonts/rockwell/rockwell.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rockwell/rockwell.woff') format('woff'),
+         url('../fonts/rockwell/rockwell.svg#rockwell') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, 
+h2, 
+nav[role="navigation"] {
+    font-family: futura_lt, verdana, arial, sans-serif;
+    text-transform: uppercase;
+}
+
+article {
+    h1, h2 {
+        margin-top: 0;
+        font-size: 1.8rem;
+        color: $blue;
+        text-transform: uppercase;        
+    }
+}
+
 p {
-	font-family: $text-font;
-	font-size: $text-size;
+	font-family: sans-serif;
+    color: $site-font-color;    
     line-height: 1.5em; 
-    color: $white;
-    margin-bottom: 8px;    
+    margin-bottom: 8px;
 }

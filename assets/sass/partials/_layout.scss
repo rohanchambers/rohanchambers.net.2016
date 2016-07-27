@@ -27,23 +27,23 @@
 	// Three columms
 	.col-4 {
 		@include span-columns(3);
-		background-color: blue;
 	}
 	
-	// Padding on all elements
-	.element {
+	// First row of content on homepage | first box is 5 and the other two 3.5
+	.col-5 {
+		@include span-columns(5);
+	}
+
+	.col-5-1 {
+		@include span-columns(3.5);
+	}
+	// Padding on all elements using bourbon mixin
+	article {
 	    @include pad(15px);
 	}
 
-	#intro,
-	#services article {
-		background-color: red;
-	}
-
-	#skills {
-		background-color: orange;
-	}
-
-	#contact {
-		background-color: green;
-	}    
+footer {
+	width: 100%;
+	min-height: 350px;
+	background: url(../img/global/bg-footer.jpg);
+}

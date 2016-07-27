@@ -13,7 +13,8 @@
 		margin-bottom: 10px;
 	}
 
-	.col-3 {
+	.col-3,
+	.col-5 {
 		@include span-columns(12);	
 	}
 
@@ -40,7 +41,8 @@
 	
 	.col-2,
 	.col-3,
-	.col-4, {
+	.col-4,
+	.col-5-1{
 		@include span-columns(12);
 	}	
 }
