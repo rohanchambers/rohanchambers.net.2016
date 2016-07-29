@@ -2,6 +2,7 @@ $black: #000;
 $white: #FFF;
 $dark-blue: #171922;
 $blue: #0074c0;
+$img : "../img/";
 
 // Global site links
 a {
@@ -28,25 +29,27 @@ a:hover {
     @include border-right-radius(8px);
     @include border-bottom-radius(8px);
     @include border-left-radius(8px);
+
+        &.btn-global:hover {
+            background-color: $blue;
+            //@include hover-links;
+        }
+
+        &.btn-global:after {
+            content: '';
+            position: absolute;
+            top: 8px;
+            right: 9px;
+            @include triangle(9px, white, right);
+        }
 }
 
-    .btn-global:after {
-        content: '';
-        position: absolute;
-        top: 8px;
-        right: 9px;
-        @include triangle(9px, white, right);        
-    } 
 
-    .btn-global:hover {
-        background-color: $blue;
-        //@include hover-links();
-    }
 
 // Global site ordered lists
 ul.bullets {
 	padding-left: 13px;
-	
+
 	li {
 		position: relative;
 		margin-bottom: 8px;
@@ -59,7 +62,7 @@ ul.bullets {
 		left: -12px;
 		top: 3px;
 		@include triangle(10px, $blue, right);
-	}		
+	}
 }
 
 

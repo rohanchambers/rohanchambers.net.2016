@@ -3,6 +3,21 @@
 	@include outer-container($max-width);
 }
 
+#about,
+#what-i-do,
+#services,
+#skills,
+#clients,
+#contact {
+	margin-bottom: 100px;
+}
+
+#clients {
+	.client {
+		@include span-columns(3);
+	}
+}
+
     // Row
     .row {
         @include row( $display: default, $direction: LTR);
@@ -37,13 +52,8 @@
 	.col-5-1 {
 		@include span-columns(3.5);
 	}
+
 	// Padding on all elements using bourbon mixin
 	article {
 	    @include pad(15px);
 	}
-
-footer {
-	width: 100%;
-	min-height: 350px;
-	background: url(../img/global/bg-footer.jpg);
-}

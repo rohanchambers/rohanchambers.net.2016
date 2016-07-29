@@ -54,4 +54,21 @@ $(function($){
 				event.preventDefault();
 			}
 		});
+
+
+		// Hamburger functionality
+		$('.c-hamburger').click( function(){
+			$(this).toggleClass('is-active');
+			$('nav[role="navigation"]').toggleClass('mobile');
+		});
 });
+
+// On window resize back to desktop hide mobile nav
+$( window ).resize(function() {
+	$('.c-hamburger').removeClass('is-active');
+	$('#nav-main').removeClass('mobile');		
+});
+
+
+
+

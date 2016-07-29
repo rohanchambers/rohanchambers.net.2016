@@ -6,8 +6,33 @@
 @include media($desktop) {
 }
 
+
+// TABLET LARGER | Custom inline variable breakpoint
+$tablet-915: new-breakpoint(max-width 915px);
+
+@include media($tablet-915) {
+	// Hamburger and nav styles
+	nav[role="navigation"] ul {	
+		display: none;
+	}
+
+	.c-hamburger {
+		display: block;
+	}
+}
+
 // TABLET | Max width 867px
 @include media($tablet) {
+
+	.container {
+		padding: 0 3%;
+	}
+
+	#about article,
+	#services article {
+		padding: 0;
+	}
+
 	#intro,
 	.col-4 {
 		margin-bottom: 10px;
@@ -15,7 +40,7 @@
 
 	.col-3,
 	.col-5 {
-		@include span-columns(12);	
+		@include span-columns(12);
 	}
 
 	.mob-2 {
@@ -30,6 +55,20 @@
 	#software {
  		margin: 0;
 	}
+
+	#clients {
+		.row {
+			.client {
+				@include span-columns(3);
+				width: 33.3%;
+				margin: 0;
+			}
+		}
+	}
+
+	#contact {
+		background: none;
+	}
 }
 
 // MOBILE | max width 479px
@@ -38,18 +77,25 @@
 	#what-i-do article {
 		margin-bottom: 10px;
 	}
-	
+
 	.col-2,
 	.col-3,
 	.col-4,
 	.col-5-1{
 		@include span-columns(12);
-	}	
+	}
+
+	#clients {
+		.row {
+			.client {
+				@include span-columns(12);
+			}
+		}
+	}
 }
 
 // MOBILE SMALL | max width 320px
 @include media($small-mobile) {
 }
 
-// MOBILE LANDSCAPE | Custom inline variable breakpoint
-$mobile-home: new-breakpoint(max-height 414px);
+

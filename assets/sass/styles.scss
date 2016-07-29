@@ -11,12 +11,15 @@
 @import "partials/_layout";
 @import "modules/_refills";
 @import "vendor/_jssor";
+@import "vendor/_hamburger";
 
 body {
-	background: #F5F6F7 url(../img/global/bg-main.jpg) repeat-x;
+	background: #F5F6F7 url(#{$img}global/bg_main.jpg) repeat-x;
 }
 
+// Header section
 #header-main {
+	position: relative;
 	padding-top: 15px;
 
 	#logo {
@@ -25,7 +28,7 @@ body {
 		    float: left;
 		    width: 175px;
 		    height: 55px;
-		    background: url(../img/global/rohanchambers_logo.png) no-repeat 0 0;
+		    background: url(#{$img}global/rohanchambers_logo.png) no-repeat 0 0;
 	  		@include hide-text;
 		}
 
@@ -36,10 +39,11 @@ body {
 		}
 	}
 
-	nav[role="navigation"] {
+	#nav-main {
 		float: right;
-
-		ul {
+		
+		ul {			
+			padding: 0;
 			list-style-type: none;
 
 			li {
@@ -48,15 +52,15 @@ body {
 				display: block;
 				width: 140px;
 				min-height: 44px;
-				margin: 0 5px 0;
-				box-sizing: border-box;
+				margin-right: 5px;
+				border-bottom: 1px solid $white;							
 				background: $dark-blue;
 
 				a {
-					display: inline-block;
+					display: block;
 					width: 140px;
 					height: auto;
-					padding: 4px 0;
+					padding: 5px 0;
 					text-decoration: none;
 					color: $white;
 					text-align: center;
@@ -83,19 +87,250 @@ body {
 				}
 			}
 
-			li:hover {
+			li:last-child {
+				margin: 0;
+			}
+
+			li a:hover {
+				display: block;
 				background: $blue;
 				@include hover-links();
 			}
 
 		}
 	}
+	
+	// NAV MOBILE STYLES
+	@-webkit-keyframes fadeIn {
+	    from { opacity: 0; }
+	      to { opacity: 1; }
+	}  
+	@keyframes fadeIn {
+	    from { opacity: 0; }
+	      to { opacity: 1; }
+	}
 
+	#nav-main.mobile {
+		position: fixed;
+		width: 100%;		
+		top: 0;
+		left: 0;
+		z-index: 1000;
+
+		ul {
+			display: block;
+		    -webkit-animation: fadeIn 0.5s;
+		    animation: fadeIn 0.5s;
+			margin: 0;
+			@include hover-links();
+
+			li {
+				display: block;
+				width: 100%;
+
+				a {
+					width: auto;
+					padding: 13px 0;
+
+						span {
+							display: none;
+						}
+				}
+			}
+		}
+	}
+}
+// End of Header Main
+
+#about {
+	#intro:hover {
+		strong {
+			color: $blue;
+			@include hover-links();
+		}
+	}
+
+	#cv {
+		h2 {
+			height: 35px;
+			line-height: 35px;
+
+			a {
+				display: block;
+				width: 100%;
+				text-decoration: none;
+			}
+
+			a:hover {
+				background: none;
+				color: $blue;
+			}
+		}
+
+		#icon-underhood {
+			background: url(#{$img}icons/under_hood.png) no-repeat right center;
+		}
+		#icon-cv {
+			background: url(#{$img}icons/pdf.png) no-repeat right center;
+		}
+	}
 }
 
+
+// What I do
+#what-i-do {
+	header {
+		width: 100%;
+		float: right;
+		text-align: right;
+		@include clearfix();
+		
+		h1 {
+			padding-right: 20px;
+		}
+
+		h1:before {
+			left: auto;
+			right: 0;
+		}
+	}
+	
+	article {
+		position: relative;
+		background: $white url(#{$img}global/bg_panels.png) no-repeat bottom left;
+		box-shadow: 2px 2px 8px #D2D2D2;
+
+		a {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+		
+		a:hover {
+			background: none;
+		}
+
+		a:hover + span {
+			background: $blue;
+			@include hover-links();
+		}
+	}
+}
+
+
+// Section Skills
 #skills {
-
+ 	article {
+		background: $white url(#{$img}global/bg_panels.png) no-repeat bottom left;
+		box-shadow: 2px 2px 8px #D2D2D2;
+	}
 }
+
+// Section Clients
+#clients {
+	.row {
+		.client {
+			position:relative;
+		    // float: left;
+		    // display: block;
+		    margin-right: 0;
+		    width: 20%;
+		    border: 1px solid #FFF;
+
+    		img {
+				display: block;
+				width: 100%;
+				height: auto;
+    		}
+
+    		img.top,
+    		img.bottom {
+				position:absolute;
+				top: 0;
+				left: 0;
+				-webkit-transition: opacity .5s ease-in-out;
+					-moz-transition: opacity .5s ease-in-out;
+						-o-transition: opacity .5s ease-in-out;
+							transition: opacity .5s ease-in-out;
+							-webkit-backface-visibility: hidden;
+    		}
+
+			img.top:hover {
+				opacity: 0;
+			}
+		}
+	}
+}
+
+#contact {
+	min-height: 475px;
+	background: url(#{$img}global/bg-chambers-post.png) no-repeat right 30px;
+	margin-bottom: 0;
+	
+	ul {
+		list-style-type: none;
+		padding: 0;
+
+		li {		
+			min-height: 25px;
+			line-height: 25px;
+			margin-bottom: 10px;
+		}
+
+		img {
+			float: left;
+			margin-right: 10px;
+		}
+
+		a {
+			width: 100%;
+			text-decoration: none;
+		}
+
+		a:hover {
+			background: $blue;
+			color: $white;
+		}
+	}
+}
+
+// Footer
+footer {
+	width: 100%;
+	background: url(#{$img}global/bg_footer.jpg);
+	color: $white;
+
+	#copyright {
+		padding: 50px 0;
+		@include clearfix;
+
+		div {
+			float: left;
+		}
+
+		p {
+			color: $white;
+		    line-height: 1.3;
+		    margin: 0;
+		}
+
+		img {
+			float: left;
+			margin-right: 10px;
+			background-color: $white;
+			padding: 2px;
+		}
+
+		#under-hood {
+			float: right;
+			background-color: transparent;
+		}
+	}	
+}
+
 
 @import "partials/_mobile";
 

@@ -30,8 +30,8 @@ body {
     font-style: normal;
 }
 
-h1, 
-h2, 
+h1,
+h2,
 nav[role="navigation"] {
     font-family: futura_lt, verdana, arial, sans-serif;
     text-transform: uppercase;
@@ -42,13 +42,37 @@ article {
         margin-top: 0;
         font-size: 1.8rem;
         color: $blue;
-        text-transform: uppercase;        
+        text-transform: uppercase;
     }
+
+    p:first-child {
+        margin-top: 0;
+    }
+}
+
+header h1 {
+    margin-top: 0;
 }
 
 p {
 	font-family: sans-serif;
-    color: $site-font-color;    
-    line-height: 1.5em; 
+    color: $site-font-color;
+    line-height: 1.5em;
     margin-bottom: 8px;
+}
+
+section header h1 {
+    position: relative;
+    padding-left: 20px;
+    color: $dark-blue;
+
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 12px;
+        background-color: $blue;
+        content: '';
+    }
 }
