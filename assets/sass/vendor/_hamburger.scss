@@ -44,6 +44,10 @@ $button-transistion-duration: 0.3s;     // The transition duration
   transition: background $button-transistion-duration;
 }
 
+.c-hamburger:hover {
+  background-color: $blue;
+}
+
 .c-hamburger:focus {
   outline: none;
 }

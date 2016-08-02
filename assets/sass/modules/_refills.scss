@@ -31,9 +31,6 @@
     display: block;
     padding: ($base-spacing / 2) $gutter;
     text-decoration: none;
-    @include border-top-radius(8px);
-
- 
 
     @include media($tab-mode) {
       border-top: 0;

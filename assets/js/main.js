@@ -1,7 +1,52 @@
+// Detect browser width
+function getWidth() {
+	if (self.innerHeight) {
+		return self.innerWidth;
+	}
+
+	if (document.documentElement && document.documentElement.clientHeight) {
+		return document.documentElement.clientWidth;
+	}
+
+	if (document.body) {
+		return document.body.clientWidth;
+	}
+}
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+	$('#header-main').addClass('mobile');
+}
+
 $(function($){
+
+	    // Scroll to sections
+	    $('#nav-main ul li a').click(function(e) {
+	        var section = $(this).attr('href').split('#')[1];
+
+	        $('html, body').animate({
+	            scrollTop: $('#' + section).offset().top
+	        }, 300);
+	    });
+
+	    // Intro scroll down and up
+	    $('.intro-scroll-arrow').click(function(e) {
+	    	if( $(this).hasClass('scroll-up') ) {
+		        $('html, body').animate({
+		            scrollTop: $('#' + 'nav-main').offset().top
+		        });
+		        $(this).toggleClass('scroll-up');
+	    	} else {
+		        $('html, body').animate({
+		            scrollTop: $('#' + 'about').offset().top
+		        });
+		        $(this).toggleClass('scroll-up');
+	    	}
+	    });
+
+
 		// Init Carousel Jssor
         var options = {
-        	//$SlideHeight: 400,
+        	$SlideHeight: 250,
         	$ArrowNavigatorOptions: true,
         	$AutoPlay: true,
         	$Loop: 1,
@@ -18,7 +63,7 @@ $(function($){
         //while window resizing
         function ScaleSlider() {
 	        var parentWidth = $('#carousel').parent().width();
-	        
+
 	        if (parentWidth) {
 	            jssor_slider1.$ScaleWidth(parentWidth);
 	        } else {
@@ -28,13 +73,13 @@ $(function($){
 
         //Scale slider after document ready
         ScaleSlider();
-                                        
-        //Scale slider while window load/resize/orientationchange.
+
+        //Scale slider while window load/resize/orientation change.
         $(window).bind("load", ScaleSlider);
         $(window).bind("resize", ScaleSlider);
         $(window).bind("orientationchange", ScaleSlider);
         //responsive code end
-	    
+
 
         // Bourbon Refill Accordion
 		$('.accordion-tabs-minimal').each(function(index) {
@@ -55,20 +100,45 @@ $(function($){
 			}
 		});
 
-
 		// Hamburger functionality
+		var navMain = $('#nav-main');
+
 		$('.c-hamburger').click( function(){
+			// Toggle hamburger icon
 			$(this).toggleClass('is-active');
-			$('nav[role="navigation"]').toggleClass('mobile');
+			// Toggle main nav
+			$('#nav-main').toggleClass('mobile');
 		});
+
+		// fixme
+		$('#nav-main ul li a').on( 'click', function(){
+			$('.c-hamburger').toggleClass('is-active');
+			$('#nav-main.mobile').toggleClass('mobile');
+			$('#nav-main ul li').removeClass('active');
+			$(this).parent().addClass('active');
+		});
+});
+
+// Document on scroll change nav state
+$(document).on('scroll',function(){
+	if(getWidth() > 980){
+		// On scroll of 100px activate minified nav
+	    if($(document).scrollTop() > 70) {
+	    	$('.c-hamburger').fadeIn(300);
+	        $('#nav-main ul').fadeIn();
+
+	    } else {
+	        $('.c-hamburger').fadeOut(300);
+	        //$('#nav-main ul').fadeOut();
+	    }
+	}
 });
 
 // On window resize back to desktop hide mobile nav
 $( window ).resize(function() {
 	$('.c-hamburger').removeClass('is-active');
-	$('#nav-main').removeClass('mobile');		
+	$('#nav-main').removeClass('mobile');
 });
-
 
 
 

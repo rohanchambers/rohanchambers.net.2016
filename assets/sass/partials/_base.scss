@@ -3,48 +3,7 @@ $white: #FFF;
 $dark-blue: #171922;
 $blue: #0074c0;
 $img : "../img/";
-
-// Global site links
-a {
-    color: $blue;
-}
-
-a:hover {
-    background-color: $blue;
-    color: $white;
-    text-decoration: none;
-}
-
-// Global site buttons
-.btn-global {
-    position: relative;
-    display: inline-block;
-    padding: 5px 18px 5px 12px;
-    background-color: $dark-blue;
-    font-size: 1.2rem;
-    color: $white;
-    text-decoration: none;
-
-    @include border-top-radius(8px);
-    @include border-right-radius(8px);
-    @include border-bottom-radius(8px);
-    @include border-left-radius(8px);
-
-        &.btn-global:hover {
-            background-color: $blue;
-            //@include hover-links;
-        }
-
-        &.btn-global:after {
-            content: '';
-            position: absolute;
-            top: 8px;
-            right: 9px;
-            @include triangle(9px, white, right);
-        }
-}
-
-
+$gutter: 15px;
 
 // Global site ordered lists
 ul.bullets {
@@ -64,5 +23,3 @@ ul.bullets {
 		@include triangle(10px, $blue, right);
 	}
 }
-
-

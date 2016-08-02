@@ -2,7 +2,6 @@
 @import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "grid-settings";
 @import "../../bower_components/neat/app/assets/stylesheets/neat";
-@import "grid-settings";
 
 // Custom SASS imports
 @import "partials/_base";
@@ -17,13 +16,55 @@ body {
 	background: #F5F6F7 url(#{$img}global/bg_main.jpg) repeat-x;
 }
 
+// Global site links
+a {
+    color: $blue;
+}
+
+a:hover {
+    background-color: $blue;
+    color: $white;
+    text-decoration: none;
+    @include hover-links;
+}
+
+// Global site buttons
+.btn-global {
+    position: relative;
+    display: inline-block;
+    padding: 5px 18px 5px 12px;
+    background-color: $dark-blue;
+    font-size: 1.2rem;
+    color: $white;
+    text-decoration: none;
+
+    @include border-top-radius(8px);
+    @include border-right-radius(8px);
+    @include border-bottom-radius(8px);
+    @include border-left-radius(8px);
+
+        &.btn-global:hover {
+            background-color: $blue;
+            @include hover-links;
+        }
+
+        &.btn-global:after {
+            content: '';
+            position: absolute;
+            top: 8px;
+            right: 9px;
+            @include triangle(9px, white, right);
+        }
+}
+
 // Header section
 #header-main {
 	position: relative;
-	padding-top: 15px;
+	padding-top: 10px;
 
 	#logo {
 		float: left;
+
 		a {
 		    float: left;
 		    width: 175px;
@@ -41,8 +82,8 @@ body {
 
 	#nav-main {
 		float: right;
-		
-		ul {			
+
+		ul {
 			padding: 0;
 			list-style-type: none;
 
@@ -53,14 +94,14 @@ body {
 				width: 140px;
 				min-height: 44px;
 				margin-right: 5px;
-				border-bottom: 1px solid $white;							
+				border-bottom: 1px solid $white;
 				background: $dark-blue;
 
 				a {
 					display: block;
 					width: 140px;
 					height: auto;
-					padding: 5px 0;
+					padding: 5px 0 5px 11px;
 					text-decoration: none;
 					color: $white;
 					text-align: center;
@@ -91,20 +132,23 @@ body {
 				margin: 0;
 			}
 
-			li a:hover {
-				display: block;
+			li a:hover,
+			li.active a {				
 				background: $blue;
-				@include hover-links();
+			}
+
+			li.desktop-nav-item {
+				display: none;
 			}
 
 		}
 	}
-	
+
 	// NAV MOBILE STYLES
 	@-webkit-keyframes fadeIn {
 	    from { opacity: 0; }
 	      to { opacity: 1; }
-	}  
+	}
 	@keyframes fadeIn {
 	    from { opacity: 0; }
 	      to { opacity: 1; }
@@ -112,17 +156,16 @@ body {
 
 	#nav-main.mobile {
 		position: fixed;
-		width: 100%;		
+		width: 100%;
 		top: 0;
 		left: 0;
 		z-index: 1000;
 
 		ul {
 			display: block;
+			margin: 0;
 		    -webkit-animation: fadeIn 0.5s;
 		    animation: fadeIn 0.5s;
-			margin: 0;
-			@include hover-links();
 
 			li {
 				display: block;
@@ -143,6 +186,32 @@ body {
 // End of Header Main
 
 #about {
+	header {
+		@include clearfix;
+		
+		h1 {
+			float: left;
+		}
+
+		.intro-scroll-arrow:before {
+			font-family: FontAwesome; content: "\f13a";
+		}
+
+		.intro-scroll-arrow.scroll-up:before {
+			font-family: FontAwesome; content: "\f139";
+		}
+
+		i {
+			float: right;
+		}
+
+		i:hover {
+			color: $blue;
+			cursor: pointer;
+			@include hover-links();
+		}
+	}
+
 	#intro:hover {
 		strong {
 			color: $blue;
@@ -170,6 +239,7 @@ body {
 		#icon-underhood {
 			background: url(#{$img}icons/under_hood.png) no-repeat right center;
 		}
+
 		#icon-cv {
 			background: url(#{$img}icons/pdf.png) no-repeat right center;
 		}
@@ -184,7 +254,7 @@ body {
 		float: right;
 		text-align: right;
 		@include clearfix();
-		
+
 		h1 {
 			padding-right: 20px;
 		}
@@ -194,9 +264,10 @@ body {
 			right: 0;
 		}
 	}
-	
+
 	article {
 		position: relative;
+		min-height: 245px;
 		background: $white url(#{$img}global/bg_panels.png) no-repeat bottom left;
 		box-shadow: 2px 2px 8px #D2D2D2;
 
@@ -208,7 +279,7 @@ body {
 			width: 100%;
 			height: 100%;
 		}
-		
+
 		a:hover {
 			background: none;
 		}
@@ -217,15 +288,29 @@ body {
 			background: $blue;
 			@include hover-links();
 		}
+
+		.btn-global {
+			position: absolute;
+			bottom: 15px;
+		}
 	}
 }
 
+#services {
+
+}
 
 // Section Skills
 #skills {
  	article {
+ 		min-height: 270px;
 		background: $white url(#{$img}global/bg_panels.png) no-repeat bottom left;
 		box-shadow: 2px 2px 8px #D2D2D2;
+		margin-bottom: 10px;
+	}
+
+	article.col-2 {
+		min-height: 240px;
 	}
 }
 
@@ -234,8 +319,6 @@ body {
 	.row {
 		.client {
 			position:relative;
-		    // float: left;
-		    // display: block;
 		    margin-right: 0;
 		    width: 20%;
 		    border: 1px solid #FFF;
@@ -269,12 +352,12 @@ body {
 	min-height: 475px;
 	background: url(#{$img}global/bg-chambers-post.png) no-repeat right 30px;
 	margin-bottom: 0;
-	
+
 	ul {
 		list-style-type: none;
 		padding: 0;
 
-		li {		
+		li {
 			min-height: 25px;
 			line-height: 25px;
 			margin-bottom: 10px;
@@ -328,9 +411,27 @@ footer {
 			float: right;
 			background-color: transparent;
 		}
-	}	
+	}
 }
 
+#case-study {
+	margin: 50px auto;
+
+	#case-study-content {
+		min-height: 400px;
+
+		h1 {
+			margin-top: 0;
+		}
+	}
+
+	#case-study-img {
+		img {
+			height: auto;
+			width: 100%;
+		}		
+	}
+}
 
 @import "partials/_mobile";
 

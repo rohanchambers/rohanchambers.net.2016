@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">    
     <!--(if target dev)><!-->
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -48,22 +49,26 @@
                 <img src="assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
             </div>
 
-            <nav role="navigation" id="nav-main" class="">
+            <nav role="navigation" id="nav-main">
                 <button class="c-hamburger c-hamburger--htx">
                     <span>toggle menu</span>
                 </button>                        
                 <ul>
-                    <li class="currentpage"><a href="/">Home <span>Welcome</span></a></li>
-                    <li><a href="/portfolio">Portfolio <span>My work</span></a></li>
-                    <li><a href="/services">Services <span>What I do</span></a></li>
-                    <li><a href="/contact">Contact <span>Get in touch</span></a></li>
+                    <li class="active"><a href="#header-main">Home <span>Welcome</span></a></li>
+                    <li class="desktop-nav-item"><a href="#what-i-do">What I do <span>My work</span></a></li>
+                    <li><a href="#">Portfolio <span>My work</span></a></li>
+                    <li><a href="#services">Services <span>What I do</span></a></li>
+                    <li class="desktop-nav-item"><a href="#skills">Skills <span>My work</span></a></li>
+                    <li><a href="#contact">Contact <span>Get in touch</span></a></li>
                     <li class="last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
                 </ul>
             </nav>
         </header>
+    </div>
 
+    <div class="container carousel">
         <div class="row">
-            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 600px; height: 270px; overflow: hidden;">
+            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 600px; height: 250px; overflow: hidden;">
                 <!-- Slides Container -->
                 <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 270px;">
                     <div><img u="image" src="assets/img/carousel/beautyofbeer.jpg" /></div>
@@ -81,11 +86,14 @@
                 </span>
             </div>
         </div>
+    </div>
 
+    <div class="container">
         <!-- About section -->
 		<section id="about" class="row">
             <header>
                 <h1>Welcome to the online portfolio of <br>Rohan Chambers</h1>
+                <i class="fa intro-scroll-arrow fa-4x" aria-hidden="true"></i>
             </header>
 
 			<article id="intro" class="col-5 element">
@@ -247,13 +255,6 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="tab-header-and-content">
-                        <a href="#" class="tab-link">DVD Authoring</a>
-                        <div class="tab-content">
-                            <h2>DVD Design</h2>
-                            <p>A more new and recent service I provides in the media field is DVD design, which is creating menus with chapters, slideshows etc... for movies, documentaries and more using Apple's DVD Studio Pro software. One of the projects I took on in this discipline was a DVD menu for the car manufacturer <strong>Jaguar</strong> which wanted to commercialise their brand new release of the 2006 <a href="http://rohanchambers.net/case-study/jaguar/" class="block-link">Jaguar XK</a>.</p>
-                        </div>
-                    </li>
                 </ul>
             </article>
 
@@ -341,6 +342,7 @@
         <section id="clients" class="row">
             <header>
                 <h1>Clients</h1>
+                <p>Some of the clients and brands I have worked on, whist working at different <br>digital agencies.</p>
             </header>
             <div class="row">
                 <div class="client">

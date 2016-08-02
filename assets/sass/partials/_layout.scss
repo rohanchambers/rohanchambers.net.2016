@@ -44,13 +44,18 @@
 		@include span-columns(3);
 	}
 	
-	// First row of content on homepage | first box is 5 and the other two 3.5
+	// Intro content on homepage | first box is 5 and the other following two 3.5
 	.col-5 {
 		@include span-columns(5);
 	}
 
 	.col-5-1 {
 		@include span-columns(3.5);
+	}
+	
+	// 8 col / 4 col grid
+	.col-8 {
+		@include span-columns(8);
 	}
 
 	// Padding on all elements using bourbon mixin

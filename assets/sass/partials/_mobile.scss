@@ -4,15 +4,19 @@
 
 // DESKTOP | Max 1024px
 @include media($desktop) {
+	.container {
+		padding: 0 3%;
+		@include transition(0.4s);
+	}
 }
 
-
 // TABLET LARGER | Custom inline variable breakpoint
-$tablet-915: new-breakpoint(max-width 915px);
+$tablet-980: new-breakpoint(max-width 980px);
 
-@include media($tablet-915) {
+@include media($tablet-980) {
+
 	// Hamburger and nav styles
-	nav[role="navigation"] ul {	
+	#nav-main ul {
 		display: none;
 	}
 
@@ -23,9 +27,10 @@ $tablet-915: new-breakpoint(max-width 915px);
 
 // TABLET | Max width 867px
 @include media($tablet) {
-
-	.container {
-		padding: 0 3%;
+	// Make carousel 100%
+	.container.carousel {
+		max-width: 100%;
+		padding: 0;
 	}
 
 	#about article,
@@ -33,8 +38,10 @@ $tablet-915: new-breakpoint(max-width 915px);
 		padding: 0;
 	}
 
-	#intro,
-	.col-4 {
+	#about article,
+	#what-i-do article,
+	#skills article,
+	#services article {
 		margin-bottom: 10px;
 	}
 
@@ -69,13 +76,23 @@ $tablet-915: new-breakpoint(max-width 915px);
 	#contact {
 		background: none;
 	}
+
+	#case-study {
+		.col-8, 
+		.col-3 {
+			@include span-columns(12);
+			margin-bottom: 15px;
+		}
+	}
 }
 
 // MOBILE | max width 479px
 @include media($mobile) {
-	#skills,
-	#what-i-do article {
-		margin-bottom: 10px;
+	#about article,
+	#what-i-do article,
+	#skills article,
+	#services article {
+		margin-bottom: 25px;
 	}
 
 	.col-2,
@@ -85,17 +102,39 @@ $tablet-915: new-breakpoint(max-width 915px);
 		@include span-columns(12);
 	}
 
-	#clients {
-		.row {
-			.client {
-				@include span-columns(12);
+	// What I do
+	#what-i-do {
+		header {
+			width: 100%;
+			float: left;
+			text-align: left;
+			@include clearfix();
+
+			h1 {
+				padding-right: 20px;
+			}
+
+			h1:before {
+				left: 0;
+				right: auto;
 			}
 		}
 	}
+
+	// Clients
+	#clients {
+		.row {
+			.client {
+				@include span-columns(6);
+				width: 50%;
+				margin: 0;
+			}
+		}
+	}
+
+
 }
 
 // MOBILE SMALL | max width 320px
 @include media($small-mobile) {
 }
-
-
