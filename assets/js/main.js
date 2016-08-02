@@ -100,45 +100,48 @@ $(function($){
 			}
 		});
 
-		// Hamburger functionality
-		var navMain = $('#nav-main');
-
+		// Trigger mobile open nav
 		$('.c-hamburger').click( function(){
 			// Toggle hamburger icon
 			$(this).toggleClass('is-active');
 			// Toggle main nav
-			$('#nav-main').toggleClass('mobile');
+			$('#header-main').toggleClass('mobile');
 		});
 
-		// fixme
-		$('#nav-main ul li a').on( 'click', function(){
+		// Mobile Nav open logic
+		$('#header-main ul li a').on( 'click', function(){
 			$('.c-hamburger').toggleClass('is-active');
-			$('#nav-main.mobile').toggleClass('mobile');
+			$('#header-main.mobile').toggleClass('mobile');
+			// Add and remove active states
 			$('#nav-main ul li').removeClass('active');
 			$(this).parent().addClass('active');
 		});
 });
 
-// Document on scroll change nav state
-$(document).on('scroll',function(){
-	if(getWidth() > 980){
-		// On scroll of 100px activate minified nav
-	    if($(document).scrollTop() > 70) {
-	    	$('.c-hamburger').fadeIn(300);
-	        $('#nav-main ul').fadeIn();
-
-	    } else {
-	        $('.c-hamburger').fadeOut(300);
-	        //$('#nav-main ul').fadeOut();
-	    }
-	}
-});
-
 // On window resize back to desktop hide mobile nav
 $( window ).resize(function() {
 	$('.c-hamburger').removeClass('is-active');
-	$('#nav-main').removeClass('mobile');
+	$('#header-main').removeClass('mobile');
 });
+
+
+// // Document on scroll change nav state
+// $(document).on('scroll',function(){
+// 	if(getWidth() > 980){
+// 		// On scroll of 100px activate minified nav
+// 	    if($(document).scrollTop() > 70) {
+// 	    	$('#nav-main').addClass('mobile');
+// 	    	// $('.c-hamburger').fadeIn(300);
+// 	     //    $('#nav-main ul').fadeIn();
+
+// 	    } else {
+// 	        //$('.c-hamburger').fadeOut(300);
+// 	        //$('#nav-main ul').fadeOut();
+// 	    }
+// 	}
+// });
+
+
 
 
 
