@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!--(if target dev)><!-->
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -44,15 +44,17 @@
 
     <div class="container">
         <header id="header-main" class="row">
+
             <div id="logo">
                 <a href="/">Rohan Chambers</a>
                 <img src="assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
             </div>
 
+            <button class="c-hamburger c-hamburger--htx">
+                <span>toggle menu</span>
+            </button>
+
             <nav role="navigation" id="nav-main">
-                <button class="c-hamburger c-hamburger--htx">
-                    <span>toggle menu</span>
-                </button>                        
                 <ul>
                     <li class="active"><a href="#header-main">Home <span>Welcome</span></a></li>
                     <li class="desktop-nav-item"><a href="#what-i-do">What I do <span>My work</span></a></li>
@@ -63,6 +65,7 @@
                     <li class="last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
                 </ul>
             </nav>
+
         </header>
     </div>
 
@@ -167,13 +170,13 @@
                 <h2>PSD to HTML5</h2>
                 <p>I specialise in taking your designs/photoshop (PSD) file(s) and converting them into a clean cross-browser and cross-platform Xhtml/CSS web template or complete website.</p>
                 <a href="#"></a>
-                <span class="btn-global">Find out more</span>                
+                <span class="btn-global">Find out more</span>
             </article>
             <article id="social" class="col-4 element">
                 <h2>Social Media builds</h2>
                 <p>I can develop web pages for Facebook tabs using FBML to help promote your product or company as well as Youtube channel re-skins to fit your brands look and feel.</p>
                 <a href="#"></a>
-                <span class="btn-global">Find out more</span>                
+                <span class="btn-global">Find out more</span>
             </article>
         </section>
 
@@ -456,7 +459,7 @@
                 <img src="assets/img/global/rohanchambers_logo.png" alt="Rohan Chambers" width="100" height="31" />
                 <div><p>Website Designed and Developed by Rohan Chambers &copy;2016<br />
                 Valid <a href="http://validator.w3.org/check?uri=referer">HTML 5</a> and <a href="http://jigsaw.w3.org/css-validator/">CSS 3</a> | <a href="/site-map">Site map</a> | <a href="/accessibility">Accessibility</a> | <a href="/contact">Contact</a></p></div>
-                <a href="#" class="lightbox-home"><img id="under-hood" src="assets/img/icons/under_hood.png" alt="Under the Hood of RohanChambers.net" title="Under the Hood of RohanChambers.net" width="35" height="35" /></a>
+                <a href="#" class="lightbox-home"><img id="under-hood" src="assets/img/icons/under_hood.png" alt="Under the Hood of RohanChambers.net" title="Under the Hood of RohanChambers.net"></a>
             </div>
         </div>
     </footer>

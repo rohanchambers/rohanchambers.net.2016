@@ -99,12 +99,13 @@ module.exports = function(grunt){
 						"assets/js/**/*.js",
 						"*.html",
 						"*.php",
+						"index.php",
 						"incl/*.php"
 					]
 				},
 				options: {
 					watchTask: true,
-					proxy: "localhost:3000/index-dev.html"
+					proxy: "localhost:3000/index-dev.php"
 				}
 			}
 		},
@@ -115,7 +116,7 @@ module.exports = function(grunt){
 					port: 3000,
 					hostname: '*',
 					onCreateServer: function(server, connect, options) {
-					  var io = require('socket.io').listen(server);
+	b 				  var io = require('socket.io').listen(server);
 					  io.sockets.on('connection', function(socket) {
 					    // do something with socket
 					  });

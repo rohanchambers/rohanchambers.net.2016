@@ -80,6 +80,16 @@ section header h1 {
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased; }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 .container {
   max-width: 1024px;
   margin-left: auto;
@@ -254,7 +264,6 @@ article {
  * class that acts as a reset for all versions of the icon.
  */
 .c-hamburger {
-  display: none;
   position: fixed;
   top: 0;
   right: 0;
@@ -432,6 +441,8 @@ a:hover {
       position: absolute;
       top: -9999px;
       left: -9999px; }
+  #header-main .c-hamburger {
+    display: none; }
   #header-main #nav-main {
     float: right; }
     #header-main #nav-main ul {
@@ -477,35 +488,28 @@ a:hover {
         background: #0074c0; }
       #header-main #nav-main ul li.desktop-nav-item {
         display: none; }
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-@keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-  #header-main #nav-main.mobile {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000; }
-    #header-main #nav-main.mobile ul {
+
+#header-main.mobile .c-hamburger {
+  display: block; }
+#header-main.mobile #nav-main {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+  #header-main.mobile #nav-main ul {
+    display: block;
+    margin: 0;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s; }
+    #header-main.mobile #nav-main ul li {
       display: block;
-      margin: 0;
-      -webkit-animation: fadeIn 0.5s;
-      animation: fadeIn 0.5s; }
-      #header-main #nav-main.mobile ul li {
-        display: block;
-        width: 100%; }
-        #header-main #nav-main.mobile ul li a {
-          width: auto;
-          padding: 13px 0; }
-          #header-main #nav-main.mobile ul li a span {
-            display: none; }
+      width: 100%; }
+      #header-main.mobile #nav-main ul li a {
+        width: auto;
+        padding: 13px 0; }
+        #header-main.mobile #nav-main ul li a span {
+          display: none; }
 
 #about header::after {
   clear: both;
@@ -664,6 +668,42 @@ footer {
 
 #case-study {
   margin: 50px auto; }
+  #case-study #controls {
+    margin: 0;
+    padding: 0; }
+    #case-study #controls::after {
+      clear: both;
+      content: "";
+      display: block; }
+    #case-study #controls li {
+      display: inline-block;
+      width: auto;
+      height: 30px;
+      font-size: inherit;
+      margin-right: 0px; }
+      #case-study #controls li a {
+        text-indent: -9999px; }
+      #case-study #controls li .go-back,
+      #case-study #controls li .go-next,
+      #case-study #controls li .go-all {
+        display: block;
+        font-size: 1.3em;
+        line-height: 30px;
+        height: 30px;
+        padding-left: 35px; }
+      #case-study #controls li .go-back {
+        float: left;
+        background: url(../img/global/cs-controls-bck.png) 0 0 no-repeat; }
+      #case-study #controls li .go-next {
+        float: left;
+        background: url(../img/global/cs-controls-nxt.png) 0 0 no-repeat; }
+      #case-study #controls li .go-all {
+        float: left;
+        background: url(../img/global/cs-controls-menu.png) 0 0 no-repeat; }
+      #case-study #controls li .go-back:hover,
+      #case-study #controls li .go-next:hover,
+      #case-study #controls li .go-all:hover {
+        background-position: 0 -30px; }
   #case-study #case-study-content {
     min-height: 400px; }
     #case-study #case-study-content h1 {
@@ -678,11 +718,15 @@ footer {
     -webkit-transition: 0.4s;
     -moz-transition: 0.4s;
     transition: 0.4s; } }
-@media screen and (max-width: 980px) {
-  #nav-main ul {
+@media screen and (max-width: 979px) {
+  #header-main .c-hamburger {
+    display: block; }
+  #header-main #nav-main ul {
+    display: none; } }
+@media screen and (min-width: 980px) {
+  #header-main .c-hamburger {
     display: none; }
-
-  .c-hamburger {
+  #header-main #nav-main ul {
     display: block; } }
 @media screen and (max-width: 867px) {
   .container.carousel {

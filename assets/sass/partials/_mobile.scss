@@ -11,17 +11,36 @@
 }
 
 // TABLET LARGER | Custom inline variable breakpoint
-$tablet-980: new-breakpoint(max-width 980px);
+$tablet-979: new-breakpoint(max-width 979px);
+
+@include media($tablet-979) {
+
+	// Hamburger and nav styles
+	#header-main {
+		.c-hamburger {
+			display: block;
+		}		
+		
+		#nav-main ul {
+			display: none;
+		}
+	}
+}
+
+// TABLET LARGER | Custom inline variable breakpoint
+$tablet-980: new-breakpoint(min-width 980px);
 
 @include media($tablet-980) {
 
 	// Hamburger and nav styles
-	#nav-main ul {
-		display: none;
-	}
-
-	.c-hamburger {
-		display: block;
+	#header-main {
+		.c-hamburger {
+			display: none;
+		}		
+		
+		#nav-main ul {
+			display: block;
+		}
 	}
 }
 

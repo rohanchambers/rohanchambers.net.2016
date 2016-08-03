@@ -80,6 +80,11 @@ a:hover {
 		}
 	}
 
+	// Hide hamburger for desktop
+	.c-hamburger {
+		display: none;
+	}
+
 	#nav-main {
 		float: right;
 
@@ -133,7 +138,7 @@ a:hover {
 			}
 
 			li a:hover,
-			li.active a {				
+			li.active a {
 				background: $blue;
 			}
 
@@ -143,18 +148,16 @@ a:hover {
 
 		}
 	}
+}
 
-	// NAV MOBILE STYLES
-	@-webkit-keyframes fadeIn {
-	    from { opacity: 0; }
-	      to { opacity: 1; }
-	}
-	@keyframes fadeIn {
-	    from { opacity: 0; }
-	      to { opacity: 1; }
+// NAV MOBILE STYLES
+#header-main.mobile {
+
+	.c-hamburger {
+		display: block;
 	}
 
-	#nav-main.mobile {
+	#nav-main {
 		position: fixed;
 		width: 100%;
 		top: 0;
@@ -183,12 +186,13 @@ a:hover {
 		}
 	}
 }
+
 // End of Header Main
 
 #about {
 	header {
 		@include clearfix;
-		
+
 		h1 {
 			float: left;
 		}
@@ -417,6 +421,55 @@ footer {
 #case-study {
 	margin: 50px auto;
 
+	#controls {
+		margin: 0;
+		padding: 0;
+		@include clearfix;
+
+		li {
+			display: inline-block;
+			width: auto;
+			height: 30px;
+			font-size: inherit;
+			margin-right: 0px;
+
+				a {
+					text-indent: -9999px;
+				}
+
+				.go-back,
+				.go-next,
+				.go-all {
+					display: block;
+					font-size: 1.3em;
+					line-height: 30px;
+					height: 30px;
+					padding-left: 35px;					
+				}
+
+				.go-back {
+					float: left;
+					background: url(#{$img}global/cs-controls-bck.png) 0 0 no-repeat;
+				}
+
+				.go-next {
+					float: left;
+					background: url(#{$img}global/cs-controls-nxt.png) 0 0 no-repeat;
+				}
+
+				.go-all {
+					float: left;
+					background: url(#{$img}global/cs-controls-menu.png) 0 0 no-repeat;
+				}
+
+				.go-back:hover,
+				.go-next:hover,
+				.go-all:hover {
+					background-position: 0 -30px;
+				}
+		}
+	}
+
 	#case-study-content {
 		min-height: 400px;
 
@@ -429,7 +482,7 @@ footer {
 		img {
 			height: auto;
 			width: 100%;
-		}		
+		}
 	}
 }
 

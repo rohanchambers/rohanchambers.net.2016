@@ -23,3 +23,13 @@
   &:nth-child(#{$nth}) { margin-right: flex-gutter($grid-columns, $gutter); }
   &:nth-child(#{$nth}+1) { clear: none }
 }
+
+// Fade in opacity of bg color
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
