@@ -6,10 +6,10 @@ $browserTitle = 'Bulmers, New Blends | RohanChambers.net';
 $classBody = 'case-study';
 $thisPage='portfolio';
 ?>
-<?php include("../../includes/php/header.php"); ?>
-	<div id="content" class="clearfix">
+<?php include("../../incl/inc-header.php"); ?>
+	<div class="container clearfix">
 		<section id="case-study">
-			<div id="left-col">
+			<div id="cs-details">
 				<h1>Case study</h1>
 				<ul id="controls">			
 					<li><a href="../tesco/TescoWines" class="go-back" title="Previous Project"></a></li>
@@ -42,16 +42,16 @@ $thisPage='portfolio';
 				</ul>				
 			</div>
 			
-			<div id="right-col">
+			<div id="cs-img">
 				<ul>
 					<li>
-						<img src="/img/pages/case-study/bulmers/bulmers-UK-likegate.jpg" alt="Tiger Beer Zodia Pairs" />
+						<img src="img/bulmers-UK-likegate.jpg" alt="Tiger Beer Zodia Pairs" />
 					</li>
 					<li>
-						<img src="/img/pages/case-study/bulmers/bulmers-UK.jpg" alt="Tiger Beer Zodia Pairs" />
+						<img src="img/bulmers-UK.jpg" alt="Tiger Beer Zodia Pairs" />
 					</li>
 				</ul>
 			</div><!-- /#right-col -->
 		</section><!-- /section -->						
 	</div><!-- /content -->
-<?php include("../../includes/php/footer.php"); ?>
+<?php include("../../incl/inc-footer.php"); ?>

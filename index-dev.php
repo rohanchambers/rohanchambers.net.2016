@@ -6,7 +6,7 @@
 	<title>Rohan Chambers | London Freelance Front End Developer and Web Designer</title>
 	<meta name="author" content="Rohan Chambers">
 	<meta name="description" content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London." />
-    <meta name="keywords" content="rohan chambers, rohan, chambers, freelance front end developer, front end developer, london front end developer, html5 developer, web developer, web designer, html5, css3, responsive web design" />
+    <meta name="keywords" content="rohan chambers, rohan, chambers, freelance front end developer, front end developer, london front end developer, html5 developer, web developer, web designer, html5, css3, responsive web design">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -40,11 +40,10 @@
     <meta name="twitter:image:src"      content="">
     <meta name="twitter:domain"         content="">
 </head>
-<body>
+<body id="page-home">
 
     <div class="container">
         <header id="header-main" class="row">
-
             <div id="logo">
                 <a href="/">Rohan Chambers</a>
                 <img src="assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
@@ -157,8 +156,6 @@
                 <a href="#"></a>
                 <span class="btn-global">Find out more</span>
             </article>
-
-
 
             <article id="web-dev" class="col-4 element">
                 <h2>Web Development</h2>

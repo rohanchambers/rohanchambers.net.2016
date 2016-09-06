@@ -12,14 +12,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!--(if target dev)><!-->
-    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <!--<!(endif)-->
     <!--(if target dist)>
-    <link rel="stylesheet" href="assets/css/compiled.min.css">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css">
     <!(endif)-->
     <!--(if target dev)><!-->
-    <script src="assets/js/vendor/modernizr-custom.js"></script>
+    <script src="/assets/js/vendor/modernizr-custom.js"></script>
     <!--<!(endif)-->
 
     <!-- Open graph tags -->
@@ -47,7 +47,7 @@
 
             <div id="logo">
                 <a href="/">Rohan Chambers</a>
-                <img src="assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
+                <img src="/assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
             </div>
 
             <button class="c-hamburger c-hamburger--htx">

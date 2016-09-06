@@ -5,7 +5,7 @@ module.exports = function(grunt){
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		
+
 		// SASS task config
 		sass: {
 			dist: {
@@ -29,7 +29,7 @@ module.exports = function(grunt){
 			}
 		},
 
-		// CSS min styles.css 
+		// CSS min styles.css
 		cssmin : {
 			minify : {
 				expand : true,
@@ -74,12 +74,12 @@ module.exports = function(grunt){
 				options: {
 					removeComments: true,
 					collapseWhitespace: true
-				}, files: { 
+				}, files: {
 					'index.html': 'index.html'
 				}
 			}
 
-		}, 
+		},
 
 		// Environment Production, Dev
 		targethtml: {
@@ -97,30 +97,13 @@ module.exports = function(grunt){
 					src: [
 						"assets/css/*.css",
 						"assets/js/**/*.js",
-						"*.html",
 						"*.php",
-						"index.php",
-						"incl/*.php"
+						"case-study/**/*.php"
 					]
 				},
 				options: {
 					watchTask: true,
-					proxy: "localhost:3000/index-dev.php"
-				}
-			}
-		},
-
-		connect: {
-			server: {
-				options: {
-					port: 3000,
-					hostname: '*',
-					onCreateServer: function(server, connect, options) {
-	b 				  var io = require('socket.io').listen(server);
-					  io.sockets.on('connection', function(socket) {
-					    // do something with socket
-					  });
-					}
+					proxy: "rohan.dev/index-dev.php"
 				}
 			}
 		},
@@ -136,7 +119,7 @@ module.exports = function(grunt){
 			},
 			js: {
 				files: 'assets/js/**/*.js',
-			}			
+			}
 		}
 	});
 
@@ -152,8 +135,8 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-connect');
 
 	// Dev
-	grunt.registerTask('default', ['connect', 'browserSync', 'watch']);	
-	
+	grunt.registerTask('default', ['browserSync', 'watch']);
+
 	// Production - Build app
 	grunt.registerTask('prod', ['concat' ,'cssmin', 'jshint', 'uglify', 'targethtml', 'watch']);
 };
