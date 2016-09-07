@@ -32,7 +32,9 @@ body {
 
 h1,
 h2,
-nav[role="navigation"] {
+nav[role="navigation"],
+.filter-button-group a,
+.view-more {
     font-family: futura_lt, verdana, arial, sans-serif;
     text-transform: uppercase;
 }

@@ -19,6 +19,7 @@
     "jquery-validation": "^1.15.0",
     "bourbon": "^4.2.7",
     "jquery": "^2.2.4",
-    "neat": "^1.7.4"
+    "neat": "^1.7.4",
+    "isotope": "^3.0.1"
   }
 }

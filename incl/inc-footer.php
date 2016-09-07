@@ -17,3 +17,5 @@
     <!--(if target dist)>
     <script src="assets/js/compiled.min.js"></script>
     <!(endif)-->
+</body>
+</html>    

@@ -19,6 +19,19 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 $(function($){
 
+		// Init Isotope
+		var $grid = $('.grid').isotope({
+		  	// Options
+			itemSelector: '.grid-item',
+			layoutMode: 'fitRows'
+		});
+
+		// Filter items on button click
+		$('.filter-button-group').on( 'click', 'a', function() {
+			var filterValue = $(this).attr('data-filter');
+			$grid.isotope({ filter: filterValue });
+		});
+
 		// Open all links in case study in new window
 		$("#case-study-content .targetBlank[href^='http://']").attr('target','_blank');
 
@@ -75,7 +88,7 @@ $(function($){
 		        }
 		    }
 
-	        //Scale slider after document ready        
+	        //Scale slider after document ready
 			ScaleSlider();
 
 	        //Scale slider while window load/resize/orientation change.

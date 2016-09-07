@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Rohan Chambers | London Freelance Front End Developer and Web Designer</title>
+    <title><?=$browserTitle?></title>
     <meta name="author" content="Rohan Chambers">
     <meta name="description" content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London." />
     <meta name="keywords" content="rohan chambers, rohan, chambers, freelance front end developer, front end developer, london front end developer, html5 developer, web developer, web designer, html5, css3, responsive web design" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!--(if target dev)><!-->
@@ -57,11 +57,11 @@
             <nav role="navigation" id="nav-main">
                 <ul>
                     <li class="active"><a href="#header-main">Home <span>Welcome</span></a></li>
-                    <li class="desktop-nav-item"><a href="#what-i-do">What I do <span>My work</span></a></li>
-                    <li><a href="#">Portfolio <span>My work</span></a></li>
+                    <li class="desktop-nav-item"><a href="#what-i-do">What I do <span>My work</span></a></li>                    
                     <li><a href="#services">Services <span>What I do</span></a></li>
                     <li class="desktop-nav-item"><a href="#skills">Skills <span>My work</span></a></li>
                     <li><a href="#contact">Contact <span>Get in touch</span></a></li>
+                    <li><a href="#">Portfolio <span>My work</span></a></li>                    
                     <li class="last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
                 </ul>
             </nav>

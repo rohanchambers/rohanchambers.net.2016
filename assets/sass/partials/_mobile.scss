@@ -103,6 +103,10 @@ $tablet-980: new-breakpoint(min-width 980px);
 			margin-bottom: 15px;
 		}
 	}
+
+	.grid-item { 	
+		width: 50%;	
+	}
 }
 
 // MOBILE | max width 479px

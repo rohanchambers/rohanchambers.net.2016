@@ -41,7 +41,9 @@ body {
   font-style: normal; }
 h1,
 h2,
-nav[role="navigation"] {
+nav[role="navigation"],
+.filter-button-group a,
+.view-more {
   font-family: futura_lt, verdana, arial, sans-serif;
   text-transform: uppercase; }
 
@@ -426,7 +428,7 @@ a:hover {
 
 #header-main {
   position: relative;
-  padding-top: 10px; }
+  padding-top: 15px; }
   #header-main #logo {
     float: left; }
     #header-main #logo a {
@@ -725,6 +727,65 @@ footer {
     height: auto;
     width: 100%; }
 
+#portfolio {
+  margin-top: 50px; }
+  #portfolio p {
+    width: 60%; }
+  #portfolio .filter-button-group a {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #000;
+    margin: 0 5px 10px 0;
+    text-decoration: none;
+    padding: 3px 5px; }
+  #portfolio .filter-button-group a:hover,
+  #portfolio .filter-button-group a.active {
+    color: #FFF;
+    background-color: #0074c0; }
+  #portfolio ul {
+    padding: 0; }
+    #portfolio ul .grid-item {
+      position: relative;
+      display: block;
+      list-style-type: none;
+      width: 32.25%;
+      margin-right: 1%;
+      margin-bottom: 1%; }
+      #portfolio ul .grid-item h3 {
+        display: none;
+        margin-top: 5px;
+        font-size: 1.4rem;
+        font-weight: bold; }
+        #portfolio ul .grid-item h3 span {
+          font-weight: normal; }
+      #portfolio ul .grid-item img {
+        width: 100%;
+        min-height: auto;
+        border: 5px solid #FFF; }
+        #portfolio ul .grid-item img:hover {
+          border: 5px solid #0074c0;
+          -webkit-transition: all 500ms ease;
+          -moz-transition: all 500ms ease;
+          -ms-border-radius: all 500ms ease;
+          transition: all 500ms ease; }
+      #portfolio ul .grid-item a {
+        position: relative;
+        color: #000;
+        text-decoration: none; }
+      #portfolio ul .grid-item a:hover {
+        transition: none;
+        background: transparent; }
+      #portfolio ul .grid-item .view-more {
+        display: block;
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 3rem;
+        width: 100%;
+        height: 100%;
+        background-color: red; }
+
 @media screen and (max-width: 1024px) {
   .container {
     padding: 0 3%;
@@ -808,7 +869,10 @@ footer {
     margin-bottom: 15px; }
     #case-study .col-8:last-child,
     #case-study .col-3:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .grid-item {
+    width: 50%; } }
 @media screen and (max-width: 479px) {
   #about article,
   #what-i-do article,
