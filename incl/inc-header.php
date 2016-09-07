@@ -40,7 +40,7 @@
     <meta name="twitter:image:src"      content="">
     <meta name="twitter:domain"         content="">
 </head>
-<body>
+<body id="<?=$pageName?>">
 
     <div class="container">
         <header id="header-main" class="row">
@@ -51,17 +51,17 @@
             </div>
 
             <button class="c-hamburger c-hamburger--htx">
-                <span>toggle menu</span>
+                <span>Toggle menu</span>
             </button>
 
             <nav role="navigation" id="nav-main">
                 <ul>
-                    <li class="active"><a href="#header-main">Home <span>Welcome</span></a></li>
-                    <li class="desktop-nav-item"><a href="#what-i-do">What I do <span>My work</span></a></li>                    
-                    <li><a href="#services">Services <span>What I do</span></a></li>
-                    <li class="desktop-nav-item"><a href="#skills">Skills <span>My work</span></a></li>
-                    <li><a href="#contact">Contact <span>Get in touch</span></a></li>
-                    <li><a href="#">Portfolio <span>My work</span></a></li>                    
+                    <li class="<?=$activeHome?>"><a href="index-dev.php">Home <span>Welcome</span></a></li>
+                    <li class="desktop-nav-item"><a href="index-dev.php#what-i-do">What I do <span>My work</span></a></li>
+                    <li class="<?=$activePortfolio?>"><a href="portfolio-dev.php">Portfolio <span>My work</span></a></li>
+                    <li><a href="index-dev.php#services">Services <span>What I do</span></a></li>
+                    <li class="desktop-nav-item"><a href="index-dev.php#skills">Skills <span>My work</span></a></li>
+                    <li><a href="index-dev.php#contact">Contact <span>Get in touch</span></a></li>
                     <li class="last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
                 </ul>
             </nav>

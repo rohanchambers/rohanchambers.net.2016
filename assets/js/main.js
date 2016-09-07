@@ -18,19 +18,33 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 }
 
 $(function($){
-
-		// Init Isotope
-		var $grid = $('.grid').isotope({
-		  	// Options
-			itemSelector: '.grid-item',
-			layoutMode: 'fitRows'
+		// Portfolio active state for filter buttons
+		$('.filter-button-group a').click( function(){
+			$('.filter-button-group a').removeClass('active');
+			$(this).addClass('active');
 		});
 
-		// Filter items on button click
-		$('.filter-button-group').on( 'click', 'a', function() {
-			var filterValue = $(this).attr('data-filter');
-			$grid.isotope({ filter: filterValue });
+		// Main nav active states
+		$('#nav-main li').click( function(){
+			$('#nav-main li').removeClass('active');
+			$(this).addClass('active');
 		});
+
+	    // Load isotope only on portfolio apge
+		if ($('#page-portfolio').length > 0) {
+			// Init Isotope
+			var $grid = $('.grid').isotope({
+			  	// Options
+				itemSelector: '.grid-item',
+				layoutMode: 'fitRows'
+			});
+
+			// Filter items on button click
+			$('.filter-button-group').on( 'click', 'a', function() {
+				var filterValue = $(this).attr('data-filter');
+				$grid.isotope({ filter: filterValue });
+		});
+		}
 
 		// Open all links in case study in new window
 		$("#case-study-content .targetBlank[href^='http://']").attr('target','_blank');

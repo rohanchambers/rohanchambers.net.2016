@@ -1,5 +1,5 @@
 <?php
-    $browserTitle = 'Phone ResQ. | RohanChambers.net';
+    $browserTitle = 'Phone ResQ. | Rohan Chambers';
 ?>
 <?php include("../../incl/inc-header.php"); ?>
 
@@ -25,7 +25,7 @@
             <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank">http://phoneresq.com</a></p>
         </section>
         <section id="case-study-img" class="col-8">
-            <img src="/assets/img/case-study/phoneResq/phoneResq_home.jpg" alt="Phone ResQ">
+            <img src="img/phoneResq_home.jpg" alt="Phone ResQ.">
         </section>
 	</div><!-- End of container -->
 
