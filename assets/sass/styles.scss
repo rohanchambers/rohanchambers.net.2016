@@ -197,6 +197,10 @@ a:hover {
 			float: left;
 		}
 
+		h1:after {
+			display: none;
+		}
+
 		.intro-scroll-arrow:before {
 			font-family: FontAwesome; content: "\f13a";
 		}
@@ -267,6 +271,11 @@ a:hover {
 			left: auto;
 			right: 0;
 		}
+
+		h1:after {
+	        right: 395px;
+	        bottom: 25%;
+		}
 	}
 
 	article {
@@ -300,12 +309,34 @@ a:hover {
 	}
 }
 
+// Section Services
 #services {
+	h1:after {
+	    left: 140px;
+	    bottom: 45%;
+	}
 
+	article {
+		padding: 0;
+	}
+
+	ul {
+		margin: 0;
+	}
+
+	article:nth-child(2) h2 {
+		margin-top: 25px;
+	}
 }
+
 
 // Section Skills
 #skills {
+	h1:after {
+	    left: 110px;
+	    bottom: 45%;
+	}
+
  	article {
  		min-height: 270px;
 		background: $white url(#{$img}global/bg_panels.png) no-repeat bottom left;
@@ -320,11 +351,16 @@ a:hover {
 
 // Section Clients
 #clients {
+	h1:after {
+	    left: 120px;
+	    bottom: 45%;
+	}
+
 	.row {
 		.client {
 			position:relative;
 		    margin-right: 0;
-		    width: 20%;
+		    //width: 25%;
 		    border: 1px solid #FFF;
 
     		img {
@@ -356,6 +392,11 @@ a:hover {
 	min-height: 475px;
 	background: url(#{$img}global/bg-chambers-post.png) no-repeat right 30px;
 	margin-bottom: 0;
+
+	h1:after {
+	    left: 135px;
+	    bottom: 45%;
+	}
 
 	ul {
 		list-style-type: none;
@@ -541,7 +582,6 @@ footer {
 			margin-bottom: 1%;
 
 				h3 {
-					display: none;
 					margin-top: 5px;
 					font-size: 1.4rem;
 					font-weight: bold;
@@ -558,7 +598,7 @@ footer {
 
 						&:hover {
 							border: 5px solid $blue;
-							@include hover-links;					
+							@include hover-links;
 						}
 				}
 
@@ -587,6 +627,39 @@ footer {
 		}
 	}
 }
+
+// Back to top button
+#back-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    height: 33px;
+    width: 40px;
+    background: url(#{$img}global/iconArrowUpDark.png) center center no-repeat #FFF;
+    border: none;
+    outline: 0;
+    opacity: .6;
+    cursor: pointer;
+}
+
+	#back-to-top.buttonTopPulse {
+	    @keyframes buttonTopPulse {
+			0% { opacity: 0;}
+			50% { opacity: 0.5;}
+			90% { opacity: 1;}
+			100% { opacity: 0.6;}
+	    }
+
+		animation: buttonTopPulse 200ms;
+		animation-iteration-count: 5;
+			-webkit-animation-iteration-count: 5;
+	}
+
+	#back-to-top:hover {
+		opacity: 1;
+		@include hover-links();
+	}
 
 @import "partials/_mobile";
 

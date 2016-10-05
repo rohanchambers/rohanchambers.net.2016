@@ -56,12 +56,12 @@
 
             <nav role="navigation" id="nav-main">
                 <ul>
-                    <li class="<?=$activeHome?>"><a href="index-dev.php">Home <span>Welcome</span></a></li>
-                    <li class="desktop-nav-item"><a href="index-dev.php#what-i-do">What I do <span>My work</span></a></li>
-                    <li class="<?=$activePortfolio?>"><a href="portfolio-dev.php">Portfolio <span>My work</span></a></li>
+                    <li class="<?=$activeHome?>"><a href="/index-dev.php">Home <span>Welcome</span></a></li>
+                    <li class="desktop-nav-item"><a href="/index-dev.php#what-i-do">What I do <span>My work</span></a></li>
                     <li><a href="index-dev.php#services">Services <span>What I do</span></a></li>
-                    <li class="desktop-nav-item"><a href="index-dev.php#skills">Skills <span>My work</span></a></li>
-                    <li><a href="index-dev.php#contact">Contact <span>Get in touch</span></a></li>
+                    <li class="desktop-nav-item"><a href="/index-dev.php#skills">Skills <span>My work</span></a></li>
+                    <li><a href="/index-dev.php#contact">Contact <span>Get in touch</span></a></li>
+                    <li class="<?=$activePortfolio?>"><a href="/portfolio-dev.php">Portfolio <span>My work</span></a></li>                    
                     <li class="last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
                 </ul>
             </nav>

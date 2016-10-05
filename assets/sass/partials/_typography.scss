@@ -34,7 +34,8 @@ h1,
 h2,
 nav[role="navigation"],
 .filter-button-group a,
-.view-more {
+.view-more,
+.captions h3 {
     font-family: futura_lt, verdana, arial, sans-serif;
     text-transform: uppercase;
 }
@@ -77,4 +78,12 @@ section header h1 {
         background-color: $blue;
         content: '';
     }
+
+    &:after {
+        content: "";
+        width: 30%;
+        position: absolute;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #fff;        
+    }    
 }

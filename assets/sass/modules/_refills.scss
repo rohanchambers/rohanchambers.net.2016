@@ -37,6 +37,12 @@
       display: inline-block;
     }
 
+    &:after {
+        content: '\f107';
+        font-family: FontAwesome;
+        padding-left: 10px;
+    }
+
     &:hover {
       background-color: $blue;
     }

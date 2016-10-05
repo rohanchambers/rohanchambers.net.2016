@@ -15,9 +15,9 @@
 #clients {
 	.client {
 		@include span-columns(3);
+		width: 25%;
 	}
 }
-
 
     // Row
     .row {
@@ -63,3 +63,4 @@
 	article {
 	    @include pad(15px);
 	}
+

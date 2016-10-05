@@ -1,53 +1,33 @@
 <?php
-$author = 'Rohan Chambers';
-$browserDescription = 'This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer/Developer based in London, UK.';
-$browserKeywords = 'rohan chambers, rohan, chambers, freelance front end developer, front end developer, web designer, web development, xhtml, css, html5, css3, jquery, w3c, web standards';
-$browserTitle = 'Heineken, The Beauty of Brewing | RohanChambers.net';
-$classBody = 'case-study';
-$thisPage='portfolio';
+    $browserTitle = 'Heineken, Beauty of Brewing | Rohan Chambers';
+    $activePortfolio = 'active';
 ?>
-<?php include("../../includes/php/header.php"); ?>
-	<div id="content" class="clearfix">
-		<section id="case-study">
-			<div id="left-col">
-				<h1>Case study</h1>
-				<ul id="controls">	
-					<li><a href="../perfectPeaksBrews/" class="go-back"></a></li>
-					<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
-					<li><a href="../jaguar/livefearless" class="go-next" title="Next Project"></a></li>
-				</ul>
-				<div class="hr"></div>			
-				<h2>Heineken, The Beauty of Brewing</h2>
-				<ul class="case-study-details">
-					<li><strong>Date: </strong>October 2015</li>
-					<li><strong>Client: </strong>Heineken</li>	
-					<li><strong>Agency: </strong><a href="http://www.wearesocial.net/" class="targetBlank">We Are Social</a></li>								
-					<li><strong>Technologies: </strong>HTML5, CSS3, jQuery, Skrollr plugin, Canvas, CSS transitions, Fully responsive</li>	
-					<li><strong>Tasks:</strong> Front end development of app.</li>			
-					<li><strong>Summary: </strong></li>
-					<li>
-						<p>I helped develop Heinken's 'The Beauty of Brewing'. This is a parallax website that explains the story of how beer is made. It is broken down in to sections, each of being a vital ingredient to the brewing process Barley, Hops and Water.</p>
-						<p>I developed this site to be fully responsive for all major devices. There was a lot of interaction with the designer (Jacob Lee) on this project to get all the animations perfect as well as all the other design elements in the project.</p>
-						<p>The beauty of brewing is that it's a natural process, enhanced by craftsmanship to create the perfect beverage.</p>
-					</li>
-					<li><strong>View site:</strong> <a href="http://heineken.co.uk/beautyofbrewing" class="targetBlank">http://heineken.co.uk/beautyofbrewing</a></li>
-				</ul>
-				<div class="hr"></div>	
-				<ul class="case-study-details">
-					<li><strong>Share this:</strong></li>
-					<li>
-						<?php include("../../includes/php/sharethis.php"); ?>						
-					</li>
-				</ul>				
-			</div>
-			
-			<div id="right-col">
-				<ul>
-					<li>
-						<img src="/img/pages/case-study/heineken/beautyofbeer/home.jpg" alt="Heineken, The Beauty of Brewing" />
-					</li>
-				</ul>
-			</div><!-- /#right-col -->
-		</section><!-- /section -->						
-	</div><!-- /content -->
-<?php include("../../includes/php/footer.php"); ?>
+<?php include("../../incl/inc-header.php"); ?>
+
+    <div id="case-study" class="container">
+        <section id="case-study-content" class="col-3">
+            <h2>Case study</h2>
+			<ul id="controls">
+				<li><a href="../perfectPeaksBrews/" class="go-back" title="Previous Project"></a></li>
+				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
+				<li><a href="../jaguar/livefearless.php" class="go-next" title="Next Project"></a></li>
+			</ul>
+
+            <h1>The Beauty of Brewing</h1>
+            <p><strong>Date: </strong>2015</p>
+            <p><strong>Client: </strong>Heineken</p>
+            <p><strong>Agency: </strong>We are Social</p>
+            <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Skrollr plugin, Canvas, CSS transitions, Fully responsive</p>
+            <p><strong>Tasks:</strong> <p>Front end development of app.</p>
+            <p><strong>Summary: </strong></p>
+			<p>I helped develop Heinken's 'The Beauty of Brewing'. This is a parallax website that explains the story of how beer is made. It is broken down in to sections, each of being a vital ingredient to the brewing process Barley, Hops and Water.</p>
+			<p>I developed this site to be fully responsive for all major devices. There was a lot of interaction with the designer on this project to get all the animations perfect as well as all the other design elements in the project.</p>
+			<p>The beauty of brewing is that it's a natural process, enhanced by craftsmanship to create the perfect beverage.</p>
+            <p><strong>View site:</strong> <a href="http://heineken.co.uk/beautyofbrewing" class="targetBlank">http://heineken.co.uk/beautyofbrewing</a></p>
+        </section>
+        <section id="case-study-img" class="col-8">
+			<img src="img/home.jpg" alt="Heineken, The Beauty of Brewing" />
+        </section>
+	</div><!-- End of container -->
+
+    <?php include("../../incl/inc-footer.php"); ?>

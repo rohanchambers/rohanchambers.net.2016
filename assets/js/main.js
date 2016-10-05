@@ -17,6 +17,11 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 	$('#header-main').addClass('mobile');
 }
 
+// Back to the top button
+$('#back-to-top').click( function(){
+    $('html, body').animate({ scrollTop: $('#header-main').offset().top}, 1000);
+});
+
 $(function($){
 		// Portfolio active state for filter buttons
 		$('.filter-button-group a').click( function(){
@@ -36,7 +41,14 @@ $(function($){
 			var $grid = $('.grid').isotope({
 			  	// Options
 				itemSelector: '.grid-item',
-				layoutMode: 'fitRows'
+				percentPosition: true,
+				layoutMode: 'fitRows',
+				
+				masonry: {
+				// use element for option
+				columnWidth: '.grid-item'
+				}
+				
 			});
 
 			// Filter items on button click
@@ -48,27 +60,26 @@ $(function($){
 
 		// Open all links in case study in new window
 		$("#case-study-content .targetBlank[href^='http://']").attr('target','_blank');
-
 	    // Scroll to sections
 	    $('#nav-main ul li a').click(function(e) {
 	        var section = $(this).attr('href').split('#')[1];
 
 	        $('html, body').animate({
-	            scrollTop: $('#' + section).offset().top
-	        }, 300);
+	            scrollTop: $('#' + section).offset().top -10
+	        }, 1000);
 	    });
 
 	    // Intro scroll down and up
 	    $('.intro-scroll-arrow').click(function(e) {
 	    	if( $(this).hasClass('scroll-up') ) {
 		        $('html, body').animate({
-		            scrollTop: $('#' + 'nav-main').offset().top
-		        });
+		            scrollTop: $('#' + 'header-main').offset().top
+		        }, 1000);
 		        $(this).toggleClass('scroll-up');
 	    	} else {
 		        $('html, body').animate({
 		            scrollTop: $('#' + 'about').offset().top
-		        });
+		        }, 1000);
 		        $(this).toggleClass('scroll-up');
 	    	}
 	    });
@@ -155,6 +166,17 @@ $( window ).resize(function() {
 	$('#header-main').removeClass('mobile');
 });
 
+// Document on scroll change nav state
+$(document).on('scroll',function(){
+    // Back to top show hide after home page
+    var homeSectionHeight = 100;
+
+    if( $(document).scrollTop() > homeSectionHeight) {
+            $('#back-to-top').fadeIn().addClass('buttonTopPulse');
+        } else {
+            $('#back-to-top').fadeOut().removeClass('buttonTopPulse');
+    }
+});
 
 //Fix me needs more logic for the mobile nav
 // // Document on scroll change nav state

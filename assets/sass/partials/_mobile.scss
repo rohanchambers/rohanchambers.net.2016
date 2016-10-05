@@ -19,8 +19,8 @@ $tablet-979: new-breakpoint(max-width 979px);
 	#header-main {
 		.c-hamburger {
 			display: block;
-		}		
-		
+		}
+
 		#nav-main ul {
 			display: none;
 		}
@@ -36,13 +36,15 @@ $tablet-980: new-breakpoint(min-width 980px);
 	#header-main {
 		.c-hamburger {
 			display: none;
-		}		
-		
+		}
+
 		#nav-main ul {
 			display: block;
 		}
 	}
 }
+
+
 
 // TABLET | Max width 867px
 @include media($tablet) {
@@ -97,20 +99,92 @@ $tablet-980: new-breakpoint(min-width 980px);
 	}
 
 	#case-study {
-		.col-8, 
+		.col-8,
 		.col-3 {
 			@include span-columns(12);
 			margin-bottom: 15px;
 		}
 	}
 
-	.grid-item { 	
-		width: 50%;	
+	#services {
+		.col-2 {
+			@include span-columns(12);
+		}
+
+		.accordion-tabs-minimal {
+			margin-top: 50px;
+		}
 	}
+
+	#services:first-child article {
+		margin-bottom: 250px;;
+	}
+
+	// Porftfolio isotope css
+	#portfolio {
+		p {
+			width: 100%;
+		}
+
+		ul {	
+			.grid-item	{
+				width: 49%;
+			}
+		}
+	}
+
+	#carousel div {	
+		.captions {
+			display: none;
+		}
+	}
+}
+
+// TABLET LARGER | Custom inline variable breakpoint
+$width-600: new-breakpoint(max-width 600px);
+@include media($width-600) {
+	#about {
+
+		i {
+			display: none;
+		} 
+	}
+
+	#copyright {
+		img, div {
+			margin-bottom: 15px;
+		}
+
+		.lightbox-home {
+			display: none;
+		}
+	}
+
+	#services {
+	  .tab-header-and-content {
+			:after {
+				position: absolute;
+				right: 30px;
+			}
+		}
+	}
+
 }
 
 // MOBILE | max width 479px
 @include media($mobile) {
+
+	// Mobile section margins
+	#about,
+	#what-i-do,
+	#services,
+	#skills,
+	#clients,
+	#contact {
+		margin-bottom: 50px;
+	}
+
+
 	#about article,
 	#what-i-do article,
 	#skills article,
@@ -127,6 +201,15 @@ $tablet-980: new-breakpoint(min-width 980px);
 
 	// What I do
 	#what-i-do {
+		article {
+			min-height: auto;
+
+				.btn-global {
+					position: relative;
+					bottom: auto;
+				}
+		}
+
 		header {
 			width: 100%;
 			float: left;
@@ -144,6 +227,15 @@ $tablet-980: new-breakpoint(min-width 980px);
 		}
 	}
 
+	// Skills
+	#skills {
+		article,
+		article.col-2 {
+			min-height: auto;
+		}
+	}
+
+
 	// Clients
 	#clients {
 		.row {
@@ -155,7 +247,20 @@ $tablet-980: new-breakpoint(min-width 980px);
 		}
 	}
 
+	#copyright {
+		div {
+			font-size: 1.3rem;
+		}
+	}
 
+	// Porftfolio isotope css
+	#portfolio {
+		ul {	
+			.grid-item	{
+				width: 100%;
+			}
+		}
+	}	
 }
 
 // MOBILE SMALL | max width 320px

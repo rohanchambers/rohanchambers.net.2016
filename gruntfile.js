@@ -85,7 +85,8 @@ module.exports = function(grunt){
 		targethtml: {
 			dist: {
 				files: {
-				  'index.html': 'index-dev.html'
+				  'index.php': 'index-dev.php',
+				  'portfolio.php': 'portfolio-dev.php'
 				}
 			}
 		},
@@ -138,5 +139,5 @@ module.exports = function(grunt){
 	grunt.registerTask('default', ['browserSync', 'watch']);
 
 	// Production - Build app
-	grunt.registerTask('prod', ['concat' ,'cssmin', 'jshint', 'uglify', 'targethtml', 'watch']);
+	grunt.registerTask('prod', ['concat' ,'cssmin', 'uglify', 'targethtml', 'watch']);
 };

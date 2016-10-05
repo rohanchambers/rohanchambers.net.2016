@@ -1,5 +1,6 @@
 <?php
     $browserTitle = 'Phone ResQ. | Rohan Chambers';
+    $activePortfolio = 'active';
 ?>
 <?php include("../../incl/inc-header.php"); ?>
 
@@ -7,8 +8,7 @@
         <section id="case-study-content" class="col-3">
             <h2>Case study</h2>
 			<ul id="controls">
-				<li><a href="../perfectPeaksBrews/" class="go-back" title="Previous Project"></a></li>
-				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
+				<li><a href="/portfolio.php" class="go-all" title="All Projects"></a></li>
 				<li><a href="../perfectPeaksBrews/" class="go-next" title="Next Project"></a></li>
 			</ul>
 

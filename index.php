@@ -1,61 +1,13 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Rohan Chambers | London Freelance Front End Developer and Web Designer</title>
-	<meta name="author" content="Rohan Chambers">
-	<meta name="description" content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London." />
-    <meta name="keywords" content="rohan chambers, rohan, chambers, freelance front end developer, front end developer, london front end developer, html5 developer, web developer, web designer, html5, css3, responsive web design" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="" type="image/x-icon">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    
-    
-    <link rel="stylesheet" href="assets/css/compiled.min.css">
-    
-    
+<?php
+    $browserTitle = 'Rohan Chambers | London Freelance Front End Developer and Web Designer';
+    $pageName = 'page-home';
+    $activeHome = 'active'    
+?>
+<?php include("incl/inc-header.php"); ?>
 
-    <!-- Open graph tags -->
-    <meta property="og:image"           content="">
-    <meta property="og:title"           content="">
-    <meta property="og:description"     content="">
-    <meta property="og:url"             content="">
-    <meta property="og:image:width"     content="600">
-    <meta property="og:image:height"    content="600">
-    <meta property="og:image:type"      content="image/jpg">
-    <meta property="fb:app_id"          content="">
-
-    <meta name="twitter:card"           content="summary">
-    <meta name="twitter:site"           content="">
-    <meta name="twitter:title"          content="">
-    <meta name="twitter:description"    content="">
-    <meta name="twitter:creator"        content="">
-    <meta name="twitter:image:src"      content="">
-    <meta name="twitter:domain"         content="">
-</head>
-<body>
-
-    <div class="container">
-        <header id="header-main" class="row">
-            <div id="logo">
-                <a href="/">Rohan Chambers</a>
-                <img src="assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
-            </div>
-
-            <nav role="navigation">
-                <ul>
-                    <li class="currentpage"><a href="/">Home <span>Welcome</span></a></li>
-                    <li><a href="/portfolio">Portfolio <span>My work</span></a></li>
-                    <li><a href="/services">Services <span>What I do</span></a></li>
-                    <li><a href="/contact">Contact <span>Get in touch</span></a></li>
-                    <li class="last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
-                </ul>
-            </nav>
-        </header>
-
+    <div class="container carousel">
         <div class="row">
-            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 600px; height: 270px; overflow: hidden;">
+            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 600px; height: 250px; overflow: hidden;">
                 <!-- Slides Container -->
                 <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 270px;">
                     <div><img u="image" src="assets/img/carousel/beautyofbeer.jpg" /></div>
@@ -73,18 +25,25 @@
                 </span>
             </div>
         </div>
+    </div>
 
+    <div class="container">
         <!-- About section -->
 		<section id="about" class="row">
-			<article id="intro" class="col-5 element">
+            <header>
                 <h1>Welcome to the online portfolio of <br>Rohan Chambers</h1>
+                <i class="fa intro-scroll-arrow fa-4x" aria-hidden="true"></i>
+            </header>
+
+			<article id="intro" class="col-5 element">
+                <h1>Intro:</h1>
                 <p>This <strong>website</strong> is primarily designed to be an online portfolio presence for <strong>Rohan Chambers</strong>, a <strong>Front-end Developer/Web Designer</strong> based in London, UK.
                 I am currently working as a <strong>Social Media Technologist (Front end)</strong> for an agency called <strong>We Are Social</strong>. Prior to this I was working full time at <strong>Playboy UK</strong> for 3 years as a web developer and continue to freelance on an occasional basis.</p>
                 <p>Some of the <strong>Technologies</strong> used on this site and other <strong>Projects</strong> I have done include <strong>XHTML, CSS</strong> complemented by some Javascript, Jquery, PHP and Wordpress.
                 I am currently being exposed to <strong>HTML5 and CSS3</strong> for projects in the near future and have good knowledge of best practices in <strong>Accessibility</strong>, SEO and <strong>W3C standards</strong>.</p>
             </article>
 
-            <article id="skills-home" class="col-5-1 mob-2 element">
+            <article id="intro-skills" class="col-5-1 mob-2 element">
                 <h2>My skills:</h2>
                 <ul class="bullets">
                     <li>XHTML - HTML5 (Advanced level)</li>
@@ -104,7 +63,7 @@
             </article>
 
 			<!-- Contact section -->
-            <article id="contact" class="col-5-1 mob-2 element">
+            <article id="intro-contact" class="col-5-1 mob-2 element">
                 <h2>Contact:</h2>
                 <p><a href="mailto:info@rohanchambers.net" class="block-link">info@rohanchambers.net</a></p>
                 <h2>Recruit me:</h2>
@@ -123,32 +82,44 @@
 
         <!-- What I do section -->
         <section id="what-i-do" class="row">
+            <header>
+                <h1>To see what I do<br> click below to find out more</h1>
+            </header>
+
+
             <article id="web-design" class="col-4 element">
                 <h2>Web Design</h2>
                 <p>I can design websites for various types of business's always keeping in mind a look and feel aspect that will suit any particular type of company in order to reflect its name, image and product.</p>
+                <a href="#"></a>
                 <span class="btn-global">Find out more</span>
             </article>
+
             <article id="web-dev" class="col-4 element">
                 <h2>Web Development</h2>
                 <p>I can take on and develop all sizes of projects from personal to commercial websites with the use of the latest web technologies. Competitive prices and a professionally delivered product.</p>
+                <a href="#"></a>
                 <span class="btn-global">Find out more</span>
             </article>
             <article id="psd-html5" class="col-4 element">
                 <h2>PSD to HTML5</h2>
                 <p>I specialise in taking your designs/photoshop (PSD) file(s) and converting them into a clean cross-browser and cross-platform Xhtml/CSS web template or complete website.</p>
+                <a href="#"></a>
                 <span class="btn-global">Find out more</span>
             </article>
             <article id="social" class="col-4 element">
                 <h2>Social Media builds</h2>
                 <p>I can develop web pages for Facebook tabs using FBML to help promote your product or company as well as Youtube channel re-skins to fit your brands look and feel.</p>
+                <a href="#"></a>
                 <span class="btn-global">Find out more</span>
             </article>
         </section>
 
         <!-- Services section -->
         <section id="services" class="row">
-            <article class="col-2 element">
+            <header>
                 <h1>Services</h1>
+            </header>
+            <article class="col-2 element">
                 <p>All the projects that I have taken on have always been thoroughly scoped and planned out in order to meet crucial
                 deadlines and satisfy client demands and timelines. Understanding that the multimedia industry is a very competitive
                 market I always try to keep the price for my services as realistic and affordable as possible.</p>
@@ -221,21 +192,18 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="tab-header-and-content">
-                        <a href="#" class="tab-link">DVD Authoring</a>
-                        <div class="tab-content">
-                            <h2>DVD Design</h2>
-                            <p>A more new and recent service I provides in the media field is DVD design, which is creating menus with chapters, slideshows etc... for movies, documentaries and more using Apple's DVD Studio Pro software. One of the projects I took on in this discipline was a DVD menu for the car manufacturer <strong>Jaguar</strong> which wanted to commercialise their brand new release of the 2006 <a href="http://rohanchambers.net/case-study/jaguar/" class="block-link">Jaguar XK</a>.</p>
-                        </div>
-                    </li>
                 </ul>
             </article>
 
         </section><!-- End of section services -->
 
         <section id="skills" class="row">
+            <header>
+                <h1>Skills</h1>
+            </header>
             <div class="row">
                 <article class="col-2">
+                    <h2>Languages</h2>
                     <ul class="bullets">
                         <li>XHTML - HTML5 (Advanced)</li>
                         <li>CSS (2 &amp; 3) (Advanced)</li>
@@ -247,6 +215,7 @@
                     </ul>
                 </article>
                 <article class="col-2">
+                    <h2>Software</h2>
                     <ul class="bullets">
                         <li>Sublime / Coda (IDE)</li>
                         <li>Git Hub, Source Tree</li>
@@ -259,6 +228,7 @@
 
             <div class="row">
                 <article class="col-4">
+                    <h2>Web standards</h2>
                     <ul class="bullets">
                         <li>XHTML - HTML5 (Advanced)</li>
                         <li>CSS (2 &amp; 3) (Advanced)</li>
@@ -270,6 +240,7 @@
                     </ul>
                 </article>
                 <article id="software" class="col-4">
+                    <h2>Perfomance</h2>
                     <ul class="bullets">
                         <li>Sublime / Coda (IDE)</li>
                         <li>Git Hub, Source Tree</li>
@@ -279,6 +250,7 @@
                     </ul>
                 </article>
                 <article class="col-4">
+                    <h2>Planning</h2>
                     <ul class="bullets">
                         <li>Clean HTML5 semantic mark-up</li>
                         <li>Coding to W3C web standards</li>
@@ -290,6 +262,7 @@
                     </ul>
                 </article>
                 <article class="col-4">
+                    <h2>Management</h2>
                     <ul class="bullets">
                         <li>XHTML - HTML5 (Advanced)</li>
                         <li>CSS (2 &amp; 3) (Advanced)</li>
@@ -303,11 +276,100 @@
             </div><!-- End of row -->
         </section>
 
+        <section id="clients" class="row">
+            <header>
+                <h1>Clients</h1>
+                <p>Some of the clients and brands I have worked on, whist working at different <br>digital agencies.</p>
+            </header>
+            <div class="row">
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/heineken.png" alt="Heineken">
+                    <img class="top" src="assets/img/clients/heineken.png" alt="Heineken">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/redbull.png" alt="Redbull">
+                    <img class="top" src="assets/img/clients/redbull.png" alt="Redbull">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/jaguar.png" alt="heinz">
+                    <img class="top" src="assets/img/clients/jaguar.png" alt="Jaguar">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/heinz.png" alt="heinz">
+                    <img class="top" src="assets/img/clients/heinz.png" alt="heinz">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/tesco.png" alt="tesco">
+                    <img class="top" src="assets/img/clients/tesco.png" alt="tesco">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/honda.png" alt="honda">
+                    <img class="top" src="assets/img/clients/honda.png" alt="honda">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/harrods.png" alt="harrods">
+                    <img class="top" src="assets/img/clients/harrods.png" alt="harrods">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/bulmers_white.png" alt="Bulmers">
+                    <img class="top" src="assets/img/clients/bulmers.png" alt="Bulmers">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/playboy.png" alt="Playboy UK">
+                    <img class="top" src="assets/img/clients/playboy.png" alt="Playboy UK">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/ea.png" alt="EA">
+                    <img class="top" src="assets/img/clients/ea.png" alt="EA">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/evian.png" alt="Evian">
+                    <img class="top" src="assets/img/clients/evian.png" alt="Evian">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/kleenex.png" alt="Kleenex">
+                    <img class="top" src="assets/img/clients/kleenex.png" alt="Kleenex">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/volvic.png" alt="Volvic">
+                    <img class="top" src="assets/img/clients/volvic.png" alt="Volvic">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/phoneResq.png" alt="Phone ResQ">
+                    <img class="top" src="assets/img/clients/phoneResq.png" alt="Phone ResQ">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/perfectPeaksBrewsLight.png" alt="Perfect Peaks Brews">
+                    <img class="top" src="assets/img/clients/perfectPeaksBrewsLight.png" alt="Perfect Peaks Brews">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="row">
-            <article class="col-2">
+            <header>
                 <h1>Contact</h1>
+            </header>
+            <article class="col-3">
                 <p>North London, Islington, UK.</p>
-                <ul id="contact-list" class="bullets">
+                <ul id="contact-list" class="">
                     <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/mail.png" alt="E-mail" title="E-mail" width="24" height="24" />info@rohanchambers.net</a></li>
                     <li><img src="assets/img/icons/contact/phone.png" alt="Phone" title="Phone" width="24" height="24" /> +44 (0) 79 170 44 052</li>
                     <li><a href="http://www.linkedin.com/in/rohanchambers" class="targetBlank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn" title="LinkedIn" width="24" height="24" />LinkedIn</a></li>
@@ -315,22 +377,14 @@
                     <li><a href="http://www.twitter.com/rohanchambers" class="targetBlank"><img src="assets/img/icons/contact/twitter_icon.png" alt="Twitter" title="Twitter" width="24" height="24" />Twitter</a></li>
                 </ul>
             </article>
-            <article class="col-2">
+            <article class="col-3">
                 <div id="get-a-quote">
                     <h2>Get a quote</h2>
-                    <p>If you wish to get a quote for one of your projects please click the button below and fill in the questionnaire.</p>
+                    <p>If you wish to get a quote for one of your projects<br> please click the button below and fill in the questionnaire.</p>
                     <a href="get-a-quote" class="btn-global btn-spacer">Get a quote<span class="arrow"></span><span></span></a>
                 </div>
             </article>
         </section>
 	</div><!-- End of container -->
 
-    <footer>
-
-    </footer>
-    
-    
-    <script src="assets/js/compiled.min.js"></script>
-    
-</body>
-</html>
+    <?php include("incl/inc-footer.php"); ?>
