@@ -8,7 +8,7 @@
             </div>
         </div>
     </footer>
-    <button id="back-to-top" style="display: inline-block;" class="buttonTopPulse"></button>
+    <button id="back-to-top" class="buttonTopPulse"></button>
     <!--(if target dev)><!-->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>

@@ -19,146 +19,147 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 // Back to the top button
 $('#back-to-top').click( function(){
-    $('html, body').animate({ scrollTop: $('#header-main').offset().top}, 1000);
+	console.log(0)
+    $('html, body').animate({ scrollTop: $('#top').offset().top}, 1000);
 });
 
 $(function($){
-		// Portfolio active state for filter buttons
-		$('.filter-button-group a').click( function(){
-			$('.filter-button-group a').removeClass('active');
-			$(this).addClass('active');
-		});
+	// Portfolio active state for filter buttons
+	$('.filter-button-group a').click( function(){
+		$('.filter-button-group a').removeClass('active');
+		$(this).addClass('active');
+	});
 
-		// Main nav active states
-		$('#nav-main li').click( function(){
-			$('#nav-main li').removeClass('active');
-			$(this).addClass('active');
-		});
+	// Main nav active states
+	$('#nav-main li').click( function(){
+		$('#nav-main li').removeClass('active');
+		$(this).addClass('active');
+	});
 
-	    // Load isotope only on portfolio apge
-		if ($('#page-portfolio').length > 0) {
-			// Init Isotope
-			var $grid = $('.grid').isotope({
-			  	// Options
-				itemSelector: '.grid-item',
-				percentPosition: true,
-				layoutMode: 'fitRows',
-				
-				masonry: {
-				// use element for option
-				columnWidth: '.grid-item'
-				}
-				
-			});
+    // Load isotope only on portfolio apge
+	if ($('#page-portfolio').length > 0) {
+		// Init Isotope
+		var $grid = $('.grid').isotope({
+		  	// Options
+			itemSelector: '.grid-item',
+			percentPosition: true,
+			layoutMode: 'fitRows',
 
-			// Filter items on button click
-			$('.filter-button-group').on( 'click', 'a', function() {
-				var filterValue = $(this).attr('data-filter');
-				$grid.isotope({ filter: filterValue });
-		});
-		}
-
-		// Open all links in case study in new window
-		$("#case-study-content .targetBlank[href^='http://']").attr('target','_blank');
-	    
-	    // Scroll to sections
-	    $('#nav-main ul li a').click(function(e) {
-	        var section = $(this).attr('href').split('#')[1];
-
-	        $('html, body').animate({
-	            scrollTop: $('#' + section).offset().top -60
-	        }, 1000);
-	    });
-
-	    // Intro scroll down and up
-	    $('.intro-scroll-arrow').click(function(e) {
-	    	if( $(this).hasClass('scroll-up') ) {
-		        $('html, body').animate({
-		            scrollTop: $('#' + 'header-main').offset().top
-		        }, 1000);
-		        $(this).toggleClass('scroll-up');
-	    	} else {
-		        $('html, body').animate({
-		            scrollTop: $('#' + 'about').offset().top
-		        }, 1000);
-		        $(this).toggleClass('scroll-up');
-	    	}
-	    });
-
-	    // Load carousel only on homepage
-		if ($('#home').length > 0) {
-			// Init Carousel Jssor
-	        var options = {
-	        	$SlideHeight: 250,
-	        	$ArrowNavigatorOptions: true,
-	        	$AutoPlay: true,
-	        	$Loop: 1,
-	        	$PauseOnHover: 2,
-	        	$FillMode: 2,
-		        $ArrowNavigatorOptions: {
-		            $Class: $JssorArrowNavigator$
-		        }
-	    	};
-
-	        var jssor_slider1 = new $JssorSlider$('carousel', options);
-
-	        //responsive code begin | you can remove responsive code if you don't want the slider scales
-	        //while window resizing
-	        function ScaleSlider() {
-		        var parentWidth = $('#carousel').parent().width();
-
-		        if (parentWidth) {
-		            jssor_slider1.$ScaleWidth(parentWidth);
-		        } else {
-		        	window.setTimeout(ScaleSlider, 30);
-		        }
-		    }
-
-	        //Scale slider after document ready
-			ScaleSlider();
-
-	        //Scale slider while window load/resize/orientation change.
-	        $(window).bind("load", ScaleSlider);
-	        $(window).bind("resize", ScaleSlider);
-	        $(window).bind("orientationchange", ScaleSlider);
-	        //responsive code end
-        }
-
-        // Bourbon Refill Accordion
-		$('.accordion-tabs-minimal').each(function(index) {
-			$(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
-		});
-
-		$('.accordion-tabs-minimal').on('click', 'li > a.tab-link', function(event) {
-			if (!$(this).hasClass('is-active')) {
-				event.preventDefault();
-				var accordionTabs = $(this).closest('.accordion-tabs-minimal');
-				accordionTabs.find('.is-open').removeClass('is-open').hide();
-
-				$(this).next().toggleClass('is-open').toggle();
-				accordionTabs.find('.is-active').removeClass('is-active');
-				$(this).addClass('is-active');
-			} else {
-				event.preventDefault();
+			masonry: {
+			// use element for option
+			columnWidth: '.grid-item'
 			}
+
 		});
 
-		// Trigger mobile open nav
-		$('.c-hamburger').click( function(){
-			// Toggle hamburger icon
-			$(this).toggleClass('is-active');
-			// Toggle main nav
-			$('#header-main').toggleClass('mobile');
-		});
+		// Filter items on button click
+		$('.filter-button-group').on( 'click', 'a', function() {
+			var filterValue = $(this).attr('data-filter');
+			$grid.isotope({ filter: filterValue });
+	});
+	}
 
-		// Mobile Nav open logic
-		$('#header-main ul li a').on( 'click', function(){
-			$('.c-hamburger').toggleClass('is-active');
-			$('#header-main.mobile').toggleClass('mobile');
-			// Add and remove active states
-			$('#nav-main ul li').removeClass('active');
-			$(this).parent().addClass('active');
-		});
+	// Open all links in case study in new window
+	$("#case-study-content .targetBlank[href^='http://']").attr('target','_blank');
+
+    // Scroll to sections
+    $('#nav-main ul li a').click(function(e) {
+        var section = $(this).attr('href').split('#')[1];
+
+        $('html, body').animate({
+            scrollTop: $('#' + section).offset().top -60
+        }, 1000);
+    });
+
+    // Intro scroll down and up
+    $('.intro-scroll-arrow').click(function(e) {
+    	if( $(this).hasClass('scroll-up') ) {
+	        $('html, body').animate({
+	            scrollTop: $('#' + 'top').offset().top
+	        }, 1000);
+	        $(this).toggleClass('scroll-up');
+    	} else {
+	        $('html, body').animate({
+	            scrollTop: $('#' + 'about').offset().top
+	        }, 1000);
+	        $(this).toggleClass('scroll-up');
+    	}
+    });
+
+    // Load carousel only on homepage
+	if ($('#page-home').length > 0) {
+		// Init Carousel Jssor
+        var options = {
+        	$SlideHeight: 250,
+        	$ArrowNavigatorOptions: true,
+        	$AutoPlay: true,
+        	$Loop: 1,
+        	$PauseOnHover: 2,
+        	$FillMode: 2,
+	        $ArrowNavigatorOptions: {
+	            $Class: $JssorArrowNavigator$
+	        }
+    	};
+
+        var jssor_slider1 = new $JssorSlider$('carousel', options);
+
+        //responsive code begin | you can remove responsive code if you don't want the slider scales
+        //while window resizing
+        function ScaleSlider() {
+	        var parentWidth = $('#carousel').parent().width();
+
+	        if (parentWidth) {
+	            jssor_slider1.$ScaleWidth(parentWidth);
+	        } else {
+	        	window.setTimeout(ScaleSlider, 30);
+	        }
+	    }
+
+        //Scale slider after document ready
+		ScaleSlider();
+
+        //Scale slider while window load/resize/orientation change.
+        $(window).bind("load", ScaleSlider);
+        $(window).bind("resize", ScaleSlider);
+        $(window).bind("orientationchange", ScaleSlider);
+        //responsive code end
+    }
+
+    // Bourbon Refill Accordion
+	$('.accordion-tabs-minimal').each(function(index) {
+		$(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
+	});
+
+	$('.accordion-tabs-minimal').on('click', 'li > a.tab-link', function(event) {
+		if (!$(this).hasClass('is-active')) {
+			event.preventDefault();
+			var accordionTabs = $(this).closest('.accordion-tabs-minimal');
+			accordionTabs.find('.is-open').removeClass('is-open').hide();
+
+			$(this).next().toggleClass('is-open').toggle();
+			accordionTabs.find('.is-active').removeClass('is-active');
+			$(this).addClass('is-active');
+		} else {
+			event.preventDefault();
+		}
+	});
+
+	// Trigger mobile open nav
+	$('.c-hamburger').click( function(){
+		// Toggle hamburger icon
+		$(this).toggleClass('is-active');
+		// Toggle main nav
+		$('#header-main').toggleClass('mobile');
+	});
+
+	// Mobile Nav open logic
+	$('#header-main ul li a').on( 'click', function(){
+		$('.c-hamburger').toggleClass('is-active');
+		$('#header-main.mobile').toggleClass('mobile');
+		// Add and remove active states
+		$('#nav-main ul li').removeClass('active');
+		$(this).parent().addClass('active');
+	});
 });
 
 // On window resize back to desktop hide mobile nav
@@ -169,16 +170,18 @@ $( window ).resize(function() {
 
 // Document on scroll change nav state
 $(document).on('scroll',function(){
-    // Back to top show hide after home page
-    var homeSectionHeight = 70;
+	if ($('#page-home').length > 0) {
+	    // Back to top show hide after home page
+	    var homeSectionHeight = 70;
 
-    if( $(document).scrollTop() > homeSectionHeight) {
-            $('#back-to-top').fadeIn().addClass('buttonTopPulse');
-            $('#header-main').addClass('mini');
-            $('.carousel').addClass('mini');
-        } else {
-            $('#back-to-top').fadeOut().removeClass('buttonTopPulse');
-             $('#header-main').removeClass('mini');
-             $('.carousel').removeClass('mini');
-    }
+	    if( $(document).scrollTop() > homeSectionHeight) {
+	            $('#back-to-top').fadeIn().addClass('buttonTopPulse');
+	            $('#header-main').addClass('mini');
+	            $('.carousel').addClass('mini');
+	        } else {
+	            $('#back-to-top').fadeOut().removeClass('buttonTopPulse');
+	            $('#header-main').removeClass('mini');
+	            $('.carousel').removeClass('mini');
+	    }
+	}
 });
