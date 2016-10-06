@@ -5,8 +5,8 @@
 
 // Custom SASS imports
 @import "partials/_base";
-@import "partials/_typography";
 @import "partials/_mixins";
+@import "partials/_typography";
 @import "partials/_layout";
 @import "modules/_refills";
 @import "vendor/_jssor";
@@ -142,13 +142,70 @@ a:hover {
 				background: $blue;
 			}
 
-			li.desktop-nav-item {
+			li.desktop-nav-mini {
 				display: none;
 			}
-
 		}
 	}
 }
+
+// NAV MINI STYLES
+#header-main.mini {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 50px;
+	z-index: 1000;
+	background-color: rgba(255, 255, 255, 0.7);;
+	border-bottom: 3px solid $blue;	
+	@include trans;
+    // transition:all .5s linear;
+    // 	-o-transition:all .5s linear;
+    // 		-moz-transition:all .5s linear;
+    // 			-webkit-transition:all .5s linear;	
+
+		#nav-main {
+			margin-right: 2%;
+
+			ul {
+				margin: 11px 0 0 0;
+
+				li {
+					min-height: auto;
+
+					span {
+						display: none;
+					}
+				}			
+
+				.desktop-nav {
+					display: none;
+				}	
+
+				.desktop-nav-mini {
+					display: block;
+				}			
+			}
+		}
+		
+		#logo {
+			position: fixed;
+			top: 3px;
+			left: 2%;
+			z-index: 1000;		
+				a {
+					background-size: 75%;	
+				}
+		}			
+}
+
+// Add margin to stop the flick going to nav mini
+.carousel.mini {
+	margin-top: 80px;
+}
+
 
 // NAV MOBILE STYLES
 #header-main.mobile {
@@ -171,7 +228,7 @@ a:hover {
 		    animation: fadeIn 0.5s;
 
 			li {
-				display: block;
+				display: block!important;
 				width: 100%;
 
 				a {
@@ -547,6 +604,10 @@ footer {
 
 #portfolio {
 	margin-top: 50px;
+	
+	h1:after {
+		display: none;
+	}
 
 	p {
 		width: 60%;

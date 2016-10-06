@@ -44,7 +44,6 @@
 
     <div class="container">
         <header id="header-main" class="row">
-
             <div id="logo">
                 <a href="/">Rohan Chambers</a>
                 <img src="/assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
@@ -54,17 +53,16 @@
                 <span>Toggle menu</span>
             </button>
 
-            <nav role="navigation" id="nav-main">
+            <nav role="navigation" id="nav-main" class="">
                 <ul>
-                    <li class="<?=$activeHome?>"><a href="/index-dev.php">Home <span>Welcome</span></a></li>
-                    <li class="desktop-nav-item"><a href="/index-dev.php#what-i-do">What I do <span>My work</span></a></li>
-                    <li><a href="index-dev.php#services">Services <span>What I do</span></a></li>
-                    <li class="desktop-nav-item"><a href="/index-dev.php#skills">Skills <span>My work</span></a></li>
-                    <li><a href="/index-dev.php#contact">Contact <span>Get in touch</span></a></li>
+                    <li class="<?=$activeHome?>"><a href="/index-dev.php#home">Home <span>Welcome</span></a></li>
+                    <li class="desktop-nav-mini"><a href="/index-dev.php#what-i-do">What I do <span>My work</span></a></li>
+                    <li class="desktop-nav"><a href="index-dev.php#services">Services <span>What I do</span></a></li>
+                    <li class="desktop-nav-mini"><a href="/index-dev.php#skills">Skills <span>My work</span></a></li>
+                    <li class=""><a href="/index-dev.php#contact">Contact <span>Get in touch</span></a></li>
                     <li class="<?=$activePortfolio?>"><a href="/portfolio-dev.php">Portfolio <span>My work</span></a></li>                    
-                    <li class="last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
+                    <li class="desktop-nav last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
                 </ul>
             </nav>
-
         </header>
     </div>

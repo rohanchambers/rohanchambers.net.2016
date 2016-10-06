@@ -60,12 +60,13 @@ $(function($){
 
 		// Open all links in case study in new window
 		$("#case-study-content .targetBlank[href^='http://']").attr('target','_blank');
+	    
 	    // Scroll to sections
 	    $('#nav-main ul li a').click(function(e) {
 	        var section = $(this).attr('href').split('#')[1];
 
 	        $('html, body').animate({
-	            scrollTop: $('#' + section).offset().top -10
+	            scrollTop: $('#' + section).offset().top -60
 	        }, 1000);
 	    });
 
@@ -85,7 +86,7 @@ $(function($){
 	    });
 
 	    // Load carousel only on homepage
-		if ($('#page-home').length > 0) {
+		if ($('#home').length > 0) {
 			// Init Carousel Jssor
 	        var options = {
 	        	$SlideHeight: 250,
@@ -169,44 +170,15 @@ $( window ).resize(function() {
 // Document on scroll change nav state
 $(document).on('scroll',function(){
     // Back to top show hide after home page
-    var homeSectionHeight = 100;
+    var homeSectionHeight = 70;
 
     if( $(document).scrollTop() > homeSectionHeight) {
             $('#back-to-top').fadeIn().addClass('buttonTopPulse');
+            $('#header-main').addClass('mini');
+            $('.carousel').addClass('mini');
         } else {
             $('#back-to-top').fadeOut().removeClass('buttonTopPulse');
+             $('#header-main').removeClass('mini');
+             $('.carousel').removeClass('mini');
     }
 });
-
-//Fix me needs more logic for the mobile nav
-// // Document on scroll change nav state
-// $(document).on('scroll',function(){
-// 	if(getWidth() > 980){
-// 		// On scroll of 70px activate minified nav
-// 	    if($(document).scrollTop() > 70) {
-// 	    	console.log('Passed 30px from top!');
-
-// 			//$('.c-hamburger').addClass('is-active');
-// 			$('#header-main').addClass('mobile');
-// 			//$('#header-main ul').hide();
-// 			//$('.c-hamburger').show(300);
-
-// 	    	//$('#nav-main').addClass('mobile');
-// 	    	// $('.c-hamburger').fadeIn(300);
-// 	     //    $('#nav-main ul').fadeIn();
-
-// 	    } else {
-// 	    	console.log('Back to top!')
-
-// 	    	$('#header-main').removeClass('mobile');
-// 	    	//$('#header-main ul').show();
-// 	        //$('.c-hamburger').fadeOut(300);
-// 	        //$('#nav-main ul').fadeOut();
-// 	    }
-// 	}
-// });
-
-
-
-
-

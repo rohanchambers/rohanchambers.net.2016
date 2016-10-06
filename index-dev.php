@@ -1,6 +1,6 @@
 <?php
     $browserTitle = 'Rohan Chambers | London Freelance Front End Developer and Web Designer';
-    $pageName = 'page-home';
+    $pageName = 'home';
     $activeHome = 'active'    
 ?>
 <?php include("incl/inc-header.php"); ?>
