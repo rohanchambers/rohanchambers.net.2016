@@ -19,8 +19,8 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 // Back to the top button
 $('#back-to-top').click( function(){
-	console.log(0)
-    $('html, body').animate({ scrollTop: $('#top').offset().top}, 1000);
+    $('html, body').animate({ scrollTop: 0}, 1000);
+    return false;
 });
 
 $(function($){
@@ -56,7 +56,7 @@ $(function($){
 		$('.filter-button-group').on( 'click', 'a', function() {
 			var filterValue = $(this).attr('data-filter');
 			$grid.isotope({ filter: filterValue });
-	});
+		});
 	}
 
 	// Open all links in case study in new window
@@ -64,23 +64,32 @@ $(function($){
 
     // Scroll to sections
     $('#nav-main ul li a').click(function(e) {
+    	//e.preventDefault();
         var section = $(this).attr('href').split('#')[1];
-
-        $('html, body').animate({
-            scrollTop: $('#' + section).offset().top -60
-        }, 1000);
+        // Nav home link go to top
+    	if (section == 'home') {
+	        $('html, body').animate({
+	            scrollTop: 0
+	        }, 1000);
+	        return false;
+    	} else {
+	        $('html, body').animate({
+	            scrollTop: $('#' + section).offset().top -60 
+	        }, 1000);
+	        return false;    		
+    	}
     });
 
     // Intro scroll down and up
     $('.intro-scroll-arrow').click(function(e) {
     	if( $(this).hasClass('scroll-up') ) {
 	        $('html, body').animate({
-	            scrollTop: $('#' + 'top').offset().top
+	            scrollTop: 0
 	        }, 1000);
 	        $(this).toggleClass('scroll-up');
     	} else {
 	        $('html, body').animate({
-	            scrollTop: $('#' + 'about').offset().top
+	            scrollTop: $('#' + 'about').offset().top -68
 	        }, 1000);
 	        $(this).toggleClass('scroll-up');
     	}
@@ -170,10 +179,20 @@ $( window ).resize(function() {
 
 // Document on scroll change nav state
 $(document).on('scroll',function(){
-	if ($('#page-home').length > 0) {
-	    // Back to top show hide after home page
-	    var homeSectionHeight = 70;
+	
+	// Homepage up down arrow. If document pos is at the top switch this arrow down
+	if( $(document).scrollTop() == 0) {
+		$('.intro-scroll-arrow').removeClass('scroll-up');
+	}
 
+	// Is scroll is past button in question switch it up
+	if( $(document).scrollTop() > 450) {
+		$('.intro-scroll-arrow').addClass('scroll-up');	
+	}
+
+	// On homeapge only go back to top show hide mini to full desktop nav
+	if ($('#page-home').length > 0) {
+	    var homeSectionHeight = 70;
 	    if( $(document).scrollTop() > homeSectionHeight) {
 	            $('#back-to-top').fadeIn().addClass('buttonTopPulse');
 	            $('#header-main').addClass('mini');

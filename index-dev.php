@@ -1,15 +1,20 @@
 <?php
     $browserTitle = 'Rohan Chambers | London Freelance Front End Developer and Web Designer';
     $pageName = 'page-home';
-    $activeHome = 'active'    
+    $activeHome = 'active'
 ?>
 <?php include("incl/inc-header.php"); ?>
 
     <div class="container carousel">
         <div class="row">
             <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 600px; height: 250px; overflow: hidden;">
+                <!-- Loading Screen -->
+                <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                    <!-- your loading screen content here -->
+                    Testing this shit!
+                </div>
                 <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 270px;">
+                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 250px;">
                     <?php include("incl/inc-carousel.php"); ?>
                 </div><!-- End of slides -->
                 <!-- Arrow Left -->
@@ -124,7 +129,7 @@
 
                 <h2>How I manage a web design &amp; development project?</h2>
                 <p>Please find out more in detail about the process of the way I manage a web development project in stages to its final completion.</p>
-                <a href="#lightbox-content" class="btn-global lightbox-services">Find out more<span class="arrow"></span><span></span></a>                
+                <a href="#lightbox-content" class="btn-global lightbox-services">Find out more<span class="arrow"></span><span></span></a>
             </article>
 
             <article class="col-2 element">
@@ -348,7 +353,7 @@
                     <img class="bottom" src="assets/img/clients/hover/harrods.png" alt="Harrods">
                     <img class="top" src="assets/img/clients/harrods.png" alt="Harrods">
                     <img src="assets/img/clients/transparent.png" alt="">
-                </div>                
+                </div>
                 <div class="client">
                     <img class="bottom" src="assets/img/clients/hover/phoneResq.png" alt="Phone ResQ">
                     <img class="top" src="assets/img/clients/phoneResq.png" alt="Phone ResQ">

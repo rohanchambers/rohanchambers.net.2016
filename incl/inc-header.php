@@ -41,7 +41,7 @@
     <meta name="twitter:domain"         content="">
 </head>
 <body id="<?=$pageName?>">
-    <div id="top"></div>
+    <div id="home"></div>
     <div class="container">
         <header id="header-main" class="row">
             <div id="logo">
@@ -55,7 +55,7 @@
 
             <nav role="navigation" id="nav-main" class="">
                 <ul>
-                    <li class="<?=$activeHome?>"><a href="/index-dev.php#top">Home <span>Welcome</span></a></li>
+                    <li class="<?=$activeHome?>"><a href="/index-dev.php#home">Home <span>Welcome</span></a></li>
                     <li class="desktop-nav-mini"><a href="/index-dev.php#what-i-do">What I do <span>My work</span></a></li>
                     <li class="desktop-nav"><a href="index-dev.php#services">Services <span>What I do</span></a></li>
                     <li class="desktop-nav-mini"><a href="/index-dev.php#skills">Skills <span>My work</span></a></li>

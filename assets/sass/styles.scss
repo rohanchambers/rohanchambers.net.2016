@@ -154,23 +154,21 @@ a:hover {
 	position: fixed;
 	top: 0;
 	left: 0;
+	margin: 0;
 	padding: 0;
 	width: 100%;
 	min-height: 50px;
-	z-index: 1000;
-	background-color: rgba(255, 255, 255, 0.7);;
-	border-bottom: 3px solid $blue;	
+	z-index: 100;
+	background-color: rgba(255, 255, 255, 0.9);;
+	box-shadow: 0 0 9px 2px rgba(0,0,0,0.15);
 	@include trans;
-    // transition:all .5s linear;
-    // 	-o-transition:all .5s linear;
-    // 		-moz-transition:all .5s linear;
-    // 			-webkit-transition:all .5s linear;	
 
 		#nav-main {
+			position: relative;
 			margin-right: 2%;
 
 			ul {
-				margin: 11px 0 0 0;
+				margin: 14px 0 0 0;
 
 				li {
 					min-height: auto;
@@ -191,11 +189,10 @@ a:hover {
 		}
 		
 		#logo {
-			position: fixed;
-			top: 3px;
-			left: 2%;
+			margin: 5px 2%;
 			z-index: 1000;		
 				a {
+					height: 45px;
 					background-size: 75%;	
 				}
 		}			
@@ -243,9 +240,10 @@ a:hover {
 		}
 	}
 }
-
 // End of Header Main
 
+
+// About section
 #about {
 	header {
 		@include clearfix;
