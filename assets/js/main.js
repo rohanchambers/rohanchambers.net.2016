@@ -99,9 +99,9 @@ $(function($){
 	if ($('#page-home').length > 0) {
 		// Init Carousel Jssor
         var options = {
-        	$SlideHeight: 250,
+        	$SlideHeight: 420,
         	$ArrowNavigatorOptions: true,
-        	$AutoPlay: true,
+        	//$AutoPlay: true,
         	$Loop: 1,
         	$PauseOnHover: 2,
         	$FillMode: 2,

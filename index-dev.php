@@ -7,14 +7,13 @@
 
     <div class="container carousel">
         <div class="row">
-            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 600px; height: 250px; overflow: hidden;">
+            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 1024px; height: 420px; overflow: hidden;">
                 <!-- Loading Screen -->
-                <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div id="loading" u="loading" style="position: absolute; top: 0px; left: 0px;">
                     <!-- your loading screen content here -->
-                    Testing this shit!
                 </div>
                 <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 250px;">
+                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1024px; height: 420px;">
                     <?php include("incl/inc-carousel.php"); ?>
                 </div><!-- End of slides -->
                 <!-- Arrow Left -->
