@@ -11,6 +11,7 @@
 				<li><a href="../phoneresq/" class="go-back" title="Previous Project"></a></li>
 				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
 				<li><a href="../heineken/" class="go-next" title="Next Project"></a></li>
+                
 			</ul>
 
             <h1>Perfect Peaks Brews</h1>
@@ -34,4 +35,4 @@
         </section>
 	</div><!-- End of container -->
 
-    <?php include("../../incl/inc-footer.php"); ?>
+<?php include("../../incl/inc-footer.php"); ?>

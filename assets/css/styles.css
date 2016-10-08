@@ -9,7 +9,8 @@ ul.bullets {
   ul.bullets li {
     position: relative;
     margin-bottom: 8px;
-    list-style-type: none; }
+    list-style-type: none;
+    line-height: 1.5em; }
   ul.bullets li:before {
     content: '';
     position: absolute;
@@ -763,7 +764,7 @@ footer {
   background: url(../img/global/bg_footer.jpg);
   color: #FFF; }
   footer #copyright {
-    padding: 50px 0; }
+    padding: 175px 0 20px 0; }
     footer #copyright::after {
       clear: both;
       content: "";
@@ -793,41 +794,39 @@ footer {
       content: "";
       display: block; }
     #case-study #controls li {
-      display: inline-block;
-      width: auto;
-      height: 30px;
-      font-size: inherit;
-      margin-right: 0px; }
-      #case-study #controls li a {
-        text-indent: -9999px; }
+      display: inline-block; }
       #case-study #controls li .go-back,
       #case-study #controls li .go-next,
       #case-study #controls li .go-all {
         display: block;
-        font-size: 1.3em;
-        line-height: 30px;
-        height: 30px;
-        padding-left: 35px; }
-      #case-study #controls li .go-back {
         float: left;
-        background: url(../img/global/cs-controls-bck.png) 0 0 no-repeat; }
-      #case-study #controls li .go-next {
-        float: left;
-        background: url(../img/global/cs-controls-nxt.png) 0 0 no-repeat; }
-      #case-study #controls li .go-all {
-        float: left;
-        background: url(../img/global/cs-controls-menu.png) 0 0 no-repeat; }
+        text-decoration: none;
+        color: #000;
+        margin-right: 8px;
+        font-size: 3.5rem; }
+      #case-study #controls li .go-back:before {
+        font-family: FontAwesome;
+        content: "\f0a8"; }
+      #case-study #controls li .go-next:before {
+        font-family: FontAwesome;
+        content: "\f0a9"; }
+      #case-study #controls li .go-all:before {
+        font-family: FontAwesome;
+        content: "\f00a";
+        font-size: 3.2rem; }
       #case-study #controls li .go-back:hover,
       #case-study #controls li .go-next:hover,
       #case-study #controls li .go-all:hover {
-        background-position: 0 -30px; }
+        color: #0074c0;
+        background-color: transparent; }
   #case-study #case-study-content {
     min-height: 400px; }
     #case-study #case-study-content h1 {
       position: relative;
       font-size: 1.75em;
       margin-bottom: 0;
-      padding-top: 15px; }
+      padding-top: 15px;
+      margin-top: 10px; }
       #case-study #case-study-content h1::before {
         position: absolute;
         top: 0;
