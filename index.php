@@ -1,27 +1,26 @@
 <?php
     $browserTitle = 'Rohan Chambers | London Freelance Front End Developer and Web Designer';
     $pageName = 'page-home';
-    $activeHome = 'active'    
+    $activeHome = 'active'
 ?>
 <?php include("incl/inc-header.php"); ?>
 
     <div class="container carousel">
         <div class="row">
-            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 600px; height: 250px; overflow: hidden;">
-                <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 270px;">
-                    <div><img u="image" src="assets/img/carousel/beautyofbeer.jpg" /></div>
-                    <div><img u="image" src="assets/img/carousel/harry-potter-part-2.jpg" /></div>
-                    <div><img u="image" src="assets/img/carousel/redbull.jpg" /></div>
-                    <div><img u="image" src="assets/img/carousel/myCallway.jpg" /></div>
-                    <div><img u="image" src="assets/img/carousel/thinking-is-sexy.jpg" /></div>
-                    <div><img u="image" src="assets/img/carousel/spoilerfoiler.jpg" /></div>
+            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 1024px; height: 420px; overflow: hidden;">
+                <!-- Loading Screen -->
+                <div id="loading" u="loading" style="position: absolute; top: 0px; left: 0px;">
+                    <!-- your loading screen content here -->
                 </div>
+                <!-- Slides Container -->
+                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1024px; height: 420px;">
+                    <?php include("incl/inc-carousel.php"); ?>
+                </div><!-- End of slides -->
                 <!-- Arrow Left -->
-                <span u="arrowleft" class="jssora22l" style="top: 123px; left: 8px;">
+                <span u="arrowleft" class="jssora22l">
                 </span>
                 <!-- Arrow Right -->
-                <span u="arrowright" class="jssora22r" style="top: 123px; right: 8px;">
+                <span u="arrowright" class="jssora22r">
                 </span>
             </div>
         </div>
@@ -86,7 +85,6 @@
                 <h1>To see what I do<br> click below to find out more</h1>
             </header>
 
-
             <article id="web-design" class="col-4 element">
                 <h2>Web Design</h2>
                 <p>I can design websites for various types of business's always keeping in mind a look and feel aspect that will suit any particular type of company in order to reflect its name, image and product.</p>
@@ -127,13 +125,13 @@
                 or click on the button below and complete a requirements form that will send me your info and details regarding your project.
                 <br /><span class="confidential">*All details will be kept strictly confidential.</span></p>
                 <a href="get-a-quote" class="btn-global btn-spacer">Get a quote<span class="arrow"></span><span></span></a>
-            </article>
 
-            <article class="col-2 element">
                 <h2>How I manage a web design &amp; development project?</h2>
                 <p>Please find out more in detail about the process of the way I manage a web development project in stages to its final completion.</p>
                 <a href="#lightbox-content" class="btn-global lightbox-services">Find out more<span class="arrow"></span><span></span></a>
+            </article>
 
+            <article class="col-2 element">
                 <ul class="accordion-tabs-minimal">
                     <li class="tab-header-and-content">
                         <a href="#" class="tab-link is-active">Web Development</a>
@@ -348,6 +346,11 @@
                 <div class="client">
                     <img class="bottom" src="assets/img/clients/hover/volvic.png" alt="Volvic">
                     <img class="top" src="assets/img/clients/volvic.png" alt="Volvic">
+                    <img src="assets/img/clients/transparent.png" alt="">
+                </div>
+                <div class="client">
+                    <img class="bottom" src="assets/img/clients/hover/harrods.png" alt="Harrods">
+                    <img class="top" src="assets/img/clients/harrods.png" alt="Harrods">
                     <img src="assets/img/clients/transparent.png" alt="">
                 </div>
                 <div class="client">

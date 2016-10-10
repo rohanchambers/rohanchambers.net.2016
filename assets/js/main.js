@@ -101,7 +101,7 @@ $(function($){
         var options = {
         	$SlideHeight: 420,
         	$ArrowNavigatorOptions: true,
-        	//$AutoPlay: true,
+        	$AutoPlay: true,
         	$Loop: 1,
         	$PauseOnHover: 2,
         	$FillMode: 2,
@@ -191,7 +191,7 @@ $(document).on('scroll',function(){
 	}
 
 	// On homeapge only go back to top show hide mini to full desktop nav
-	if ($('#page-home').length > 0) {
+	
 	    var homeSectionHeight = 70;
 	    if( $(document).scrollTop() > homeSectionHeight) {
 	            $('#back-to-top').fadeIn().addClass('buttonTopPulse');
@@ -202,5 +202,5 @@ $(document).on('scroll',function(){
 	            $('#header-main').removeClass('mini');
 	            $('.carousel').removeClass('mini');
 	    }
-	}
+	
 });

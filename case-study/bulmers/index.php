@@ -1,57 +1,33 @@
 <?php
-$author = 'Rohan Chambers';
-$browserDescription = 'This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer/Developer based in London, UK.';
-$browserKeywords = 'rohan chambers, rohan, chambers, freelance front end developer, front end developer, web designer, web development, xhtml, css, html5, css3, jquery, w3c, web standards';
-$browserTitle = 'Bulmers, New Blends | RohanChambers.net';
-$classBody = 'case-study';
-$thisPage='portfolio';
+    $browserTitle = 'Bulmers, Blends | Rohan Chambers';
+    $activePortfolio = 'active';
 ?>
 <?php include("../../incl/inc-header.php"); ?>
-	<div class="container clearfix">
-		<section id="case-study">
-			<div id="cs-details">
-				<h1>Case study</h1>
-				<ul id="controls">			
-					<li><a href="../tesco/TescoWines" class="go-back" title="Previous Project"></a></li>
-					<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
-					<li><a href="../london2012/supportyourteam" class="go-next" title="Next Project"></a></li>
-				</ul>
-				<div class="hr"></div>			
-				<h2>Bulmers, New Blends</h2>
-				<ul class="case-study-details">
-					<li><strong>Date: </strong>February 2013</li>
-					<li><strong>Client: </strong>BULMERS</li>	
-					<li><strong>Agency: </strong><a href="http://www.wearesocial.net/" class="targetBlank">We Are Social</a></li>								
-					<li><strong>Technologies: </strong>HTML5, CSS3, JavaScript/jQuery</li>	
-					<li><strong>Tasks:</strong></li>
-					<li>
-						<p>I developed the whole front end build of this Facebook app for Bulmers.</p>
-						<p>Here's your chance to be one of the first people in the UK to taste our brand new BULMERS cider blends: Bold Black Cherry and Pressed Red Grape.
-						<br>WHAT DO I NEED TO DO? It's simple - sign up below and we'll pick 20 of you at random to win a case of your choice delivered to your door.</p>
-					</li>
-					<li><strong>View app:</strong><br>
-						<a href="http://www.facebook.com/pages/Bulmers-UK/22251068827?sk=app_488481941186963" class="targetBlank">https://www.facebook.com/bulmersUK</a>
-					</li>
-				</ul>
-				<div class="hr"></div>	
-				<ul class="case-study-details">
-					<li><strong>Share this:</strong></li>
-					<li>
-						<?php include("../../includes/php/sharethis.php"); ?>						
-					</li>
-				</ul>				
-			</div>
-			
-			<div id="cs-img">
-				<ul>
-					<li>
-						<img src="img/bulmers-UK-likegate.jpg" alt="Tiger Beer Zodia Pairs" />
-					</li>
-					<li>
-						<img src="img/bulmers-UK.jpg" alt="Tiger Beer Zodia Pairs" />
-					</li>
-				</ul>
-			</div><!-- /#right-col -->
-		</section><!-- /section -->						
-	</div><!-- /content -->
+
+    <div id="case-study" class="container">
+        <section id="case-study-content" class="col-3">
+            <h2>Case study</h2>
+			<ul id="controls">
+				<li><a href="../tesco/tescoWines" class="go-back" title="Previous Project"></a></li>
+				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
+				<li><a href="../london2012/supportyourteam" class="go-next" title="Next Project"></a></li>
+			</ul>
+            <h1>Bulmers, Blends</h1>
+            <p><strong>Date: </strong>2014</p>
+            <p><strong>Client: </strong>Bulmers, Blends</p>
+            <p><strong>Agency: </strong><a href="http://www.wearesocial.net/" class="targetBlank">We Are Social</a></p>
+            <p><strong>Technologies: </strong>HTML5, CSS3, JavaScript/jQuery</p>
+            <p><strong>Tasks:</strong> Front end development of Facebook app.
+            <p><strong>Summary: </strong></p>
+			<p>I developed the whole front end build of this Facebook app for Bulmers.</p>
+			<p>Here's your chance to be one of the first people in the UK to taste our brand new BULMERS cider blends: Bold Black Cherry and Pressed Red Grape.
+			<br>WHAT DO I NEED TO DO? It's simple - sign up below and we'll pick 20 of you at random to win a case of your choice delivered to your door.</p>
+			<p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/pages/Bulmers-UK/22251068827?sk=app_488481941186963" class="targetBlank">https://www.facebook.com/bulmersUK</a>
+        </section>
+        <section id="case-study-img" class="col-8">
+			<img src="img/bulmers-UK-likegate.jpg" alt="Bulmers, Blends">
+			<img src="img/bulmers-UK.jpg" alt="Bulmers, Blends">
+		</section>
+	</div><!-- End of container -->
+
 <?php include("../../incl/inc-footer.php"); ?>

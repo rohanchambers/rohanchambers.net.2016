@@ -18,7 +18,8 @@
                 <a href="#" class="active" data-filter="*">Show all</a>
                 <a href="#" data-filter=".web">Web</a>
                 <a href="#" data-filter=".apps">Facebook Apps.</a>
-                <a href="#" data-filter=".graphics">3D / Video</a>
+                <a href="#" data-filter=".graphics">Graphics</a>
+                <a href="#" data-filter=".video">3D / Video</a>
                 <a href="#" data-filter=".freelance">Freelance</a>                
             </div>          
 
