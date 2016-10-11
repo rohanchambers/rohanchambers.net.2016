@@ -10,7 +10,7 @@
 			<ul id="controls">
 				<li><a href="../honda/" class="go-back" title="Previous Project"></a></li>
 				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
-				<li><a href="../harry-potter-part-1/" class="go-next" title="Next Project"></a></li>
+				<li><a href="../honda/made-in-britain" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Harry Potter and the Deathly Hallows,<br /> Part 1</h1>
             <p><strong>Date: </strong>2011</p>

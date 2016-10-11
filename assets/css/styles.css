@@ -764,7 +764,7 @@ footer {
   background: url(../img/global/bg_footer.jpg);
   color: #FFF; }
   footer #copyright {
-    padding: 175px 0 20px 0; }
+    padding: 30px 0; }
     footer #copyright::after {
       clear: both;
       content: "";
