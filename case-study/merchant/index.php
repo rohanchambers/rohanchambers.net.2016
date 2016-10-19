@@ -1,58 +1,33 @@
 <?php
-$author = 'Rohan Chambers';
-$browserDescription = 'This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer/Developer based in London, UK.';
-$browserKeywords = 'rohan chambers, rohan, chambers, freelance front end developer, front end developer, web designer, web development, xhtml, css, html5, css3, jquery, w3c, web standards';
-$browserTitle = 'The Merchant adventurers club | RohanChambers.net';
-$classBody = 'case-study';
-$thisPage='portfolio';
+    $browserTitle = 'The Merchant adventurers club | Rohan Chambers';
+    $activePortfolio = 'active';
 ?>
-<?php include("../../includes/php/header.php"); ?>
-	<div id="content" class="clearfix">
-		<section id="case-study">
-			<div id="left-col">
-				<h1>Case study</h1>
-				<ul id="controls">			
-					<li><a href="../tiger/" class="go-back" title="All Projects"></a></li>
-					<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
-					<li><a href="../flh/" class="go-next" title="Next Project"></a></li>
-				</ul>
-				<div class="hr"></div>			
-				<h2>The Merchant adventurers' club</h2>
-				<ul class="case-study-details">
-					<li><strong>Date: </strong>January 2012</li>
-					<li><strong>Client: </strong>The Merchant adventurers' club</li>	
-					<li><strong>Agency: </strong>Freelance work</li>								
-					<li><strong>Technologies: </strong>HTML5, CSS3, JavaScript/jQuery, Responsive design implementation</li>	
-					<li><strong>Tasks:</strong></li>
-					<li>
-						<p>I built the complete front end build of this micro-site including the implementation of responsive design for iPad and iPhone.</p>
-					</li>
-					<li><strong>View site:</strong><br>
-						<a href="http://www.merchantadventurersclub.com/" class="targetBlank">http://www.merchantadventurersclub.com/</a>
-					</li>
-				</ul>
-				<div class="hr"></div>	
-				<ul class="case-study-details">
-					<li><strong>Share this:</strong></li>
-					<li>
-						<?php include("../../includes/php/sharethis.php"); ?>						
-					</li>
-				</ul>				
-			</div>
-			
-			<div id="right-col">
-				<ul>
-					<li>
-						<img src="/img/pages/case-study/merchant/home.jpg" alt="The Merchant adventurers' club" />
-					</li>
-					<li>
-						<img src="/img/pages/case-study/merchant/about.jpg" alt="The Merchant adventurers' club" />
-					</li>
-					<li>
-						<img src="/img/pages/case-study/merchant/benefits.jpg" alt="The Merchant adventurers' club" />
-					</li>
-				</ul>
-			</div><!-- /#right-col -->
-		</section><!-- /section -->						
-	</div><!-- /content -->
-<?php include("../../includes/php/footer.php"); ?>
+<?php include("../../incl/inc-header.php"); ?>
+
+    <div id="case-study" class="container">
+        <section id="case-study-content" class="col-3">
+            <h2>Case study</h2>
+			<ul id="controls">
+				<li><a href="../tesco/" class="go-back" title="Previous Project"></a></li>
+				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
+				<li><a href="../flh/" class="go-next" title="Next Project"></a></li>
+			</ul>
+            <h1>The Merchant adventurers' club</h1>
+            <p><strong>Date: </strong>2012</p>
+            <p><strong>Client: </strong>The Merchant adventurers' club</p>
+            <p><strong>Technologies: </strong> HTML5, CSS3, JavaScript/jQuery, Responsive design implementation</p>
+            <p><strong>Tasks:</strong> Front end build of site
+
+            <p><strong>Summary: </strong></p>
+            <p>I built the complete front end build of this micro-site including the implementation of responsive design for iPad and iPhone.</p>
+
+			<strong>View site:</strong> <p><a href="http://www.merchantadventurersclub.com/" class="targetBlank">http://www.merchantadventurersclub.com/</a></p>
+        </section>
+        <section id="case-study-img" class="col-8">
+			<img src="img/home.jpg" alt="The Merchant adventurers' club">
+			<img src="img/about.jpg" alt="The Merchant adventurers' club">
+			<img src="img/benefits.jpg" alt="The Merchant adventurers' club">
+		</section>
+	</div><!-- End of container -->
+
+<?php include("../../incl/inc-footer.php"); ?>
