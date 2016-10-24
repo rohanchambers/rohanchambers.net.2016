@@ -1,0 +1,125 @@
+#get-quote-form {
+	margin-top: 50px;
+	
+	header {
+		p {
+			width: 60%;
+		}		
+	}
+
+
+	form {
+		margin-bottom: 25px;
+	
+		fieldset {
+			display: block;
+			padding: 0;
+			clear: both;
+			width: 100%;
+			border: none;
+			
+			.col-right {
+				float: left;
+				width: 300px;
+			}
+
+			p {
+				font-size: inherit;
+				margin: 0;
+
+				strong {
+					display: block;
+				}
+			}
+
+			input, 
+			textarea, 
+			select {
+				padding: 2px;
+				font-size: 1em;
+				color: #666666;
+				background: #F5F5F5;
+				border: 1px solid #ccc;
+				float: left;
+				display: block;
+				margin: 5px 0 10px;
+			}
+
+			input:focus, 
+			textarea:focus, 
+			select:focus {
+				border: 1px solid #999;
+				background-color: $white;
+			}
+
+			input:hover, 
+			textarea:hover, 
+			select:hover {
+				padding: 2px;
+				font-size: 1em;
+				color: #666666;
+				border: 1px solid #999;
+				background-color: $white;
+				float: left;
+				display: block;
+				margin: 5px 0 10px;
+			}			
+		}
+
+		label {
+			display: block;
+			width: 300px;
+			float: left;
+			margin: 5px 0 0;			
+			padding-right: 10px;
+			line-height: 1.7;
+			clear: both;
+			
+			input {
+				margin-right: 5px;
+
+				&:hover {
+					margin-right: 5px;
+				}
+			}
+
+			small {
+				display: block;
+			}
+
+			p {
+				clear: both;		
+			}
+		}
+
+		p {
+			strong {
+				clear: both;
+			}			
+		}	
+		
+		.btn-global {
+			border: none;
+			padding: 5px 10px;
+			cursor: pointer;
+			margin-top: 10px;
+			outline:none;
+		}
+
+		.required {
+			font-size: 1.3rem;
+			color: red;
+		}
+
+		.errormsg {
+			display: block;
+			width: 100%;
+			color: $white;
+			text-transform: uppercase;
+			background: #FF9D9D url(#{$img}global/stop.gif) no-repeat 10px center;
+			padding: 10px 50px;
+			border-top: 2px solid #FF0000;
+			border-bottom: 2px solid #FF0000;
+		}
+	}
+}

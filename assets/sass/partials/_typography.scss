@@ -87,3 +87,18 @@ section header h1 {
         border-bottom: 1px solid #fff;        
     }    
 }
+
+#portfolio,
+#site-map,
+#get-quote-form,
+#accessibility {
+    margin-top: 50px;
+
+    h1:after {
+        display: none;
+    }
+
+    p {
+        width: 60%;
+    }    
+}

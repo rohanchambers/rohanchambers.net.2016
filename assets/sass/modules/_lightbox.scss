@@ -1,0 +1,14 @@
+.lightbox-bg, 
+.lightbox-services, 
+.lightbox-home { z-index: 1; display:none; position:fixed; top:0; left:0; width:100%; height:100%; }
+.lightbox-bg { background:#000; opacity:0.8; filter:alpha(opacity=8);}
+.lightbox-panel { position: relative; width: 500px; height: auto; margin: 100px auto;}
+.lightbox-content { border-top: 5px solid #0074C0; background-color: #FFF; padding: 10px;}
+.close { position:absolute; top:-20px; right:0;}
+.close a { color: #FFF;}
+.no-js #lightbox { position: relative; width: 430px; display: block; float: right;}
+.no-js #lightbox-content { float: left; margin-top: 15px; padding: 0; background: none;}
+.no-js #lightbox-panel { width: 430px; margin: 0;}
+.no-js #close { display: none;}
+.no-js .home #lightbox { float: left;}
+.no-js .home #lightbox h2 { padding-top: 10px;}

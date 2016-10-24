@@ -46,6 +46,35 @@ $(function($){
 		$(this).addClass('active');
 	});
 
+	// Lightbox
+	var lightboxbg = $('.lightbox-bg');
+	var speed = 500;
+
+	$('.cta-lightbox-home').bind('click', function(){	
+		$(lightboxbg).fadeIn(speed, function(){
+			$('.lightbox-home').fadeIn('slow');
+		});
+		return false;
+	});
+
+	$('.cta-lightbox-services').bind('click', function(){
+		$(lightboxbg).fadeIn(speed, function(){
+			$('.lightbox-services').fadeIn('slow');
+		});
+		return false;
+	});
+	
+	// Close lightbox
+	$('html, body, .lightbox-bg, .close a').bind('click', function(){
+		console.log(999);
+		$('.lightbox-bg, .lightbox-home, .lightbox-services').fadeOut(speed);
+	});
+
+	// If user clicks on the lightbox content don't close
+	$('.lightbox-panel').bind('click', function(){
+		return false;
+	});
+
     // Load isotope only on portfolio apge
 	if ($('#page-portfolio').length > 0) {
 		// Init Isotope
@@ -84,15 +113,16 @@ $(function($){
 	        return false;
     	} else {
 	        $('html, body').animate({
-	            scrollTop: $('#' + section).offset().top -60 
+	            scrollTop: $('#' + section).offset().top -60
 	        }, 1000);
-	        return false;    		
+	        return false;
     	}
     });
 
     // Intro scroll down and up
-    $('.intro-scroll-arrow').click(function(e) {
-    	if( $(this).hasClass('scroll-up') ) {
+    $('.intro-scroll-arrow').click(function(e) {    	
+		$(this).removeClass('buttonPulse');
+    	if( $(this).hasClass('scroll-up') ) {    		
 	        $('html, body').animate({
 	            scrollTop: 0
 	        }, 1000);
@@ -189,7 +219,7 @@ $( window ).resize(function() {
 
 // Document on scroll change nav state
 $(document).on('scroll',function(){
-	
+
 	// Homepage up down arrow. If document pos is at the top switch this arrow down
 	if( $(document).scrollTop() == 0) {
 		$('.intro-scroll-arrow').removeClass('scroll-up');
@@ -197,11 +227,11 @@ $(document).on('scroll',function(){
 
 	// Is scroll is past button in question switch it up
 	if( $(document).scrollTop() > 450) {
-		$('.intro-scroll-arrow').addClass('scroll-up');	
+		$('.intro-scroll-arrow').addClass('scroll-up');
 	}
 
 	// On homeapge only go back to top show hide mini to full desktop nav
-	
+
 	    var homeSectionHeight = 70;
 	    if( $(document).scrollTop() > homeSectionHeight) {
 	            $('#back-to-top').fadeIn().addClass('buttonTopPulse');
@@ -212,5 +242,5 @@ $(document).on('scroll',function(){
 	            $('#header-main').removeClass('mini');
 	            $('.carousel').removeClass('mini');
 	    }
-	
+
 });

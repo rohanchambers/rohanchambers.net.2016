@@ -121,7 +121,8 @@ $tablet-980: new-breakpoint(min-width 980px);
 	}
 
 	// Porftfolio isotope css
-	#portfolio {
+	#portfolio,
+	#get-quote-form {
 		p {
 			width: 100%;
 		}
@@ -136,6 +137,18 @@ $tablet-980: new-breakpoint(min-width 980px);
 	#carousel div {	
 		.captions {
 			display: none;
+		}
+	}
+}
+
+// Custom inline variable breakpoint
+$width-650: new-breakpoint(max-width 650px);
+@include media($width-650) {
+	#get-quote-form {
+	 form {
+			label {
+			width: 100%;
+			}	
 		}
 	}
 }
@@ -229,9 +242,9 @@ $width-600: new-breakpoint(max-width 600px);
 
 	// Skills
 	#skills {
-		article,
-		article.col-2 {
-			min-height: auto;
+		article.col-2,
+		article.col-4 {
+			min-height: 0;
 		}
 	}
 
@@ -260,7 +273,20 @@ $width-600: new-breakpoint(max-width 600px);
 				width: 100%;
 			}
 		}
-	}	
+	}
+
+	.lightbox-panel {
+		width: 100%;
+	}
+
+	#copyright #under-hood {
+		display: none;
+	}
+
+	#contact {
+		min-height: 0;
+	}
+
 }
 
 // MOBILE SMALL | max width 320px

@@ -31,7 +31,7 @@
 		<section id="about" class="row">
             <header>
                 <h1>Welcome to the online portfolio of <br>Rohan Chambers</h1>
-                <i class="fa intro-scroll-arrow fa-4x" aria-hidden="true"></i>
+                <i class="fa intro-scroll-arrow fa-4x buttonPulse" aria-hidden="true"></i>
             </header>
 
 			<article id="intro" class="col-5 element">
@@ -70,8 +70,8 @@
                     <li>Available for small-medium freelance projects in-house or remotely.</li>
                 </ul>
                 <div id="cv">
-                    <h2 id="icon-underhood"><a class="lightbox-home" title="Under the Hood of RohanChambers.net" href="#">Under the Hood:</a></h2>
-                    <h2 id="icon-cv"><a href="../../img/documents/RohanChambersCV.pdf" title="Rohan Chambers CV">Download CV:</a></h2>
+                    <h2 id="icon-underhood"><a class="cta-lightbox-home" title="Under the Hood of RohanChambers.net" href="#">Under the Hood:</a></h2>
+                    <h2 id="icon-cv"><a href="assets/docs/RohanChambersCV.pdf" title="Rohan Chambers CV">Download CV:</a></h2>
                     <h2>Get a quote:</h2>
                     <p>Get a quote for your site or project by filling in a short questionnaire with your needs and I will get back to you asap.</p>
                     <a href="get-a-quote" class="btn-global">Get a quote</a>
@@ -128,7 +128,7 @@
 
                 <h2>How I manage a web design &amp; development project?</h2>
                 <p>Please find out more in detail about the process of the way I manage a web development project in stages to its final completion.</p>
-                <a href="#lightbox-content" class="btn-global lightbox-services">Find out more<span class="arrow"></span><span></span></a>
+                <a href="#lightbox-content" class="btn-global cta-lightbox-services">Find out more<span class="arrow"></span><span></span></a>
             </article>
 
             <article class="col-2 element">
@@ -377,17 +377,15 @@
                     <li><img src="assets/img/icons/contact/phone.png" alt="Phone" title="Phone" width="24" height="24" /> +44 (0) 79 170 44 052</li>
                     <li><a href="http://www.linkedin.com/in/rohanchambers" class="targetBlank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn" title="LinkedIn" width="24" height="24" />LinkedIn</a></li>
                     <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/skype_icon.png" alt="Skype" title="Skype" width="24" height="24" />Skype</a> (On request only)</li>
-                    <li><a href="http://www.twitter.com/rohanchambers" class="targetBlank"><img src="assets/img/icons/contact/twitter_icon.png" alt="Twitter" title="Twitter" width="24" height="24" />Twitter</a></li>
                 </ul>
             </article>
             <article class="col-3">
                 <div id="get-a-quote">
                     <h2>Get a quote</h2>
-                    <p>If you wish to get a quote for one of your projects<br> please click the button below and fill in the questionnaire.</p>
+                    <p>If you wish to get a quote for one of your projects please click the button below and fill in the questionnaire or email me directly.</p>
                     <a href="get-a-quote" class="btn-global btn-spacer">Get a quote<span class="arrow"></span><span></span></a>
                 </div>
             </article>
         </section>
 	</div><!-- End of container -->
-
     <?php include("incl/inc-footer.php"); ?>

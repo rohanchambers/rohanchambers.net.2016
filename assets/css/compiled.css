@@ -523,6 +523,19 @@ section header h1 {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #fff; }
 
+#site-map,
+#get-quote-form,
+#accessibility {
+  margin-top: 50px; }
+  #site-map h1:after,
+  #get-quote-form h1:after,
+  #accessibility h1:after {
+    display: none; }
+  #site-map p,
+  #get-quote-form p,
+  #accessibility p {
+    width: 60%; }
+
 .container {
   max-width: 1024px;
   margin-left: auto;
@@ -660,6 +673,150 @@ article {
       .accordion-tabs-minimal .tab-content {
         border-top: 1px solid #171922;
         float: left; } }
+
+.lightbox-bg,
+.lightbox-services,
+.lightbox-home {
+  z-index: 1;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.lightbox-bg {
+  background: #000;
+  opacity: 0.8;
+  filter: alpha(opacity=8); }
+
+.lightbox-panel {
+  position: relative;
+  width: 500px;
+  height: auto;
+  margin: 100px auto; }
+
+.lightbox-content {
+  border-top: 5px solid #0074C0;
+  background-color: #FFF;
+  padding: 10px; }
+
+.close {
+  position: absolute;
+  top: -20px;
+  right: 0; }
+
+.close a {
+  color: #FFF; }
+
+.no-js #lightbox {
+  position: relative;
+  width: 430px;
+  display: block;
+  float: right; }
+
+.no-js #lightbox-content {
+  float: left;
+  margin-top: 15px;
+  padding: 0;
+  background: none; }
+
+.no-js #lightbox-panel {
+  width: 430px;
+  margin: 0; }
+
+.no-js #close {
+  display: none; }
+
+.no-js .home #lightbox {
+  float: left; }
+
+.no-js .home #lightbox h2 {
+  padding-top: 10px; }
+
+#get-quote-form {
+  margin-top: 50px; }
+  #get-quote-form header p {
+    width: 60%; }
+  #get-quote-form form {
+    margin-bottom: 25px; }
+    #get-quote-form form fieldset {
+      display: block;
+      padding: 0;
+      clear: both;
+      width: 100%;
+      border: none; }
+      #get-quote-form form fieldset .col-right {
+        float: left;
+        width: 300px; }
+      #get-quote-form form fieldset p {
+        font-size: inherit;
+        margin: 0; }
+        #get-quote-form form fieldset p strong {
+          display: block; }
+      #get-quote-form form fieldset input,
+      #get-quote-form form fieldset textarea,
+      #get-quote-form form fieldset select {
+        padding: 2px;
+        font-size: 1em;
+        color: #666666;
+        background: #F5F5F5;
+        border: 1px solid #ccc;
+        float: left;
+        display: block;
+        margin: 5px 0 10px; }
+      #get-quote-form form fieldset input:focus,
+      #get-quote-form form fieldset textarea:focus,
+      #get-quote-form form fieldset select:focus {
+        border: 1px solid #999;
+        background-color: #FFF; }
+      #get-quote-form form fieldset input:hover,
+      #get-quote-form form fieldset textarea:hover,
+      #get-quote-form form fieldset select:hover {
+        padding: 2px;
+        font-size: 1em;
+        color: #666666;
+        border: 1px solid #999;
+        background-color: #FFF;
+        float: left;
+        display: block;
+        margin: 5px 0 10px; }
+    #get-quote-form form label {
+      display: block;
+      width: 300px;
+      float: left;
+      margin: 5px 0 0;
+      padding-right: 10px;
+      line-height: 1.7;
+      clear: both; }
+      #get-quote-form form label input {
+        margin-right: 5px; }
+        #get-quote-form form label input:hover {
+          margin-right: 5px; }
+      #get-quote-form form label small {
+        display: block; }
+      #get-quote-form form label p {
+        clear: both; }
+    #get-quote-form form p strong {
+      clear: both; }
+    #get-quote-form form .btn-global {
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      margin-top: 10px;
+      outline: none; }
+    #get-quote-form form .required {
+      font-size: 1.3rem;
+      color: red; }
+    #get-quote-form form .errormsg {
+      display: block;
+      width: 100%;
+      color: #FFF;
+      text-transform: uppercase;
+      background: #FF9D9D url(../img/global/stop.gif) no-repeat 10px center;
+      padding: 10px 50px;
+      border-top: 2px solid #FF0000;
+      border-bottom: 2px solid #FF0000; }
 
 .jssora22l, .jssora22r {
   position: absolute;
@@ -995,7 +1152,8 @@ a:hover {
           display: none; }
       #header-main.mini #nav-main ul .desktop-nav {
         display: none; }
-      #header-main.mini #nav-main ul .desktop-nav-mini {
+      #header-main.mini #nav-main ul .desktop-nav-mini,
+      #header-main.mini #nav-main ul .desktop-nav.services {
         display: block; }
   #header-main.mini #logo {
     margin: 5px 2%;
@@ -1058,6 +1216,17 @@ a:hover {
   -moz-transition: all 500ms ease;
   -ms-border-radius: all 500ms ease;
   transition: all 500ms ease; }
+#about .intro-scroll-arrow.buttonPulse {
+  animation: buttonPulse 1750ms;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; }
+@keyframes buttonPulse {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.8; }
+  100% {
+    opacity: 1; } }
 #about #cv h2 {
   height: 35px;
   line-height: 35px; }
@@ -1127,12 +1296,12 @@ a:hover {
   left: 110px;
   bottom: 45%; }
 #skills article {
-  min-height: 270px;
+  min-height: 280px;
   background: #FFF url(../img/global/bg_panels.png) no-repeat bottom left;
   box-shadow: 2px 2px 8px #D2D2D2;
   margin-bottom: 10px; }
-#skills article.col-2 {
-  min-height: 240px; }
+  #skills article.col-4 {
+    min-height: 320px; }
 
 #clients h1:after {
   left: 120px;
@@ -1187,7 +1356,7 @@ footer {
   background: url(../img/global/bg_footer.jpg);
   color: #FFF; }
   footer #copyright {
-    padding: 175px 0 20px 0; }
+    padding: 30px 0; }
     footer #copyright::after {
       clear: both;
       content: "";
@@ -1264,65 +1433,59 @@ footer {
     height: auto;
     width: 100%; }
 
-#portfolio {
-  margin-top: 50px; }
-  #portfolio h1:after {
-    display: none; }
-  #portfolio p {
-    width: 60%; }
-  #portfolio .filter-button-group a {
-    display: inline-block;
-    font-size: 1.6rem;
-    color: #000;
-    margin: 0 5px 10px 0;
-    text-decoration: none;
-    padding: 3px 5px; }
-  #portfolio .filter-button-group a:hover,
-  #portfolio .filter-button-group a.active {
-    color: #FFF;
-    background-color: #0074c0; }
-  #portfolio ul {
-    padding: 0; }
-    #portfolio ul .grid-item {
+#portfolio .filter-button-group a {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #000;
+  margin: 0 5px 10px 0;
+  text-decoration: none;
+  padding: 3px 5px; }
+#portfolio .filter-button-group a:hover,
+#portfolio .filter-button-group a.active {
+  color: #FFF;
+  background-color: #0074c0; }
+#portfolio ul {
+  padding: 0; }
+  #portfolio ul .grid-item {
+    position: relative;
+    display: block;
+    list-style-type: none;
+    width: 32.25%;
+    margin-right: 1%;
+    margin-bottom: 1%; }
+    #portfolio ul .grid-item h3 {
+      margin-top: 5px;
+      font-size: 1.4rem;
+      font-weight: bold; }
+      #portfolio ul .grid-item h3 span {
+        font-weight: normal; }
+    #portfolio ul .grid-item img {
+      width: 100%;
+      min-height: auto;
+      border: 5px solid #FFF; }
+      #portfolio ul .grid-item img:hover {
+        border: 5px solid #0074c0;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-border-radius: all 500ms ease;
+        transition: all 500ms ease; }
+    #portfolio ul .grid-item a {
       position: relative;
+      color: #000;
+      text-decoration: none; }
+    #portfolio ul .grid-item a:hover {
+      transition: none;
+      background: transparent; }
+    #portfolio ul .grid-item .view-more {
       display: block;
-      list-style-type: none;
-      width: 32.25%;
-      margin-right: 1%;
-      margin-bottom: 1%; }
-      #portfolio ul .grid-item h3 {
-        margin-top: 5px;
-        font-size: 1.4rem;
-        font-weight: bold; }
-        #portfolio ul .grid-item h3 span {
-          font-weight: normal; }
-      #portfolio ul .grid-item img {
-        width: 100%;
-        min-height: auto;
-        border: 5px solid #FFF; }
-        #portfolio ul .grid-item img:hover {
-          border: 5px solid #0074c0;
-          -webkit-transition: all 500ms ease;
-          -moz-transition: all 500ms ease;
-          -ms-border-radius: all 500ms ease;
-          transition: all 500ms ease; }
-      #portfolio ul .grid-item a {
-        position: relative;
-        color: #000;
-        text-decoration: none; }
-      #portfolio ul .grid-item a:hover {
-        transition: none;
-        background: transparent; }
-      #portfolio ul .grid-item .view-more {
-        display: block;
-        z-index: 1;
-        position: absolute;
-        top: 0;
-        left: 0;
-        font-size: 3rem;
-        width: 100%;
-        height: 100%;
-        background-color: red; }
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 3rem;
+      width: 100%;
+      height: 100%;
+      background-color: red; }
 
 #back-to-top {
   position: fixed;
@@ -1455,13 +1618,18 @@ footer {
   #services:first-child article {
     margin-bottom: 250px; }
 
-  #portfolio p {
+  #portfolio p,
+  #get-quote-form p {
     width: 100%; }
-  #portfolio ul .grid-item {
+  #portfolio ul .grid-item,
+  #get-quote-form ul .grid-item {
     width: 49%; }
 
   #carousel div .captions {
     display: none; } }
+@media screen and (max-width: 650px) {
+  #get-quote-form form label {
+    width: 100%; } }
 @media screen and (max-width: 600px) {
   #about i {
     display: none; }
@@ -1522,9 +1690,9 @@ footer {
       left: 0;
       right: auto; }
 
-  #skills article,
-  #skills article.col-2 {
-    min-height: auto; }
+  #skills article.col-2,
+  #skills article.col-4 {
+    min-height: 0; }
 
   #clients .row .client {
     float: left;
@@ -1540,6 +1708,15 @@ footer {
     font-size: 1.3rem; }
 
   #portfolio ul .grid-item {
-    width: 100%; } }
+    width: 100%; }
+
+  .lightbox-panel {
+    width: 100%; }
+
+  #copyright #under-hood {
+    display: none; }
+
+  #contact {
+    min-height: 0; } }
 
 /*# sourceMappingURL=styles.css.map */
