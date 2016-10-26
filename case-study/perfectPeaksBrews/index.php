@@ -1,8 +1,14 @@
 <?php
+    $PRODUCTION = true;
     $browserTitle = 'Perfect Peaks Brews | Rohan Chambers';
     $activePortfolio = 'active';
 ?>
-<?php include("../../incl/inc-header.php"); ?>
+<?php if ($PRODUCTION) { ?>
+        <?php include("../../incl/dist/inc-header.php"); ?>
+    <?php } else { ?>
+        <?php include("../../incl/inc-header.php"); ?>
+    <?php }
+?>
 
     <div id="case-study" class="container">
         <section id="case-study-content" class="col-3">
@@ -10,8 +16,7 @@
 			<ul id="controls">
 				<li><a href="../phoneresq/" class="go-back" title="Previous Project"></a></li>
 				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
-				<li><a href="../heineken/" class="go-next" title="Next Project"></a></li>
-                
+				<li><a href="../heineken/" class="go-next" title="Next Project"></a></li>            
 			</ul>
 
             <h1>Perfect Peaks Brews</h1>

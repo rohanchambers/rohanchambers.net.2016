@@ -1,8 +1,14 @@
 <?php
+    $PRODUCTION = true;
     $browserTitle = 'Cadbury, Advent Calendar | Rohan Chambers';
     $activePortfolio = 'active';
 ?>
-<?php include("../../incl/inc-header.php"); ?>
+<?php if ($PRODUCTION) { ?>
+        <?php include("../../incl/dist/inc-header.php"); ?>
+    <?php } else { ?>
+        <?php include("../../incl/inc-header.php"); ?>
+    <?php }
+?>
 
     <div id="case-study" class="container">
         <section id="case-study-content" class="col-3">
@@ -41,7 +47,8 @@
 $author = 'Rohan Chambers';
 $browserDescription = 'This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer/Developer based in London, UK.';
 $browserKeywords = 'rohan chambers, rohan, chambers, freelance front end developer, front end developer, web designer, web development, xhtml, css, html5, css3, jquery, w3c, web standards';
-$browserTitle = 'Cadbury, Advent Calendar | RohanChambers.net';
+$PRODUCTION = true;
+    $browserTitle = 'Cadbury, Advent Calendar | RohanChambers.net';
 $classBody = 'case-study';
 $thisPage='portfolio';
 ?>

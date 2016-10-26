@@ -1,8 +1,14 @@
 <?php
+    $PRODUCTION = true;
     $browserTitle = '3D Virtual House Version 1. | Rohan Chambers';
     $activePortfolio = 'active';
 ?>
-<?php include("../../incl/inc-header.php"); ?>
+<?php if ($PRODUCTION) { ?>
+        <?php include("../../incl/dist/inc-header.php"); ?>
+    <?php } else { ?>
+        <?php include("../../incl/inc-header.php"); ?>
+    <?php }
+?>
 
     <div id="case-study" class="container">
         <section id="case-study-content" class="col-3">
