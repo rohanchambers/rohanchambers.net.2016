@@ -27,15 +27,9 @@
             </div>
         </div>
     </div><!-- End of Lightbox -->
-    <!--(if target dev)><!-->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
-    <script src="/assets/js/vendor/jssor.slider.min.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
-    <script src="/assets/js/main.js"></script>
-    <!--<!(endif)-->
-    <!--(if target dist)>
-    <script src="assets/js/compiled.min.js?{{rlsdate}}"></script>
-    <!(endif)-->
+    
+    
+    <script src="assets/js/compiled.min.js?20161026"></script>
+    
 </body>
 </html>

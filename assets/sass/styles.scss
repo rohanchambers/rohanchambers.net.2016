@@ -282,6 +282,10 @@ a:hover {
 		}
 	}
 
+	#intro {
+		padding-left: 0;
+	}
+
 	#intro:hover {
 		strong {
 			color: $blue;
@@ -412,13 +416,13 @@ a:hover {
 	}
 
  	article {
- 		min-height: 280px;
+ 		min-height: 245px;
 		background: $white url(#{$img}global/bg_panels.png) no-repeat bottom left;
 		box-shadow: 2px 2px 8px #D2D2D2;
 		margin-bottom: 10px;
 
 		&.col-4 {
-			min-height: 320px;
+			min-height: 290px;
 		}
 	}
 
@@ -427,6 +431,10 @@ a:hover {
 
 // Section Clients
 #clients {
+	header {
+		margin-bottom: 20px;
+	}
+
 	h1:after {
 	    left: 120px;
 	    bottom: 45%;
@@ -436,7 +444,6 @@ a:hover {
 		.client {
 			position:relative;
 		    margin-right: 0;
-		    //width: 25%;
 		    border: 1px solid #FFF;
 
     		img {

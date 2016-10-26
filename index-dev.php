@@ -1,9 +1,71 @@
-<?php
-    $browserTitle = 'Rohan Chambers | London Freelance Front End Developer and Web Designer';
-    $pageName = 'page-home';
-    $activeHome = 'active'
-?>
-<?php include("incl/inc-header.php"); ?>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rohan Chambers | London Freelance Front End Developer and Designer</title>
+    <meta name="author" content="Rohan Chambers">
+    <meta name="description" content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London." />
+    <meta name="keywords" content="rohan chambers, rohan, chambers, freelance front end developer, front end developer, london front end developer, html5 developer, web developer, web designer, html5, css3, responsive web design" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--(if target dev)><!-->
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!--<!(endif)-->
+    <!--(if target dist)>
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?{{rlsdate}}">
+    <!(endif)-->
+    <!--(if target dev)><!-->
+    <script src="/assets/js/vendor/modernizr-custom.js"></script>
+    <!--<!(endif)-->
+
+    <!-- Open graph tags -->
+    <meta property="og:image"           content="http://rohanchambers.net/assets/img/global/rohanchambers.jpg">
+    <meta property="og:title"           content="Rohan Chambers's Online Portfolio">
+    <meta property="og:description"     content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London.">
+    <meta property="og:url"             content="">
+    <meta property="og:image:width"     content="600">
+    <meta property="og:image:height"    content="600">
+    <meta property="og:image:type"      content="image/jpg">
+    <meta property="fb:app_id"          content="176614055742926">
+
+    <meta name="twitter:card"           content="summary">
+    <meta name="twitter:site"           content="http://rohanchambers.net">
+    <meta name="twitter:title"          content="Rohan Chambers's Online Portfolio">
+    <meta name="twitter:description"    content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London.">
+    <meta name="twitter:creator"        content="Rohan Chambers">
+    <meta name="twitter:image:src"      content="http://rohanchambers.net/assets/img/global/rohanchambers.jpg">
+    <meta name="twitter:domain"         content="rohanchambers.net">
+</head>
+<body id="page-home">
+    <div id="home"></div>
+    <div class="container">
+        <header id="header-main" class="row">
+            <div id="logo">
+                <a href="/">Rohan Chambers</a>
+                <img src="/assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
+            </div>
+
+            <button class="c-hamburger c-hamburger--htx">
+                <span>Toggle menu</span>
+            </button>
+
+            <nav role="navigation" id="nav-main" class="">
+                <ul>
+                    <li class="<?=$activeHome?>"><a href="/index.php#home">Home <span>Welcome</span></a></li>
+                    <li class="desktop-nav-mobile"><a href="/index.php#what-i-do">What I do <span>What I do</span></a></li>
+                    <li class="desktop-nav services"><a href="/index.php#services">Services <span>What I do</span></a></li>
+                    <li class="desktop-nav-mini"><a href="/index.php#skills">Skills <span>My work</span></a></li>
+                    <li class=""><a href="/index.php#contact">Contact <span>Get in touch</span></a></li>
+                    <li class="<?=$activePortfolio?>"><a href="/portfolio">Portfolio <span>My work</span></a></li>
+                    <li class="desktop-nav last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
 
     <div class="container carousel">
         <div class="row">
@@ -35,28 +97,27 @@
             </header>
 
 			<article id="intro" class="col-5 element">
-                <h1>Intro:</h1>
-                <p>This <strong>website</strong> is primarily designed to be an online portfolio presence for <strong>Rohan Chambers</strong>, a <strong>Front-end Developer/Web Designer</strong> based in London, UK.
-                I am currently working as a <strong>Social Media Technologist (Front end)</strong> for an agency called <strong>We Are Social</strong>. Prior to this I was working full time at <strong>Playboy UK</strong> for 3 years as a web developer and continue to freelance on an occasional basis.</p>
-                <p>Some of the <strong>Technologies</strong> used on this site and other <strong>Projects</strong> I have done include <strong>XHTML, CSS</strong> complemented by some Javascript, Jquery, PHP and Wordpress.
-                I am currently being exposed to <strong>HTML5 and CSS3</strong> for projects in the near future and have good knowledge of best practices in <strong>Accessibility</strong>, SEO and <strong>W3C standards</strong>.</p>
+                <h2>Bio:</h2>
+                <p>This <strong>website</strong> is primarily designed to be an online portfolio presence for <strong>Rohan Chambers</strong>, a <strong>Front-end Developer</strong> based in London, UK.
+                I have recently started working freelance but prior to this I was a <strong>Social Media Technologist (Front end)</strong> for an agency called <strong>We Are Social</strong> for around three years. Prior to that I was working full time at <strong>Playboy UK</strong> as a web developer.</p>
+                <p>Some of the <strong>Technologies</strong> used on this site and other <strong>Projects</strong> I have done include <strong>HTML5, CSS3 (SASS) with Bourbon &amp; Neat</strong> complemented by some Javascript, <strong>Jquery</strong>, Wordpress, Bower, Grunt, and the list goes on along with good knowledge of best practices in <strong>Accessibility</strong>, SEO and <strong>W3C standards</strong>.</p>
+                <p>I am currently trying to delve in to <strong>Angular JS</strong> but my main focus is <strong>expanding</strong> on my JavaScript skills for projects in the near <strong>future</strong>.</p>
             </article>
 
             <article id="intro-skills" class="col-5-1 mob-2 element">
                 <h2>My skills:</h2>
                 <ul class="bullets">
-                    <li>XHTML - HTML5 (Advanced level)</li>
-                    <li>CSS (2 &amp; 3) (Advanced) level</li>
-                    <li>Clean HTML Semantic Mark-up</li>
-                    <li>Responsive web design</li>
-                    <li>iPhone/iPad Mobile Websites</li>
-                    <li>JavaScript/jQuery (Integration level)</li>
-                    <li>PHP (Basic level)</li>
-                    <li>Wordpress Theme Development</li>
+                    <li>HTML5 - CSS3 (Advanced level)</li>
+                    <li>Clean HTML5 semantic mark-up</li>
+                    <li>Responsive web design &amp; development</li>
+                    <li>Mobile and tablet ready</li>
+                    <li>JavaScript/jQuery (UI implemnetation)</li>
+                    <li>Cross browser compatibility</li>
+                    <li>Wordpress theme development</li>
+                    <li>PHP (Basic level)</li>                    
                     <li>Coding to W3C Web Standards</li>
-                    <li>Accessibility Standards</li>
-                    <li>Cross Browser Compatibility</li>
-                    <li>Search Engine Optimisation (SEO)</li>
+                    <li>Accessibility standards</li>                    
+                    <li>Search engine optimisation best practices (SEO)</li>
                 </ul>
                 <a href="services" class="btn-global">Find out more<span></span></a>
             </article>
@@ -100,13 +161,13 @@
             </article>
             <article id="psd-html5" class="col-4 element">
                 <h2>PSD to HTML5</h2>
-                <p>I specialise in taking your designs/photoshop (PSD) file(s) and converting them into a clean cross-browser and cross-platform Xhtml/CSS web template or complete website.</p>
+                <p>I specialise in taking your designs/photoshop (PSD) file(s) and converting them into a clean cross-browser and cross-platform HTML5/CSS3 web templates or complete website.</p>
                 <a href="#"></a>
                 <span class="btn-global">Find out more</span>
             </article>
             <article id="social" class="col-4 element">
                 <h2>Social Media builds</h2>
-                <p>I can develop web pages for Facebook tabs using FBML to help promote your product or company as well as Youtube channel re-skins to fit your brands look and feel.</p>
+                <p>I can develop Facebook apps. to help promote your product or company as well as create skins for all major social media platform including youTube channel re-skins to fit your brands look and feel.</p>
                 <a href="#"></a>
                 <span class="btn-global">Find out more</span>
             </article>
@@ -121,7 +182,7 @@
                 <p>All the projects that I have taken on have always been thoroughly scoped and planned out in order to meet crucial
                 deadlines and satisfy client demands and timelines. Understanding that the multimedia industry is a very competitive
                 market I always try to keep the price for my services as realistic and affordable as possible.</p>
-                <p>If you would like to get a quote or some information regarding your project please feel free to <a href="contact" class="block-link">get in contact</a>
+                <p>If you would like to get a quote or some information regarding your project please feel free to <a href="index#contact" class="block-link">get in contact</a>
                 or click on the button below and complete a requirements form that will send me your info and details regarding your project.
                 <br /><span class="confidential">*All details will be kept strictly confidential.</span></p>
                 <a href="get-a-quote" class="btn-global btn-spacer">Get a quote<span class="arrow"></span><span></span></a>
@@ -147,14 +208,14 @@
                             <ul class="bullets">
                                 <li>Mock ups and initial design in Photoshop</li>
                                 <li>Hand-coded web development</li>
-                                <li>Cross platform (X)HTML/CSS web-sites</li>
+                                <li>Cross platform HTML5/CSS3 website builds</li>
                                 <li>Accessibility &amp; W3C Compliant builds</li>
                                 <li>Branding &amp; logo design</li>
                                 <li>HTML email newsletter builds</li>
                                 <li>Search engine optimisation</li>
                                 <li>Web Blog integration</li>
                                 <li>Social Media: Facebook Page development</li>
-                                <li>Social Media:YouTube re-skins for personalised channels</li>
+                                <li>Social Media: YouTube re-skins for personalised channels</li>
                                 <li>Design of Web sites, Landing pages, Email Newsletters, flyers</li>
                             </ul>
                         </div>
@@ -166,8 +227,8 @@
                             <p>Hand-coded, cross browser/platform compatible (X)HTML/CSS web templates.</p>
                             <p>Specialise in <strong>converting</strong> your designs into <strong>high quality</strong>, hand-coded, cross browser and cross platform <strong>compatible</strong> web templates.</p>
                             <ul class="bullets">
-                                <li>Pixel-perfect PSD to (X)HTML and CSS conversion. W3C Standards Compliant.</li>
-                                <li>Cross browser and cross platform compatibility (Works perfectly in all browsers and operating systems)</li>
+                                <li>Pixel-perfect PSD to HTML5 and CSS3 conversion. W3C Standards Compliant.</li>
+                                <li>Cross browser / mobile / tablet / platform compatibility (Works perfectly in all major browsers and devices)</li>
                                 <li>Search engine optimised</li>
                                 <li>Usability and accessibility in mind when hand-coding all web sites</li>
                                 <li>Optimised for fast loading</li>
@@ -204,12 +265,11 @@
                     <h2>Languages</h2>
                     <ul class="bullets">
                         <li>XHTML - HTML5 (Advanced)</li>
-                        <li>CSS (2 &amp; 3) (Advanced)</li>
-                        <li>Responsive Web Design, iPhone/iPad</li>
-                        <li>JavaScript/jQuery Library (<a href="dev" class="block-link">View examples</a>)</li>
-                        <li>XHTML - HTML5 (Advanced)</li>
+                        <li>CSS3 (SASS) (Advanced)</li>
+                        <li>Responsive Web Design &amp; development</li>
+                        <li>Automation tools: Bower, Grunt and Git hub</li>
+                        <li>JavaScript/jQuery (UI implemnetation) (<a href="/dev" class="block-link">View examples</a>)</li>
                         <li>Wordpress theme creation</li>
-                        <li>PHP (Basic level)</li>
                     </ul>
                 </article>
                 <article class="col-2">
@@ -219,7 +279,7 @@
                         <li>Git Hub, Source Tree</li>
                         <li>SVN Turtoise / Synchro SVN(MacOSX)</li>
                         <li>Adobe Suite</li>
-                        <li>Campaign monitor (Email distribution service)</li>
+                        <li>Mail Chimp / Campaign monitor (Email distribution service)</li>
                     </ul>
                 </article>
             </div><!-- End of row -->
@@ -228,47 +288,44 @@
                 <article class="col-4">
                     <h2>Web standards</h2>
                     <ul class="bullets">
-                        <li>XHTML - HTML5 (Advanced)</li>
-                        <li>CSS (2 &amp; 3) (Advanced)</li>
-                        <li>Responsive Web Design, iPhone/iPad</li>
-                        <li>JavaScript/jQuery Library (<a href="dev" class="block-link">View examples</a>)</li>
-                        <li>XHTML - HTML5 (Advanced)</li>
-                        <li>Wordpress theme creation</li>
-                        <li>PHP (Basic level)</li>
+                        <li>Clean HTML5 semantic mark-up</li>
+                        <li>Coding to W3C web standards</li>
+                        <li>Accessibility to WAI standards</li>
+                        <li>Cross browser compatibility. All major browsers and devices</li>
+                        <li>Graceful degradation</li>
+                        <li>Progressive enhancement</li>
                     </ul>
                 </article>
                 <article id="software" class="col-4">
                     <h2>Perfomance</h2>
                     <ul class="bullets">
-                        <li>Sublime / Coda (IDE)</li>
-                        <li>Git Hub, Source Tree</li>
-                        <li>SVN Turtoise / Synchro SVN(MacOSX)</li>
-                        <li>Adobe Suite</li>
-                        <li>Campaign monitor (Email distribution service)</li>
+                        <li>Search engine optimisation (SEO)</li>
+                        <li>Minimal HTTP requests</li>
+                        <li>CSS Sprites</li>                        
+                        <li>SVG icons</li>
+                        <li>Automation tools, Grunt for minifcation of files</li>
+                        <li>Image Optimisation</li>
                     </ul>
                 </article>
                 <article class="col-4">
                     <h2>Planning</h2>
                     <ul class="bullets">
-                        <li>Clean HTML5 semantic mark-up</li>
-                        <li>Coding to W3C web standards</li>
-                        <li>Accessibility to WAI standards</li>
-                        <li>Cross browser compatibility</li>
-                        (Firefox, Safari, Chrome, Opera, IE6-9)
-                        <li>Graceful degradation</li>
-                        <li>Progressive enhancement</li>
+                        <li>User experience</li>
+                        <li>Information architecture</li>
+                        <li>Web ergonomics</li>
+                        <li>Usability</li>
+                        <li>Prototyping</li>
+                        <li>Estimation of budget/time of front end development</li>
                     </ul>
                 </article>
                 <article class="col-4">
                     <h2>Management</h2>
                     <ul class="bullets">
-                        <li>XHTML - HTML5 (Advanced)</li>
-                        <li>CSS (2 &amp; 3) (Advanced)</li>
-                        <li>Responsive Web Design, iPhone/iPad</li>
-                        <li>JavaScript/jQuery Library (<a href="dev" class="block-link">View examples</a>)</li>
-                        <li>XHTML - HTML5 (Advanced)</li>
-                        <li>Wordpress theme creation</li>
-                        <li>PHP (Basic level)</li>
+                        <li>Good client facing skills</li>
+                        <li>Good at communicating with other departments</li>
+                        <li>Proactive at getting tasks completed</li>
+                        <li>Bilingual in English and French</li>
+                        <li>Enjoy</li>
                     </ul>
                 </article>
             </div><!-- End of row -->
@@ -277,7 +334,7 @@
         <section id="clients" class="row">
             <header>
                 <h1>Clients</h1>
-                <p>Some of the clients and brands I have worked on, whist working at different <br>digital agencies.</p>
+                <p>Some of the clients and brands I have worked on, whist working at various <br>digital agencies around London.</p>
             </header>
             <div class="row">
                 <div class="client">
@@ -388,4 +445,45 @@
             </article>
         </section>
 	</div><!-- End of container -->
-    <?php include("incl/inc-footer.php"); ?>
+
+    <footer>
+        <div class="container">
+            <div id="copyright">
+                <img src="/assets/img/global/rohanchambers_logo.png" alt="Rohan Chambers" width="100" height="31" />
+                <div><p>Website Designed and Developed by Rohan Chambers &copy;2016<br />
+                Valid <a href="http://validator.w3.org/check?uri=referer">HTML 5</a> and <a href="http://jigsaw.w3.org/css-validator/">CSS 3</a> | <a href="/site-map">Site map</a> | <a href="/accessibility">Accessibility</a> | <a href="/contact">Contact</a></p></div>
+                <a href="#" class="cta-lightbox-home"><img id="under-hood" src="/assets/img/icons/under_hood.png" alt="Under the Hood of RohanChambers.net" title="Under the Hood of RohanChambers.net"></a>
+            </div>
+        </div>
+    </footer>
+    <button id="back-to-top" class="buttonTopPulse"></button>
+    <!-- Lightbox markup -->
+    <div class="lightbox-bg"></div>
+    <div class="lightbox-services">
+        <div class="lightbox-panel">
+            <div class="close"><a href="#">Close X</a></div>
+            <div class="lightbox-content">
+                <?php include("incl/inc-light-services.php"); ?>
+            </div>
+        </div>
+    </div>
+    <div class="lightbox-home">
+        <div class="lightbox-panel">
+            <div class="close"><a href="#">Close X</a></div>
+            <div class="lightbox-content">
+                <?php include("incl/inc-light-under-hood.php"); ?>
+            </div>
+        </div>
+    </div><!-- End of Lightbox -->
+    <!--(if target dev)><!-->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="/assets/js/vendor/jssor.slider.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <!--<!(endif)-->
+    <!--(if target dist)>
+    <script src="assets/js/compiled.min.js?{{rlsdate}}"></script>
+    <!(endif)-->
+</body>
+</html>

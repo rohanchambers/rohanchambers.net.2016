@@ -11,16 +11,11 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!--(if target dev)><!-->
-    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <!--<!(endif)-->
-    <!--(if target dist)>
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?{{rlsdate}}">
-    <!(endif)-->
-    <!--(if target dev)><!-->
-    <script src="/assets/js/vendor/modernizr-custom.js"></script>
-    <!--<!(endif)-->
+    
+    
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20161026">
+    
+    
 
     <!-- Open graph tags -->
     <meta property="og:image"           content="http://rohanchambers.net/assets/img/global/rohanchambers.jpg">

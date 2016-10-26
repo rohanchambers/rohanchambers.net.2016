@@ -83,10 +83,18 @@ module.exports = function(grunt){
 
 		// Environment Production, Dev
 		targethtml: {
+			options: {
+				curlyTags: {
+					rlsdate: '<%= grunt.template.today("yyyymmdd") %>'
+				}
+			},
+						
 			dist: {
 				files: {
 				  'index.php': 'index-dev.php',
-				  'portfolio.php': 'portfolio-dev.php'
+				  'portfolio.php': 'portfolio-dev.php',
+				  'incl/dist/inc-header.php': 'incl/inc-header.php',
+				  'incl/dist/inc-footer.php': 'incl/inc-footer.php'
 				}
 			}
 		},
@@ -140,5 +148,5 @@ module.exports = function(grunt){
 	grunt.registerTask('default', ['browserSync', 'watch']);
 
 	// Production - Build app
-	grunt.registerTask('prod', ['concat' ,'cssmin', 'uglify', 'targethtml', 'watch']);
+	grunt.registerTask('prod', ['concat' ,'cssmin', 'uglify', 'targethtml', 'browserSync', 'watch']);
 };

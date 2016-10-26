@@ -68,6 +68,7 @@ section header h1 {
     position: relative;
     padding-left: 20px;
     color: $dark-blue;
+    font-size: 2.5rem;
 
     &:before {
         position: absolute;
@@ -91,7 +92,8 @@ section header h1 {
 #portfolio,
 #site-map,
 #get-quote-form,
-#accessibility {
+#accessibility,
+#js-projects {
     margin-top: 50px;
 
     h1:after {
