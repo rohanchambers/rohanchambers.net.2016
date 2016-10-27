@@ -33,7 +33,7 @@
 				<li>Claim a can: If your Instagram makes our gallery we will be in touch with details of how to claim your Red Bull Edition.</li>
 				<li>Give your Instagram Wings: The most inspiring Instagrams as chosen by our editors will be exhibited in cities across the UK.</li>
 			</ul>
-            <p><strong>View site:</strong> Site offline <a href="http://www.facebook.com/KleenexUK/app_528618900509543" class="targetBlank">Facebook.com/KleenexUK</a></p>
+            <p><strong>View site:</strong> Site offline <a href="http://redsilverblue.redbull.co.uk/" class="targetBlank">RedSilverBlue.Redbull.co.uk</a></p>
         </section>
         <section id="case-study-img" class="col-8">
 			<img src="img/home.jpg" alt="Redbull, Our Editions">
@@ -41,4 +41,9 @@
 		</section>
 	</div><!-- End of container -->
 
-<?php include("../../incl/inc-footer.php"); ?>
+<?php if ($PRODUCTION) { ?>
+        <?php include("../../incl/dist/inc-footer.php"); ?>
+    <?php } else { ?>
+        <?php include("../../incl/inc-footer.php"); ?>
+    <?php }
+?>

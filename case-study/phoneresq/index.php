@@ -41,6 +41,11 @@
     <?php if ($PRODUCTION) { ?>
             <?php include("../../incl/dist/inc-footer.php"); ?>
         <?php } else { ?>
-            <?php include("../../incl/inc-footer.php"); ?>
+            <?php if ($PRODUCTION) { ?>
+        <?php include("../../incl/dist/inc-footer.php"); ?>
+    <?php } else { ?>
+        <?php include("../../incl/inc-footer.php"); ?>
+    <?php }
+?>
         <?php }
     ?>

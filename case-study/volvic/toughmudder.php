@@ -14,9 +14,9 @@
         <section id="case-study-content" class="col-3">
             <h2>Case study</h2>
 			<ul id="controls">
-				<li><a href="../jaguar/livefearless.php" class="go-back" title="Previous Project"></a></li>
+				<li><a href="../jaguar/livefearless" class="go-back" title="Previous Project"></a></li>
 				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
-				<li><a href="../heinz/getwellsoup.php" class="go-next" title="Next Project"></a></li>                
+				<li><a href="../heinz/getwellsoup" class="go-next" title="Next Project"></a></li>                
 			</ul>
 
             <h1>Volvic, Toughmudder got the bottle</h1>
@@ -42,4 +42,9 @@
         </section>
 	</div><!-- End of container -->
 
-<?php include("../../incl/inc-footer.php"); ?>
+<?php if ($PRODUCTION) { ?>
+        <?php include("../../incl/dist/inc-footer.php"); ?>
+    <?php } else { ?>
+        <?php include("../../incl/inc-footer.php"); ?>
+    <?php }
+?>

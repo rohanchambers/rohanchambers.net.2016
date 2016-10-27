@@ -14,7 +14,7 @@
         <section id="case-study-content" class="col-3">
             <h2>Case study</h2>
 			<ul id="controls">
-				<li><a href="../volvic/toughmudder.php" class="go-back" title="Previous Project"></a></li>
+				<li><a href="../volvic/toughmudder" class="go-back" title="Previous Project"></a></li>
 				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
 				<li><a href="../hotelsdotcom/" class="go-next" title="Next Project"></a></li>                
 			</ul>
@@ -40,4 +40,9 @@
         </section>
 	</div><!-- End of container -->
 
-<?php include("../../incl/inc-footer.php"); ?>
+<?php if ($PRODUCTION) { ?>
+        <?php include("../../incl/dist/inc-footer.php"); ?>
+    <?php } else { ?>
+        <?php include("../../incl/inc-footer.php"); ?>
+    <?php }
+?>

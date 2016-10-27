@@ -16,7 +16,7 @@
 			<ul id="controls">
 				<li><a href="../heineken/" class="go-back" title="Previous Project"></a></li>
 				<li><a href="/portfolio" class="go-all" title="All Projects"></a></li>
-				<li><a href="../volvic/toughmudder.php" class="go-next" title="Next Project"></a></li>
+				<li><a href="../volvic/toughmudder" class="go-next" title="Next Project"></a></li>
 			</ul>
 
             <h1>Jaguar UK, Live Fearless</h1>
@@ -37,4 +37,9 @@
         </section>
 	</div><!-- End of container -->
 
-    <?php include("../../incl/inc-footer.php"); ?>
+    <?php if ($PRODUCTION) { ?>
+        <?php include("../../incl/dist/inc-footer.php"); ?>
+    <?php } else { ?>
+        <?php include("../../incl/inc-footer.php"); ?>
+    <?php }
+?>
