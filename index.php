@@ -8,17 +8,17 @@
     <meta name="description" content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London." />
     <meta name="keywords" content="rohan chambers, rohan, chambers, freelance front end developer, front end developer, london front end developer, html5 developer, web developer, web designer, html5, css3, responsive web design" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20161026">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20161027">
     
     
 
     <!-- Open graph tags -->
-    <meta property="og:image"           content="http://rohanchambers.net/assets/img/global/rohanchambers.jpg">
+    <meta property="og:image"           content="http://rohanchambers.net/assets/img/global/social.jpg">
     <meta property="og:title"           content="Rohan Chambers's Online Portfolio">
     <meta property="og:description"     content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London.">
     <meta property="og:url"             content="">
@@ -32,7 +32,7 @@
     <meta name="twitter:title"          content="Rohan Chambers's Online Portfolio">
     <meta name="twitter:description"    content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London.">
     <meta name="twitter:creator"        content="Rohan Chambers">
-    <meta name="twitter:image:src"      content="http://rohanchambers.net/assets/img/global/rohanchambers.jpg">
+    <meta name="twitter:image:src"      content="http://rohanchambers.net/assets/img/global/social.jpg">
     <meta name="twitter:domain"         content="rohanchambers.net">
 </head>
 <body id="page-home">
@@ -41,7 +41,7 @@
         <header id="header-main" class="row">
             <div id="logo">
                 <a href="/">Rohan Chambers</a>
-                <img src="/assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
+                <img src="assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
             </div>
 
             <button class="c-hamburger c-hamburger--htx">
@@ -50,7 +50,7 @@
 
             <nav role="navigation" id="nav-main" class="">
                 <ul>
-                    <li class="<?=$activeHome?>"><a href="/index.php#home">Home <span>Welcome</span></a></li>
+                    <li class="active"><a href="/index.php#home">Home <span>Welcome</span></a></li>
                     <li class="desktop-nav-mobile"><a href="/index.php#what-i-do">What I do <span>What I do</span></a></li>
                     <li class="desktop-nav services"><a href="/index.php#services">Services <span>What I do</span></a></li>
                     <li class="desktop-nav-mini"><a href="/index.php#skills">Skills <span>My work</span></a></li>
@@ -114,7 +114,7 @@
                     <li>Accessibility standards</li>                    
                     <li>Search engine optimisation best practices (SEO)</li>
                 </ul>
-                <a href="services" class="btn-global">Find out more<span></span></a>
+                <a href="#services" class="btn-global">Find out more<span></span></a>
             </article>
 
 			<!-- Contact section -->
@@ -144,26 +144,26 @@
             <article id="web-design" class="col-4 element">
                 <h2>Web Design</h2>
                 <p>I can design websites for various types of business's always keeping in mind a look and feel aspect that will suit any particular type of company in order to reflect its name, image and product.</p>
-                <a href="#"></a>
+                <a href="#services"></a>
                 <span class="btn-global">Find out more</span>
             </article>
 
             <article id="web-dev" class="col-4 element">
                 <h2>Web Development</h2>
                 <p>I can take on and develop all sizes of projects from personal to commercial websites with the use of the latest web technologies. Competitive prices and a professionally delivered product.</p>
-                <a href="#"></a>
+                <a href="#services"></a>
                 <span class="btn-global">Find out more</span>
             </article>
             <article id="psd-html5" class="col-4 element">
                 <h2>PSD to HTML5</h2>
                 <p>I specialise in taking your designs/photoshop (PSD) file(s) and converting them into a clean cross-browser and cross-platform HTML5/CSS3 web templates or complete website.</p>
-                <a href="#"></a>
+                <a href="#services"></a>
                 <span class="btn-global">Find out more</span>
             </article>
             <article id="social" class="col-4 element">
                 <h2>Social Media builds</h2>
                 <p>I can develop Facebook apps. to help promote your product or company as well as create skins for all major social media platform including youTube channel re-skins to fit your brands look and feel.</p>
-                <a href="#"></a>
+                <a href="#services"></a>
                 <span class="btn-global">Find out more</span>
             </article>
         </section>
@@ -444,10 +444,10 @@
     <footer>
         <div class="container">
             <div id="copyright">
-                <img src="/assets/img/global/rohanchambers_logo.png" alt="Rohan Chambers" width="100" height="31" />
+                <img src="assets/img/global/rohanchambers_logo.png" alt="Rohan Chambers" width="100" height="31" />
                 <div><p>Website Designed and Developed by Rohan Chambers &copy;2016<br />
                 Valid <a href="http://validator.w3.org/check?uri=referer">HTML 5</a> and <a href="http://jigsaw.w3.org/css-validator/">CSS 3</a> | <a href="/site-map">Site map</a> | <a href="/accessibility">Accessibility</a> | <a href="/contact">Contact</a></p></div>
-                <a href="#" class="cta-lightbox-home"><img id="under-hood" src="/assets/img/icons/under_hood.png" alt="Under the Hood of RohanChambers.net" title="Under the Hood of RohanChambers.net"></a>
+                <a href="#" class="cta-lightbox-home"><img id="under-hood" src="assets/img/icons/under_hood.png" alt="Under the Hood of RohanChambers.net" title="Under the Hood of RohanChambers.net"></a>
             </div>
         </div>
     </footer>
@@ -472,7 +472,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20161026"></script>
+    <script src="assets/js/compiled.min.js?20161027"></script>
     
 </body>
 </html>

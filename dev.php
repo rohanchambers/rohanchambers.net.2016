@@ -1,7 +1,7 @@
 <?php
     $browserTitle = 'Rohan Chambers | JavaScript projects';
 ?>
-<?php include("incl/inc-header.php"); ?>
+<?php include("incl/dist/inc-header.php"); ?>
 		<div class="container">
 			<section id="js-projects">
 				<header>
@@ -33,4 +33,4 @@
 				</ul>
 			</section><!-- /section -->					
 		</div><!-- /container -->
-<?php include("incl/inc-footer.php"); ?>
+<?php include("incl/dist/inc-footer.php"); ?>

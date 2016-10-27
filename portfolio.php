@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20161026">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20161027">
     
     
 
@@ -55,7 +55,7 @@
 
             <nav role="navigation" id="nav-main" class="">
                 <ul>
-                    <li class="<?=$activeHome?>"><a href="/index.php#home">Home <span>Welcome</span></a></li>
+                    <li class="<?=$activeHome?>"><a href="/">Home <span>Welcome</span></a></li>
                     <li class="desktop-nav-mobile"><a href="/index.php#what-i-do">What I do <span>What I do</span></a></li>
                     <li class="desktop-nav services"><a href="/index.php#services">Services <span>What I do</span></a></li>
                     <li class="desktop-nav-mini"><a href="/index.php#skills">Skills <span>My work</span></a></li>
@@ -618,7 +618,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20161026"></script>
+    <script src="assets/js/compiled.min.js?20161027"></script>
     
 </body>
 </html>

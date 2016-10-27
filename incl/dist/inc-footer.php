@@ -11,25 +11,17 @@
     <button id="back-to-top" class="buttonTopPulse"></button>
     <!-- Lightbox markup -->
     <div class="lightbox-bg"></div>
-    <div class="lightbox-services">
-        <div class="lightbox-panel">
-            <div class="close"><a href="#">Close X</a></div>
-            <div class="lightbox-content">
-                <?php include("incl/inc-light-services.php"); ?>
-            </div>
-        </div>
-    </div>
     <div class="lightbox-home">
         <div class="lightbox-panel">
             <div class="close"><a href="#">Close X</a></div>
             <div class="lightbox-content">
-                <?php include("incl/inc-light-under-hood.php"); ?>
+                <?php include("../../incl/inc-light-under-hood.php"); ?>
             </div>
         </div>
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20161026"></script>
+    <script src="/assets/js/compiled.min.js?20161027"></script>
     
 </body>
 </html>

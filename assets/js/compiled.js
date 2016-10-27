@@ -35,10 +35,6 @@ function getWidth() {
 	}
 }
 
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-	$('#header-main').addClass('mobile');
-}
-
 // Back to the top button
 $('#back-to-top').click( function(){
     $('html, body').animate({ scrollTop: 0}, 1000);
@@ -78,7 +74,6 @@ $(function($){
 	
 	// Close lightbox
 	$('html, body, .lightbox-bg, .close a').bind('click', function(){
-		console.log(999);
 		$('.lightbox-bg, .lightbox-home, .lightbox-services').fadeOut(speed);
 	});
 
@@ -113,7 +108,7 @@ $(function($){
 	// Open all links in case study in new window
 	$("#case-study-content .targetBlank[href^='http://']").attr('target','_blank');
 
-    // Scroll to sections
+    // Main nav scroll to sections
     $('#nav-main ul li a').click(function(e) {
     	//e.preventDefault();
         var section = $(this).attr('href').split('#')[1];
@@ -130,6 +125,15 @@ $(function($){
 	        return false;
     	}
     });
+
+    // Page links scroll to seections
+	// function goToByScroll(id){
+	// 	$('html, body').animate({scrollTop: $("#"+id).offset().top}, 1500);
+	// };    
+
+	// $('#page-home a').click( function(){
+	// 	goToByScroll();
+	// });
 
     // Intro scroll down and up
     $('.intro-scroll-arrow').click(function(e) {    	

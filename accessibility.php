@@ -2,7 +2,7 @@
 <?php
     $browserTitle = 'Rohan Chambers | Accessibility';
 ?>
-<?php include("incl/inc-header.php"); ?>
+<?php include("incl/dist/inc-header.php"); ?>
 		<div class="container">
 			<section id="accessibility">
 				<header>
@@ -64,4 +64,4 @@
 				</ol>
 			</section><!-- /section -->					
 		</div><!-- /container -->
-<?php include("incl/inc-footer.php"); ?>
+<?php include("incl/dist/inc-footer.php"); ?>

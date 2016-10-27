@@ -11,16 +11,11 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!--(if target dev)><!-->
-    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <!--<!(endif)-->
-    <!--(if target dist)>
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?{{rlsdate}}">
-    <!(endif)-->
-    <!--(if target dev)><!-->
-    <script src="/assets/js/vendor/modernizr-custom.js"></script>
-    <!--<!(endif)-->
+    
+    
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20161026">
+    
+    
 
     <!-- Open graph tags -->
     <meta property="og:image"           content="http://rohanchambers.net/assets/img/global/rohanchambers.jpg">
@@ -55,7 +50,7 @@
 
             <nav role="navigation" id="nav-main" class="">
                 <ul>
-                    <li class="<?=$activeHome?>"><a href="/">Home <span>Welcome</span></a></li>
+                    <li class="<?=$activeHome?>"><a href="/index.php#home">Home <span>Welcome</span></a></li>
                     <li class="desktop-nav-mobile"><a href="/index.php#what-i-do">What I do <span>What I do</span></a></li>
                     <li class="desktop-nav services"><a href="/index.php#services">Services <span>What I do</span></a></li>
                     <li class="desktop-nav-mini"><a href="/index.php#skills">Skills <span>My work</span></a></li>
@@ -66,3 +61,77 @@
             </nav>
         </header>
     </div>
+
+	<div class="container">
+		<section>
+			<div class="col-2">
+				<h1>404 Error - Page not found</h1>
+                <p class="bold">Apologise but the page you requested has not been found.</p>  
+                <p>Most likely causes:</p>
+                	<ul class="bullets">
+                    	<li>There might be a typing error in the address.</li>
+                    	<li>If you clicked on a link, it may be out of date.</li>
+                        <li>The page requested may no longer exist.</li>
+                    </ul>
+                 <p>What you can try:</p>
+             	<ul class="bullets">
+                    <li>Retype the address.</li>
+                    <li>Go back to the previous page.</li>
+                    <li>Go back to the <a href="/">homepage</a>.</li>
+                    <li>View the right hand side for links to other pages.</li>
+                </ul> 
+                <div class="hr"></div>
+			</div>
+
+			<div class="col-2">
+				<h1>Other pages</h1>
+				<ul class="siteMap">
+					<li><a href="/">Home</a> | Welcome to RohanChambers.net</li>
+					<li><a href="/portfolio">Portfolio</a> | My Work</li>
+					<li><a href="index#what-i-do">What I do</a>o</li>
+					<li><a href="index#services">Services</a></li>
+					<li><a href="index#skills">Skills</a></li>
+					<li><a href="index#contact">Contact</a> | Get in touch</li>
+					<li><a href="http://blog.rohanchambers.net">Blog</a> | Oher</li>
+					<li><a href="/site-map">Site Map</a></li>  
+					<li><a href="/accessibility">Accessibility</a></li>
+				</ul>     				                 				
+			</div>
+		</section><!-- /section -->						
+	</div><!-- /content -->
+
+    <footer>
+        <div class="container">
+            <div id="copyright">
+                <img src="/assets/img/global/rohanchambers_logo.png" alt="Rohan Chambers" width="100" height="31" />
+                <div><p>Website Designed and Developed by Rohan Chambers &copy;2016<br />
+                Valid <a href="http://validator.w3.org/check?uri=referer">HTML 5</a> and <a href="http://jigsaw.w3.org/css-validator/">CSS 3</a> | <a href="/site-map">Site map</a> | <a href="/accessibility">Accessibility</a> | <a href="/contact">Contact</a></p></div>
+                <a href="#" class="cta-lightbox-home"><img id="under-hood" src="/assets/img/icons/under_hood.png" alt="Under the Hood of RohanChambers.net" title="Under the Hood of RohanChambers.net"></a>
+            </div>
+        </div>
+    </footer>
+    <button id="back-to-top" class="buttonTopPulse"></button>
+    <!-- Lightbox markup -->
+    <div class="lightbox-bg"></div>
+    <div class="lightbox-services">
+        <div class="lightbox-panel">
+            <div class="close"><a href="#">Close X</a></div>
+            <div class="lightbox-content">
+                <?php include("incl/inc-light-services.php"); ?>
+            </div>
+        </div>
+    </div>
+    <div class="lightbox-home">
+        <div class="lightbox-panel">
+            <div class="close"><a href="#">Close X</a></div>
+            <div class="lightbox-content">
+                <?php include("incl/inc-light-under-hood.php"); ?>
+            </div>
+        </div>
+    </div><!-- End of Lightbox -->
+    
+    
+    <script src="assets/js/compiled.min.js?20161026"></script>
+    
+</body>
+</html>

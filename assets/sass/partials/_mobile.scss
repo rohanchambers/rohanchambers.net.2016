@@ -17,7 +17,7 @@ $tablet-979: new-breakpoint(max-width 979px);
 
 	// Hamburger and nav styles
 	#header-main {
-		.c-hamburger {
+		.c-hamburger {			
 			display: block;
 		}
 
@@ -77,11 +77,22 @@ $tablet-980: new-breakpoint(min-width 980px);
 
 	.col-4 {
 		@include span-columns(6);
+		min-height: 190px;
 	}
 
 	#web-dev,
 	#software {
  		margin: 0;
+	}
+	
+	#what-i-do {
+		article {
+			min-height: 190px;
+		}
+	}
+	
+	#skills article.col-4 {
+		min-height: 270px;
 	}
 
 	#clients {
@@ -139,6 +150,10 @@ $tablet-980: new-breakpoint(min-width 980px);
 			display: none;
 		}
 	}
+
+	.c-hamburger:hover {
+	  background-color: $dark-blue;
+	}	
 }
 
 // Custom inline variable breakpoint
