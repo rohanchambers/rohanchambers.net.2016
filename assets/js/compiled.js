@@ -35,12 +35,6 @@ function getWidth() {
 	}
 }
 
-// Back to the top button
-$('#back-to-top').click( function(){
-    $('html, body').animate({ scrollTop: 0}, 1000);
-    return false;
-});
-
 $(function($){
 	// Portfolio active state for filter buttons
 	$('.filter-button-group a').click( function(){
@@ -95,7 +89,6 @@ $(function($){
 			// use element for option
 			columnWidth: '.grid-item'
 			}
-
 		});
 
 		// Filter items on button click
@@ -108,8 +101,12 @@ $(function($){
 	// Open all links in case study in new window
 	$("#case-study-content .targetBlank[href^='http://']").attr('target','_blank');
 
+	// Fade in Case study images 
+	$('#case-study-img img').hide();
+	$('#case-study-img img').fadeIn();
+
     // Main nav scroll to sections
-    $('#nav-main ul li a').click(function(e) {
+    $('#nav-main ul li a, #logo a').click(function(e) {
     	//e.preventDefault();
         var section = $(this).attr('href').split('#')[1];
         // Nav home link go to top
@@ -120,20 +117,28 @@ $(function($){
 	        return false;
     	} else {
 	        $('html, body').animate({
-	            scrollTop: $('#' + section).offset().top -60
+	            scrollTop: $('#' + section).offset().top -75
 	        }, 1000);
 	        return false;
     	}
     });
 
-    // Page links scroll to seections
-	// function goToByScroll(id){
-	// 	$('html, body').animate({scrollTop: $("#"+id).offset().top}, 1500);
-	// };    
+    // Home Page links scroll to section
+	function goToByScroll(id){
+		$('html, body').animate({scrollTop: $("#"+id).offset().top - 75}, 1500);
+	};    
 
-	// $('#page-home a').click( function(){
-	// 	goToByScroll();
-	// });
+	$('#about a, #what-i-do a').click( function(e){
+		e.preventDefault();
+		var linkName = $(this).attr('href').replace('#', '');
+		goToByScroll(linkName);
+	});
+
+	// Back to top button
+	$('#back-to-top').click( function(){
+	    $('html, body').animate({ scrollTop: 0}, 1000);
+	    return false;
+	});
 
     // Intro scroll down and up
     $('.intro-scroll-arrow').click(function(e) {    	

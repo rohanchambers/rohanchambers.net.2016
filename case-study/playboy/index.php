@@ -1,6 +1,5 @@
 <?php
     $PRODUCTION = true;
-    $PRODUCTION = true;
     $browserTitle = 'Playboy UK | Rohan Chambers';
     $activePortfolio = 'active';
 ?>

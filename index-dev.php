@@ -45,7 +45,7 @@
     <div class="container">
         <header id="header-main" class="row">
             <div id="logo">
-                <a href="/">Rohan Chambers</a>
+                <a href="/index.php#home">Rohan Chambers</a>
                 <img src="assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
             </div>
 
@@ -119,7 +119,7 @@
                     <li>Accessibility standards</li>                    
                     <li>Search engine optimisation best practices (SEO)</li>
                 </ul>
-                <a href="#services" class="btn-global">Find out more<span></span></a>
+                <a href="#skills" class="btn-global">Find out more<span></span></a>
             </article>
 
 			<!-- Contact section -->

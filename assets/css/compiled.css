@@ -1446,7 +1446,8 @@ footer {
       color: #0074c0; }
   #case-study #case-study-img img {
     height: auto;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 25px; }
 
 #portfolio .filter-button-group a {
   display: inline-block;

@@ -21,7 +21,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="/assets/js/compiled.min.js?20161027"></script>
+    <script src="/assets/js/compiled.min.js?20161031"></script>
     
 </body>
 </html>

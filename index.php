@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20161027">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20161031">
     
     
 
@@ -40,7 +40,7 @@
     <div class="container">
         <header id="header-main" class="row">
             <div id="logo">
-                <a href="/">Rohan Chambers</a>
+                <a href="/index.php#home">Rohan Chambers</a>
                 <img src="assets/img/global/rohanchambers.jpg" alt="Rohan Chambers" title="Rohan Chambers" />
             </div>
 
@@ -114,7 +114,7 @@
                     <li>Accessibility standards</li>                    
                     <li>Search engine optimisation best practices (SEO)</li>
                 </ul>
-                <a href="#services" class="btn-global">Find out more<span></span></a>
+                <a href="#skills" class="btn-global">Find out more<span></span></a>
             </article>
 
 			<!-- Contact section -->
@@ -472,7 +472,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20161027"></script>
+    <script src="assets/js/compiled.min.js?20161031"></script>
     
 </body>
 </html>
