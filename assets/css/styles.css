@@ -409,36 +409,40 @@ article {
   position: absolute;
   /* size of arrow element */
   display: block;
-  width: 40px;
-  height: 58px;
-  top: 180px;
+  width: 65px;
+  height: 100%;
+  top: 0;
   cursor: pointer;
   background: url(../img/global/a22.png) center center no-repeat;
   overflow: hidden; }
 
 .jssora22l {
-  left: 10px; }
+  left: 0px; }
 
 .jssora22r {
-  right: 20px; }
+  right: 10px; }
 
 .jssora22l {
-  background-position: -10px -31px; }
+  background-position: 0px center; }
 
 .jssora22r {
-  background-position: -70px -31px; }
+  background-position: -53px center; }
 
 .jssora22l:hover {
-  background-position: -130px -31px; }
+  background-position: -120px center; }
 
 .jssora22r:hover {
-  background-position: -190px -31px; }
+  background-position: -173px center; }
+
+.arrow:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.5s; }
 
 .jssora22l.jssora22ldn {
-  background-position: -250px -31px; }
+  background-position: -240px center; }
 
 .jssora22r.jssora22rdn {
-  background-position: -310px -31px; }
+  background-position: -293px center; }
 
 #carousel {
   border: 5px solid #FFF; }

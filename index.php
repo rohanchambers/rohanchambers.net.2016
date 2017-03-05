@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20161031">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170107">
     
     
 
@@ -74,10 +74,9 @@
                     <?php include("incl/inc-carousel.php"); ?>
                 </div><!-- End of slides -->
                 <!-- Arrow Left -->
-                <span u="arrowleft" class="jssora22l">
-                </span>
+                <span u="arrowleft" class="arrow jssora22l"></span>
                 <!-- Arrow Right -->
-                <span u="arrowright" class="jssora22r">
+                <span u="arrowright" class="arrow jssora22r">
                 </span>
             </div>
         </div>
@@ -320,7 +319,7 @@
                         <li>Good at communicating with other departments</li>
                         <li>Proactive at getting tasks completed</li>
                         <li>Bilingual in English and French</li>
-                        <li>Enjoy</li>
+                        <li>Enjoy interacting with designers and UX teams</li>
                     </ul>
                 </article>
             </div><!-- End of row -->
@@ -425,10 +424,11 @@
             <article class="col-3">
                 <p>North London, Islington, UK.</p>
                 <ul id="contact-list" class="">
-                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/mail.png" alt="E-mail" title="E-mail" width="24" height="24" />info@rohanchambers.net</a></li>
-                    <li><img src="assets/img/icons/contact/phone.png" alt="Phone" title="Phone" width="24" height="24" /> +44 (0) 79 170 44 052</li>
-                    <li><a href="http://www.linkedin.com/in/rohanchambers" class="targetBlank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn" title="LinkedIn" width="24" height="24" />LinkedIn</a></li>
-                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/skype_icon.png" alt="Skype" title="Skype" width="24" height="24" />Skype</a> (On request only)</li>
+                    <li><a href="mailto:info@rohanchambers.net" target="_blank"><img src="assets/img/icons/contact/mail.png" alt="E-mail" title="E-mail" width="24" height="24">info@rohanchambers.net</a></li>
+                    <li><img src="assets/img/icons/contact/phone.png" alt="Phone" title="Phone" width="24" height="24" /> <a href="tel:+447917044052">+44 (0) 79 170 44 052</a></li>
+                    <li><a href="http://www.twitter.com/rohanchambers" target="_blank"><img src="assets/img/icons/contact/twitter_icon.png" alt="Twitter profile" title="Twitter profile" width="24" height="24">Twitter</a></li>
+                    <li><a href="http://www.linkedin.com/in/rohanchambers" target="_blank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn profile" title="LinkedIn profile" width="24" height="24" target="_blank">LinkedIn</a></li>
+                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/skype_icon.png" alt="Skype" title="Skype" width="24" height="24" target="_blank">Skype</a> (On request only)</li>
                 </ul>
             </article>
             <article class="col-3">
@@ -445,7 +445,7 @@
         <div class="container">
             <div id="copyright">
                 <img src="assets/img/global/rohanchambers_logo.png" alt="Rohan Chambers" width="100" height="31" />
-                <div><p>Website Designed and Developed by Rohan Chambers &copy;2016<br />
+                <div><p>Website Designed and Developed by Rohan Chambers &copy;<?php echo date("Y"); ?><br />
                 Valid <a href="http://validator.w3.org/check?uri=referer">HTML 5</a> and <a href="http://jigsaw.w3.org/css-validator/">CSS 3</a> | <a href="/site-map">Site map</a> | <a href="/accessibility">Accessibility</a> | <a href="/contact">Contact</a></p></div>
                 <a href="#" class="cta-lightbox-home"><img id="under-hood" src="assets/img/icons/under_hood.png" alt="Under the Hood of RohanChambers.net" title="Under the Hood of RohanChambers.net"></a>
             </div>
@@ -472,7 +472,24 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20161031"></script>
+    <script src="assets/js/compiled.min.js?20170107"></script>
     
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+    var sc_project=2795365; 
+    var sc_invisible=1; 
+    var sc_security="dbf7ea22"; 
+    var scJsHost = (("https:" == document.location.protocol) ?
+    "https://secure." : "http://www.");
+    document.write("<sc"+"ript type='text/javascript' src='" +
+    scJsHost+
+    "statcounter.com/counter/counter.js'></"+"script>");
+    </script>
+    <noscript><div class="statcounter"><a title="website
+    statistics" href="http://statcounter.com/free-web-stats/"
+    target="_blank"><img class="statcounter"
+    src="//c.statcounter.com/2795365/0/dbf7ea22/1/" alt="website
+    statistics"></a></div></noscript>
+    <!-- End of StatCounter Code for Default Guide -->    
 </body>
 </html>

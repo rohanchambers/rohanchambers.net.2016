@@ -44,8 +44,6 @@ $tablet-980: new-breakpoint(min-width 980px);
 	}
 }
 
-
-
 // TABLET | Max width 867px
 @include media($tablet) {
 	// Make carousel 100%

@@ -1,4 +1,4 @@
-var APP = {}
+var APP = {};
 
 $(function(){
 	APP.nav();
@@ -10,8 +10,6 @@ $(function(){
 	APP.plugins();
 		APP.jssor();
 		APP.isotope();
-
-
 });
 
 // Change nav state
@@ -37,7 +35,7 @@ APP.nav = function() {
     	//e.preventDefault();
         var section = $(this).attr('href').split('#')[1];
         // Nav home link go to top
-    	if (section == 'home') {
+    	if (section === 'home') {
 	        $('html, body').animate({
 	            scrollTop: 0
 	        }, 1000);
@@ -55,7 +53,7 @@ APP.nav = function() {
 		$('.filter-button-group a').removeClass('active');
 		$(this).addClass('active');
 	});
-}
+};
 
 
 APP.lightbox = function() {
@@ -86,7 +84,7 @@ APP.lightbox = function() {
 	$('.lightbox-panel').bind('click', function(){
 		return false;
 	});
-}
+};
 
 
 APP.caseStudy = function() {
@@ -96,14 +94,14 @@ APP.caseStudy = function() {
 	// Fade in Case study images 
 	$('#case-study-img img').hide();
 	$('#case-study-img img').fadeIn();
-}
+};
 
 
 APP.animateTo = function() {
     // Home Page links scroll to section
 	function goToByScroll(id){
-		$('html, body').animate({scrollTop: $("#"+id).offset().top - 75}, 1500);
-	};    
+		$('html, body').animate({scrollTop: $('#'+id).offset().top - 75}, 1500);
+	}
 
 	$('#about a, #what-i-do a').click( function(e){
 		e.preventDefault();
@@ -132,7 +130,7 @@ APP.animateTo = function() {
 	        $(this).toggleClass('scroll-up');
     	}
     });
-}
+};
 
 
 APP.mobileLogic = function() {
@@ -152,7 +150,7 @@ APP.mobileLogic = function() {
 		$('#nav-main ul li').removeClass('active');
 		$(this).parent().addClass('active');
 	});
-}
+};
 
 
 APP.accordion = function() {
@@ -174,7 +172,7 @@ APP.accordion = function() {
 			event.preventDefault();
 		}
 	});
-}
+};
 
 
 APP.plugins = function() {
@@ -195,30 +193,30 @@ APP.plugins = function() {
 		        }
 	    	};
 
-	        var jssor_slider1 = new $JssorSlider$('carousel', options);
+	        var jssorSlider = new $JssorSlider$('carousel', options);
 
 	        //responsive code begin | you can remove responsive code if you don't want the slider scales
 	        //while window resizing
-	        function ScaleSlider() {
+	        function scaleSlider() {
 		        var parentWidth = $('#carousel').parent().width();
 
 		        if (parentWidth) {
-		            jssor_slider1.$ScaleWidth(parentWidth);
+		            jssorSlider.$ScaleWidth(parentWidth);
 		        } else {
-		        	window.setTimeout(ScaleSlider, 30);
+		        	window.setTimeout(scaleSlider, 30);
 		        }
 		    }
 
 	        //Scale slider after document ready
-			ScaleSlider();
+			scaleSlider();
 
 	        //Scale slider while window load/resize/orientation change.
-	        $(window).bind("load", ScaleSlider);
-	        $(window).bind("resize", ScaleSlider);
-	        $(window).bind("orientationchange", ScaleSlider);
+	        $(window).bind('load', scaleSlider);
+	        $(window).bind('resize', scaleSlider);
+	        $(window).bind('orientationchange', scaleSlider);
 	        //responsive code end
 	    }
-	}
+	};
 
 	APP.isotope = function() {
 	    // Load isotope only on portfolio apge
@@ -242,20 +240,20 @@ APP.plugins = function() {
 				$grid.isotope({ filter: filterValue });
 			});
 		}
-	}
-}
+	};
+};
 
 
 APP.windowResize = function() {
 	// On window resize back to desktop hide mobile nav
 	$('.c-hamburger').removeClass('is-active');
 	$('#header-main').removeClass('mobile');
-}
+};
 
 
 APP.onScroll = function() {
 	// Homepage up down arrow. If document pos is at the top switch this arrow down
-	if( $(document).scrollTop() == 0) {
+	if( $(document).scrollTop() === 0) {
 		$('.intro-scroll-arrow').removeClass('scroll-up');
 	}
 
@@ -275,4 +273,4 @@ APP.onScroll = function() {
             $('#header-main').removeClass('mini');
             $('.carousel').removeClass('mini');
     }
-}
+};
