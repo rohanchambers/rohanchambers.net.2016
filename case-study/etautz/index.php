@@ -29,7 +29,7 @@
 			<p><strong>View app:</strong> Site offline <a href="http://www.etautz.com/" class="targetBlank">http://www.etautz.com/</a></p>
         </section>
         <section id="case-study-img" class="col-8">
-			<img src="/img/pages/case-study/etautz/etautz.jpg" alt="E.TAUTZ">
+			<img src="img/etautz.jpg" alt="E.TAUTZ">
 		</section>
 	</div><!-- End of container -->
 
