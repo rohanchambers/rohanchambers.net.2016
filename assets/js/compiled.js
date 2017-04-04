@@ -30,12 +30,16 @@ $(function(){
 	APP.mobileLogic();
 	APP.accordion();
 	APP.plugins();
-		APP.jssor(); 
+		APP.jssor();
 });
 
 // On load
 $(window).load(function() {
+	// Load when document is complete otherwise there is a layout issue
 	APP.isotope();
+	function test() {
+		console.log('test!!!');
+	}
 });
 
 // Change nav state
