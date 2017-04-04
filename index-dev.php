@@ -263,7 +263,7 @@
                 <article class="col-2">
                     <h2>Languages</h2>
                     <ul class="bullets">
-                        <li>XHTML - HTML5 (Advanced)</li>
+                        <li>XHTML - HTML5 (Advanced) </li>
                         <li>CSS3, SASS, Compass and Pre processors (Advanced)</li>
                         <li>Responsive Tools: Bourbon and Neat grid, Bootstrap</li>
                         <li>Automation tools: Bower, Grunt, Gulp and Git hub</li>
