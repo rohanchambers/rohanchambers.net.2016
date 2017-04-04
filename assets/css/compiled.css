@@ -1217,7 +1217,8 @@ a:hover {
   font-family: FontAwesome;
   content: "\f139"; }
 #about header i {
-  float: right; }
+  float: right;
+  padding-left: 1px; }
 #about header i:hover {
   color: #0074c0;
   cursor: pointer;

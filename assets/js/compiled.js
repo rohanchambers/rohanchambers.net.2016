@@ -31,7 +31,11 @@ $(function(){
 	APP.accordion();
 	APP.plugins();
 		APP.jssor();
-		APP.isotope();
+});
+
+// On load
+$(window).load(function() {
+	APP.isotope();
 });
 
 // Change nav state
@@ -43,7 +47,6 @@ $(window).resize(function() {
 $(document).on('scroll',function(){
 	APP.onScroll();	
 });
-
 
 APP.nav = function() {
 	// Main nav active states

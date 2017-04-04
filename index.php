@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170107">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170404">
     
     
 
@@ -259,17 +259,17 @@
                     <h2>Languages</h2>
                     <ul class="bullets">
                         <li>XHTML - HTML5 (Advanced)</li>
-                        <li>CSS3 (SASS) (Advanced)</li>
-                        <li>Responsive Web Design &amp; development</li>
-                        <li>Automation tools: Bower, Grunt and Git hub</li>
-                        <li>JavaScript/jQuery (UI implemnetation) (<a href="/dev" class="block-link">View examples</a>)</li>
+                        <li>CSS3, SASS, Compass and Pre processors (Advanced)</li>
+                        <li>Responsive Tools: Bourbon and Neat grid, Bootstrap</li>
+                        <li>Automation tools: Bower, Grunt, Gulp and Git hub</li>
+                        <li>JavaScript / jQuery (UI implemnetation) (<a href="/dev" class="block-link">View examples</a>)</li>
                         <li>Wordpress theme creation</li>
                     </ul>
                 </article>
                 <article class="col-2">
                     <h2>Software</h2>
                     <ul class="bullets">
-                        <li>Sublime / Coda (IDE)</li>
+                        <li>Sublime / Coda (IDE), Terminal</li>
                         <li>Git Hub, Source Tree</li>
                         <li>SVN Turtoise / Synchro SVN(MacOSX)</li>
                         <li>Adobe Suite</li>
@@ -472,7 +472,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20170107"></script>
+    <script src="assets/js/compiled.min.js?20170404"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
