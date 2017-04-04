@@ -30,7 +30,7 @@ $(function(){
 	APP.mobileLogic();
 	APP.accordion();
 	APP.plugins();
-		APP.jssor();
+		APP.jssor(); 
 });
 
 // On load

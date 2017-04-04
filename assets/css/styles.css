@@ -795,7 +795,7 @@ a:hover {
   content: "\f139"; }
 #about header i {
   float: right;
-  padding-left: 1px; }
+  padding-left: 2px; }
 #about header i:hover {
   color: #0074c0;
   cursor: pointer;
