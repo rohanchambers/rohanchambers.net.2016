@@ -9,15 +9,7 @@ $(function(){
 	APP.accordion();
 	APP.plugins();
 		APP.jssor();
-});
-
-// On load
-$(window).load(function() {
-	// Load when document is complete otherwise there is a layout issue
-	APP.isotope();
-	function test() {
-		console.log('test!!!');
-	}
+		APP.isotope();		
 });
 
 // Change nav state
@@ -27,7 +19,7 @@ $(window).resize(function() {
 
 // On scroll
 $(document).on('scroll',function(){
-	APP.onScroll();	
+	APP.onScroll();
 });
 
 APP.nav = function() {
@@ -55,7 +47,7 @@ APP.nav = function() {
     	}
     });
 
-	// Portfolio filter buttons active state for 
+	// Portfolio filter buttons active state for
 	$('.filter-button-group a').click( function(){
 		$('.filter-button-group a').removeClass('active');
 		$(this).addClass('active');
@@ -68,7 +60,7 @@ APP.lightbox = function() {
 	var lightboxbg = $('.lightbox-bg');
 	var speed = 500;
 
-	$('.cta-lightbox-home').bind('click', function(){	
+	$('.cta-lightbox-home').bind('click', function(){
 		$(lightboxbg).fadeIn(speed, function(){
 			$('.lightbox-home').fadeIn('slow');
 		});
@@ -81,7 +73,7 @@ APP.lightbox = function() {
 		});
 		return false;
 	});
-	
+
 	// Close lightbox
 	$('html, body, .lightbox-bg, .close a').bind('click', function(){
 		$('.lightbox-bg, .lightbox-home, .lightbox-services').fadeOut(speed);
@@ -98,7 +90,7 @@ APP.caseStudy = function() {
 	// Open all links in case study in new window
 	$("#case-study-content .targetBlank[href^='http://']").attr('target','_blank');
 
-	// Fade in Case study images 
+	// Fade in Case study images
 	$('#case-study-img img').hide();
 	$('#case-study-img img').fadeIn();
 };
@@ -123,9 +115,9 @@ APP.animateTo = function() {
 	});
 
     // Intro scroll down and up
-    $('.intro-scroll-arrow').click(function(e) {    	
+    $('.intro-scroll-arrow').click(function(e) {
 		$(this).removeClass('buttonPulse');
-    	if( $(this).hasClass('scroll-up') ) {    		
+    	if( $(this).hasClass('scroll-up') ) {
 	        $('html, body').animate({
 	            scrollTop: 0
 	        }, 1000);
@@ -239,6 +231,10 @@ APP.plugins = function() {
 				// use element for option
 				columnWidth: '.grid-item'
 				}
+			});
+
+			$grid.imagesLoaded().progress( function() {
+				$grid.isotope('layout');
 			});
 
 			// Filter items on button click

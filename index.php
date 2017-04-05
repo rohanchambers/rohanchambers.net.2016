@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170404">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170405">
     
     
 
@@ -472,7 +472,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20170404"></script>
+    <script src="assets/js/compiled.min.js?20170405"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
