@@ -118,7 +118,7 @@
                 <li class="grid-item all apps">
                     <a href="case-study/volvic/toughmudder">
                         <img src="assets/img/portfolio/toughmudder.jpg" alt="Toughmudder, Got the bottle">
-                        <h3>Vovlic, Toughmudder<span> | Got the bottle</span></h3>
+                        <h3>Volvic, Toughmudder<span> | Got the bottle</span></h3>
                     </a>
                 </li>
                 <li class="grid-item all apps">

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170405">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170502">
     
     
 
@@ -101,17 +101,17 @@
             <article id="intro-skills" class="col-5-1 mob-2 element">
                 <h2>My skills:</h2>
                 <ul class="bullets">
-                    <li>HTML5 - CSS3 (Advanced level)</li>
-                    <li>Clean HTML5 semantic mark-up</li>
-                    <li>Responsive web design &amp; development</li>
-                    <li>Mobile and tablet ready</li>
-                    <li>JavaScript/jQuery (UI implemnetation)</li>
+                    <li>HTML5 &amp; CSS3 / SASS (Advanced)</li>
+                    <li>Responsive web design &amp; dev.</li>
+                    <li>Grid: Bourbon &amp; Neat / Boostrap / Compass</li>                    
+                    <li>JavaScript/jQuery (UI implementation)</li>                                
                     <li>Cross browser compatibility</li>
+                    <li>Bower / Grunt / Gulp / Github</li>                                        
                     <li>Wordpress theme development</li>
                     <li>PHP (Basic level)</li>                    
                     <li>Coding to W3C Web Standards</li>
                     <li>Accessibility standards</li>                    
-                    <li>Search engine optimisation best practices (SEO)</li>
+                    <li>Search engine optimisation best coding practices (SEO)</li>
                 </ul>
                 <a href="#skills" class="btn-global">Find out more<span></span></a>
             </article>
@@ -122,7 +122,7 @@
                 <p><a href="mailto:info@rohanchambers.net" class="block-link">info@rohanchambers.net</a></p>
                 <h2>Recruit me:</h2>
                 <ul class="bullets">
-                    <li>Available for small-medium freelance projects in-house or remotely.</li>
+                    <li>Available for freelance projects in-house or preferably remotely.</li>
                 </ul>
                 <div id="cv">
                     <h2 id="icon-underhood"><a class="cta-lightbox-home" title="Under the Hood of RohanChambers.net" href="#">Under the Hood:</a></h2>
@@ -472,7 +472,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20170405"></script>
+    <script src="assets/js/compiled.min.js?20170502"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">

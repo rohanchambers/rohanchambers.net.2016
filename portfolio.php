@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170405">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170502">
     
     
 
@@ -113,7 +113,7 @@
                 <li class="grid-item all apps">
                     <a href="case-study/volvic/toughmudder">
                         <img src="assets/img/portfolio/toughmudder.jpg" alt="Toughmudder, Got the bottle">
-                        <h3>Vovlic, Toughmudder<span> | Got the bottle</span></h3>
+                        <h3>Volvic, Toughmudder<span> | Got the bottle</span></h3>
                     </a>
                 </li>
                 <li class="grid-item all apps">
@@ -618,7 +618,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20170405"></script>
+    <script src="assets/js/compiled.min.js?20170502"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
