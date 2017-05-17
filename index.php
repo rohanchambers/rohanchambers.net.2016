@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170502">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170517">
     
     
 
@@ -126,7 +126,7 @@
                 </ul>
                 <div id="cv">
                     <h2 id="icon-underhood"><a class="cta-lightbox-home" title="Under the Hood of RohanChambers.net" href="#">Under the Hood:</a></h2>
-                    <h2 id="icon-cv"><a href="assets/docs/RohanChambersCV.pdf" title="Rohan Chambers CV">Download CV:</a></h2>
+                    <h2 id="icon-cv"><a href="assets/docs/rohanChambers.pdf" title="Rohan Chambers CV" target="_blank">Download CV:</a></h2>
                     <h2>Get a quote:</h2>
                     <p>Get a quote for your site or project by filling in a short questionnaire with your needs and I will get back to you asap.</p>
                     <a href="get-a-quote" class="btn-global">Get a quote</a>
@@ -472,7 +472,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20170502"></script>
+    <script src="assets/js/compiled.min.js?20170517"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">

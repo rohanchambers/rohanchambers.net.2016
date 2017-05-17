@@ -131,7 +131,7 @@
                 </ul>
                 <div id="cv">
                     <h2 id="icon-underhood"><a class="cta-lightbox-home" title="Under the Hood of RohanChambers.net" href="#">Under the Hood:</a></h2>
-                    <h2 id="icon-cv"><a href="assets/docs/RohanChambersCV.pdf" title="Rohan Chambers CV">Download CV:</a></h2>
+                    <h2 id="icon-cv"><a href="assets/docs/rohanChambers.pdf" title="Rohan Chambers CV" target="_blank">Download CV:</a></h2>
                     <h2>Get a quote:</h2>
                     <p>Get a quote for your site or project by filling in a short questionnaire with your needs and I will get back to you asap.</p>
                     <a href="get-a-quote" class="btn-global">Get a quote</a>
