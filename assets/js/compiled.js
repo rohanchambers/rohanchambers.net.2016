@@ -131,8 +131,8 @@ APP.animateTo = function() {
 		$('html, body').animate({scrollTop: $('#'+id).offset().top - 75}, 1500);
 	}
 
-	$('#about a, #what-i-do a').click( function(e){
-		e.preventDefault();
+	$('#intro-skills a, #what-i-do article a').click( function(e){
+		//e.preventDefault();
 		var linkName = $(this).attr('href').replace('#', '');
 		goToByScroll(linkName);
 	});
