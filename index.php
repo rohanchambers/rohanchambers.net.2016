@@ -93,7 +93,7 @@
 			<article id="intro" class="col-5 element">
                 <h2>Bio:</h2>
                 <p>This <strong>website</strong> is primarily designed to be an online portfolio presence for <strong>Rohan Chambers</strong>, a <strong>Front-end Developer</strong> based in London, UK.
-                I have recently started working freelance but prior to this I was a <strong>Creative Technologist (Front end)</strong> for the agency, <strong><a href="">We Are Social</a></strong> for around three years. Prior to that I was working full time at <strong>Playboy UK</strong> as a web developer.</p>
+                I have recently started working freelance but prior to this I was a <strong>Creative Technologist (Front end)</strong> for the agency, <strong><a href="http://www.wearesocial.com/" target="_blank">We Are Social</a></strong> for around three years. Prior to that I was working full time at <strong>Playboy UK</strong> as a web developer.</p>
                 <p>Some of the <strong>Technologies</strong> used on this site and other <strong>Projects</strong> I have done include <strong>HTML5, CSS3 (SASS) with Bourbon &amp; Neat</strong> complemented by some Javascript, <strong>Jquery</strong>, Wordpress, Bower, Grunt, and the list goes on along with good knowledge of best practices in <strong>Accessibility</strong>, SEO and <strong>W3C standards</strong>.</p>
                 <p>I am currently delving in to <strong>Angular &amp; Reatct JS</strong> but my main focus is <strong>expanding</strong> on my JavaScript skills for projects in the near <strong>future</strong>.</p>
             </article>
@@ -445,7 +445,9 @@
         <div class="container">
             <div id="copyright">
                 <img src="assets/img/global/rohanchambers_logo.png" alt="Rohan Chambers" width="100" height="31" />
-                <div><p>Website Designed and Developed by Rohan Chambers &copy;<?php echo date("Y"); ?><br />
+                <div><p>Website Designed and Developed by Rohan Chambers 
+                <?php date_default_timezone_set('Europe/London'); ?>
+                &copy;<?= date("Y"); ?><br />
                 Valid <a href="http://validator.w3.org/check?uri=referer">HTML 5</a> and <a href="http://jigsaw.w3.org/css-validator/">CSS 3</a> | <a href="/site-map">Site map</a> | <a href="/accessibility">Accessibility</a> | <a href="/contact">Contact</a></p></div>
                 <a href="#" class="cta-lightbox-home"><img id="under-hood" src="assets/img/icons/under_hood.png" alt="Under the Hood of RohanChambers.net" title="Under the Hood of RohanChambers.net"></a>
             </div>
