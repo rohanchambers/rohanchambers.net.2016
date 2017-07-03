@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170517">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20170703">
     
     
 
@@ -93,9 +93,9 @@
 			<article id="intro" class="col-5 element">
                 <h2>Bio:</h2>
                 <p>This <strong>website</strong> is primarily designed to be an online portfolio presence for <strong>Rohan Chambers</strong>, a <strong>Front-end Developer</strong> based in London, UK.
-                I have recently started working freelance but prior to this I was a <strong>Social Media Technologist (Front end)</strong> for an agency called <strong>We Are Social</strong> for around three years. Prior to that I was working full time at <strong>Playboy UK</strong> as a web developer.</p>
+                I have recently started working freelance but prior to this I was a <strong>Creative Technologist (Front end)</strong> for the agency, <strong><a href="">We Are Social</a></strong> for around three years. Prior to that I was working full time at <strong>Playboy UK</strong> as a web developer.</p>
                 <p>Some of the <strong>Technologies</strong> used on this site and other <strong>Projects</strong> I have done include <strong>HTML5, CSS3 (SASS) with Bourbon &amp; Neat</strong> complemented by some Javascript, <strong>Jquery</strong>, Wordpress, Bower, Grunt, and the list goes on along with good knowledge of best practices in <strong>Accessibility</strong>, SEO and <strong>W3C standards</strong>.</p>
-                <p>I am currently trying to delve in to <strong>Angular JS</strong> but my main focus is <strong>expanding</strong> on my JavaScript skills for projects in the near <strong>future</strong>.</p>
+                <p>I am currently delving in to <strong>Angular &amp; Reatct JS</strong> but my main focus is <strong>expanding</strong> on my JavaScript skills for projects in the near <strong>future</strong>.</p>
             </article>
 
             <article id="intro-skills" class="col-5-1 mob-2 element">
@@ -472,7 +472,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20170517"></script>
+    <script src="assets/js/compiled.min.js?20170703"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">

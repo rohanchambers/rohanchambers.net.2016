@@ -21,7 +21,7 @@
             <h1>Armani, Guerlain, Acqua Di Parma, DuChamp, Harrods Ties</h1>
             <p><strong>Date: </strong>2006</p>
             <p><strong>Client: </strong>Harrods</p>
-            <p><strong>Company: </strong><a href="http://www.playboy.co.uk/" class="targetBlank">http://www.playboy.co.uk/</a></p>
+            <p><strong>Company: </strong><a href="http://www.harrods.com/" class="targetBlank">http://www.harrods.com/</a></p>
             <p><strong>Technologies: </strong> Photoshop, XHTML &amp; CSS</p>
             <p><strong>Tasks:</strong> Design &amp; build of landing pages
 
