@@ -67,38 +67,20 @@
         </header>
     </div>
 
-    <div class="container carousel">
-        <div class="row">
-            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 1024px; height: 420px; overflow: hidden;">
-                <!-- Loading Screen -->
-                <div id="loading" u="loading" style="position: absolute; top: 0px; left: 0px;">
-                    <!-- your loading screen content here -->
-                </div>
-                <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1024px; height: 420px;">
-                    <?php include("incl/inc-carousel.php"); ?>
-                </div><!-- End of slides -->
-                <!-- Arrow Left -->
-                <span u="arrowleft" class="arrow jssora22l"></span>
-                <!-- Arrow Right -->
-                <span u="arrowright" class="arrow jssora22r">
-                </span>
-            </div>
-        </div>
-    </div>
+
 
     <div class="container">
         <!-- About section -->
 		<section id="about" class="row">
             <header>
-                <h1>Welcome to the online portfolio of <br>Rohan Chambers</h1>
+                <h1>Welcome to the online portfolio of Rohan Chambers</h1>
                 <i class="fa intro-scroll-arrow fa-4x buttonPulse" aria-hidden="true"></i>
             </header>
 
 			<article id="intro" class="col-5 element">
                 <h2>Bio:</h2>
                 <p>This <strong>website</strong> is primarily designed to be an online portfolio presence for <strong>Rohan Chambers</strong>, a <strong>Front-end Developer</strong> based in London, UK.
-                I have recently started working freelance but prior to this I was a <strong>Creative Technologist (Front end)</strong> for the agency, <strong><a href="http://www.wearesocial.com/" target="_blank">We Are Social</a></strong> for around three years. Prior to that I was working full time at <strong>Playboy UK</strong> as a web developer.</p>
+                I have recently started working freelance but prior to this I was a <strong>Creative Technologist (Front end)</strong> for the agency, <strong><a href="http://www.wearesocial.com/uk" target="_blank">We Are Social</a></strong> for around three years. Prior to that I was working full time at <strong>Playboy UK</strong> as a web developer.</p>
                 <p>Some of the <strong>Technologies</strong> used on this site and other <strong>Projects</strong> I have done include <strong>HTML5, CSS3 (SASS) with Bourbon &amp; Neat</strong> complemented by some Javascript, <strong>Jquery</strong>, Wordpress, Bower, Grunt, and the list goes on along with good knowledge of best practices in <strong>Accessibility</strong>, SEO and <strong>W3C standards</strong>.</p>
                 <p>I am currently delving in to <strong>Angular &amp; Reatct JS</strong> but my main focus is <strong>expanding</strong> on my JavaScript skills for projects in the near <strong>future</strong>.</p>
             </article>
@@ -172,88 +154,28 @@
             </article>
         </section>
 
-        <!-- Services section -->
-        <section id="services" class="row">
+        <!-- Work section -->
+        <section id="work" class="row">
             <header>
-                <h1>Services</h1>
+                <h1>Work</h1>
             </header>
-            <article class="col-2 element">
-                <p>All the projects that I have taken on have always been thoroughly scoped and planned out in order to meet crucial
-                deadlines and satisfy client demands and timelines. Understanding that the multimedia industry is a very competitive
-                market I always try to keep the price for my services as realistic and affordable as possible.</p>
-                <p>If you would like to get a quote or some information regarding your project please feel free to <a href="index#contact" class="block-link">get in contact</a>
-                or click on the button below and complete a requirements form that will send me your info and details regarding your project.
-                <br /><span class="confidential">*All details will be kept strictly confidential.</span></p>
-                <a href="get-a-quote" class="btn-global btn-spacer">Get a quote<span class="arrow"></span><span></span></a>
 
-                <h2>How I manage a web design &amp; development project?</h2>
-                <p>Please find out more in detail about the process of the way I manage a web development project in stages to its final completion.</p>
-                <a href="#lightbox-content" class="btn-global cta-lightbox-services">Find out more<span class="arrow"></span><span></span></a>
-            </article>
-
-            <article class="col-2 element">
-                <ul class="accordion-tabs-minimal">
-                    <li class="tab-header-and-content">
-                        <a href="#" class="tab-link is-active">Web Development</a>
-                        <div class="tab-content">
-                            <h2>Web Design &amp; Development</h2>
-                            <p>I can design &amp; develop websites for <strong>various</strong> types of businesses always keeping in mind a <strong>look and feel</strong> aspect that will
-                            suit any particular type of company in order to <strong>reflect</strong> its name, image and product.</p>
-                            <p>From <strong>corporate</strong> to personal looking websites my designs are always started from <strong>scratch</strong> and worked on through to the end. Rohan says: "There are no design templates
-                            that I use and reuse for other projects" I keep your website as original and <strong>simplistic</strong> in its usability as possible in
-                            order to give your <strong>viewers</strong> a satisfied user experience.</p>
-                            <h2>Standards &amp; Guidelines</h2>
-                            <p>All websites created are tested thoroughly with all the latest versions of todays browsers. All the code in all websites I develop are validated by the World Wide Web Consortium.</p>
-                            <ul class="bullets">
-                                <li>Mock ups and initial design in Photoshop</li>
-                                <li>Hand-coded web development</li>
-                                <li>Cross platform HTML5/CSS3 website builds</li>
-                                <li>Accessibility &amp; W3C Compliant builds</li>
-                                <li>Branding &amp; logo design</li>
-                                <li>HTML email newsletter builds</li>
-                                <li>Search engine optimisation</li>
-                                <li>Web Blog integration</li>
-                                <li>Social Media: Facebook Page development</li>
-                                <li>Social Media: YouTube re-skins for personalised channels</li>
-                                <li>Design of Web sites, Landing pages, Email Newsletters, flyers</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="tab-header-and-content">
-                        <a href="#" class="tab-link">PSD to HTML5</a>
-                        <div class="tab-content">
-                            <h2>PSD to XHTML/CSS Conversion</h2>
-                            <p>Hand-coded, cross browser/platform compatible (X)HTML/CSS web templates.</p>
-                            <p>Specialise in <strong>converting</strong> your designs into <strong>high quality</strong>, hand-coded, cross browser and cross platform <strong>compatible</strong> web templates.</p>
-                            <ul class="bullets">
-                                <li>Pixel-perfect PSD to HTML5 and CSS3 conversion. W3C Standards Compliant.</li>
-                                <li>Cross browser / mobile / tablet / platform compatibility (Works perfectly in all major browsers and devices)</li>
-                                <li>Search engine optimised</li>
-                                <li>Usability and accessibility in mind when hand-coding all web sites</li>
-                                <li>Optimised for fast loading</li>
-                            </ul>
-                            <p><strong>"Send your design, I do the coding"</strong></p>
-                        </div>
-                    </li>
-                    <li class="tab-header-and-content">
-                        <a href="#" class="tab-link">3D &amp; Video</a>
-                        <div class="tab-content">
-                            <h2>3D Animation</h2>
-                            <p>3D modelling, especially for architecture, is another area I work in that includes modelling and animation for houses and buildings. He can however model, texturize and animate almost anything from small details to larger shapes and objects. There are a few examples under the <a href="portfolio" class="block-link">3D Work</a> section of this portfolio. The 3D software packages that Rohan uses are mainly Cinema 4D and Maya.</p>
-                            <h2>Video</h2>
-                            <p>Yet another service that I provide is video editing for small-scale projects using software such as Final Cut Pro and After Affects. Some of my videos, editing skills and work are implemented in his 3D  movies and can be previewed in the <a href="portfolio" class="block-link">Video</a> section.</p>
-                            <ul class="bullets">
-                                <li>Video integration &amp; encoding</li>
-                                <li>Video editing for small-medium scale projects</li>
-                                <li>DVD Authoring: DVD menu design</li>
-                                <li>3D Modelling and Animation</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </article>
-
-        </section><!-- End of section services -->
+            <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 1024px; height: 420px; overflow: hidden;">
+                <!-- Loading Screen -->
+                <div id="loading" u="loading" style="position: absolute; top: 0px; left: 0px;">
+                    <!-- your loading screen content here -->
+                </div>
+                <!-- Slides Container -->
+                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1024px; height: 420px;">
+                    <?php include("incl/inc-carousel.php"); ?>
+                </div><!-- End of slides -->
+                <!-- Arrow Left -->
+                <span u="arrowleft" class="arrow jssora22l"></span>
+                <!-- Arrow Right -->
+                <span u="arrowright" class="arrow jssora22r">
+                </span>
+            </div>
+        </section>
 
         <section id="skills" class="row">
             <header>
@@ -422,6 +344,88 @@
             </div>
         </section>
 
+        <!-- Services section -->
+        <section id="services" class="row">
+            <header>
+                <h1>Services</h1>
+            </header>
+            <article class="col-2 element">
+                <p>All the projects that I have taken on have always been thoroughly scoped and planned out in order to meet crucial
+                deadlines and satisfy client demands and timelines. Understanding that the multimedia industry is a very competitive
+                market I always try to keep the price for my services as realistic and affordable as possible.</p>
+                <p>If you would like to get a quote or some information regarding your project please feel free to <a href="index#contact" class="block-link">get in contact</a>
+                or click on the button below and complete a requirements form that will send me your info and details regarding your project.
+                <br /><span class="confidential">*All details will be kept strictly confidential.</span></p>
+                <a href="get-a-quote" class="btn-global btn-spacer">Get a quote<span class="arrow"></span><span></span></a>
+
+                <h2>How I manage a web design &amp; development project?</h2>
+                <p>Please find out more in detail about the process of the way I manage a web development project in stages to its final completion.</p>
+                <a href="#lightbox-content" class="btn-global cta-lightbox-services">Find out more<span class="arrow"></span><span></span></a>
+            </article>
+
+            <article class="col-2 element">
+                <ul class="accordion-tabs-minimal">
+                    <li class="tab-header-and-content">
+                        <a href="#" class="tab-link is-active">Web Development</a>
+                        <div class="tab-content">
+                            <h2>Web Design &amp; Development</h2>
+                            <p>I can design &amp; develop websites for <strong>various</strong> types of businesses always keeping in mind a <strong>look and feel</strong> aspect that will
+                            suit any particular type of company in order to <strong>reflect</strong> its name, image and product.</p>
+                            <p>From <strong>corporate</strong> to personal looking websites my designs are always started from <strong>scratch</strong> and worked on through to the end. Rohan says: "There are no design templates
+                            that I use and reuse for other projects" I keep your website as original and <strong>simplistic</strong> in its usability as possible in
+                            order to give your <strong>viewers</strong> a satisfied user experience.</p>
+                            <h2>Standards &amp; Guidelines</h2>
+                            <p>All websites created are tested thoroughly with all the latest versions of todays browsers. All the code in all websites I develop are validated by the World Wide Web Consortium.</p>
+                            <ul class="bullets">
+                                <li>Mock ups and initial design in Photoshop</li>
+                                <li>Hand-coded web development</li>
+                                <li>Cross platform HTML5/CSS3 website builds</li>
+                                <li>Accessibility &amp; W3C Compliant builds</li>
+                                <li>Branding &amp; logo design</li>
+                                <li>HTML email newsletter builds</li>
+                                <li>Search engine optimisation</li>
+                                <li>Web Blog integration</li>
+                                <li>Social Media: Facebook Page development</li>
+                                <li>Social Media: YouTube re-skins for personalised channels</li>
+                                <li>Design of Web sites, Landing pages, Email Newsletters, flyers</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="tab-header-and-content">
+                        <a href="#" class="tab-link">PSD to HTML5</a>
+                        <div class="tab-content">
+                            <h2>PSD to XHTML/CSS Conversion</h2>
+                            <p>Hand-coded, cross browser/platform compatible (X)HTML/CSS web templates.</p>
+                            <p>Specialise in <strong>converting</strong> your designs into <strong>high quality</strong>, hand-coded, cross browser and cross platform <strong>compatible</strong> web templates.</p>
+                            <ul class="bullets">
+                                <li>Pixel-perfect PSD to HTML5 and CSS3 conversion. W3C Standards Compliant.</li>
+                                <li>Cross browser / mobile / tablet / platform compatibility (Works perfectly in all major browsers and devices)</li>
+                                <li>Search engine optimised</li>
+                                <li>Usability and accessibility in mind when hand-coding all web sites</li>
+                                <li>Optimised for fast loading</li>
+                            </ul>
+                            <p><strong>"Send your design, I do the coding"</strong></p>
+                        </div>
+                    </li>
+                    <li class="tab-header-and-content">
+                        <a href="#" class="tab-link">3D &amp; Video</a>
+                        <div class="tab-content">
+                            <h2>3D Animation</h2>
+                            <p>3D modelling, especially for architecture, is another area I work in that includes modelling and animation for houses and buildings. He can however model, texturize and animate almost anything from small details to larger shapes and objects. There are a few examples under the <a href="portfolio" class="block-link">3D Work</a> section of this portfolio. The 3D software packages that Rohan uses are mainly Cinema 4D and Maya.</p>
+                            <h2>Video</h2>
+                            <p>Yet another service that I provide is video editing for small-scale projects using software such as Final Cut Pro and After Affects. Some of my videos, editing skills and work are implemented in his 3D  movies and can be previewed in the <a href="portfolio" class="block-link">Video</a> section.</p>
+                            <ul class="bullets">
+                                <li>Video integration &amp; encoding</li>
+                                <li>Video editing for small-medium scale projects</li>
+                                <li>DVD Authoring: DVD menu design</li>
+                                <li>3D Modelling and Animation</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </section><!-- End of section services -->
+        
         <section id="contact" class="row">
             <header>
                 <h1>Contact</h1>

@@ -78,6 +78,14 @@ $tablet-980: new-breakpoint(min-width 980px);
 		min-height: 190px;
 	}
 
+	#about {
+		header {
+			h1 {
+				width: 50%;
+			}
+		}
+	}
+
 	#web-dev,
 	#software {
  		margin: 0;
@@ -170,6 +178,11 @@ $width-650: new-breakpoint(max-width 650px);
 $width-600: new-breakpoint(max-width 600px);
 @include media($width-600) {
 	#about {
+		header {
+			h1 {
+				width: 70%;
+			}
+		}
 
 		i {
 			display: none;
@@ -223,6 +236,14 @@ $width-600: new-breakpoint(max-width 600px);
 	.col-4,
 	.col-5-1{
 		@include span-columns(12);
+	}
+
+	#about {
+		header {
+			h1 {
+				width: 100%;
+			}
+		}	
 	}
 
 	// What I do

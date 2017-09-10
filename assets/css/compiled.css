@@ -555,6 +555,7 @@ section header h1 {
 
 #about,
 #what-i-do,
+#work,
 #services,
 #skills,
 #clients,
@@ -1177,8 +1178,9 @@ a:hover {
       height: 45px;
       background-size: 75%; }
 
-.carousel.mini {
-  margin-top: 80px; }
+#work header h1:after {
+  left: 120px;
+  bottom: 40%; }
 
 #header-main.mobile .c-hamburger {
   display: block; }
@@ -1202,42 +1204,49 @@ a:hover {
         #header-main.mobile #nav-main ul li a span {
           display: none; }
 
-#about header::after {
-  clear: both;
-  content: "";
-  display: block; }
-#about header h1 {
-  float: left; }
-#about header h1:after {
-  display: none; }
-#about header .intro-scroll-arrow:before {
-  font-family: FontAwesome;
-  content: "\f13a"; }
-#about header .intro-scroll-arrow.scroll-up:before {
-  font-family: FontAwesome;
-  content: "\f139"; }
-#about header i {
-  float: right;
-  padding-left: 2px; }
-#about header i:hover {
-  color: #0074c0;
-  cursor: pointer;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-border-radius: all 500ms ease;
-  transition: all 500ms ease; }
-#about #intro {
-  padding-left: 0; }
-#about #intro:hover strong {
-  color: #0074c0;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-border-radius: all 500ms ease;
-  transition: all 500ms ease; }
-#about .intro-scroll-arrow.buttonPulse {
-  animation: buttonPulse 1750ms;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite; }
+#about {
+  position: relative;
+  margin-top: 30px; }
+  #about header::after {
+    clear: both;
+    content: "";
+    display: block; }
+  #about header h1 {
+    float: left;
+    width: 40%;
+    font-size: 2.3rem; }
+  #about header h1:after {
+    display: none; }
+  #about header .intro-scroll-arrow:before {
+    font-family: FontAwesome;
+    content: "\f13a"; }
+  #about header .intro-scroll-arrow.scroll-up:before {
+    font-family: FontAwesome;
+    content: "\f139"; }
+  #about header i {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 2px; }
+  #about header i:hover {
+    color: #0074c0;
+    cursor: pointer;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-border-radius: all 500ms ease;
+    transition: all 500ms ease; }
+  #about #intro {
+    padding-left: 0; }
+  #about #intro:hover strong {
+    color: #0074c0;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-border-radius: all 500ms ease;
+    transition: all 500ms ease; }
+  #about .intro-scroll-arrow.buttonPulse {
+    animation: buttonPulse 1750ms;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite; }
 @keyframes buttonPulse {
   0% {
     opacity: 0; }
@@ -1245,20 +1254,20 @@ a:hover {
     opacity: 0.8; }
   100% {
     opacity: 1; } }
-#about #cv h2 {
-  height: 35px;
-  line-height: 35px; }
-  #about #cv h2 a {
-    display: block;
-    width: 100%;
-    text-decoration: none; }
-  #about #cv h2 a:hover {
-    background: none;
-    color: #0074c0; }
-#about #cv #icon-underhood {
-  background: url(../img/icons/under_hood.png) no-repeat right center; }
-#about #cv #icon-cv {
-  background: url(../img/icons/pdf.png) no-repeat right center; }
+  #about #cv h2 {
+    height: 35px;
+    line-height: 35px; }
+    #about #cv h2 a {
+      display: block;
+      width: 100%;
+      text-decoration: none; }
+    #about #cv h2 a:hover {
+      background: none;
+      color: #0074c0; }
+  #about #cv #icon-underhood {
+    background: url(../img/icons/under_hood.png) no-repeat right center; }
+  #about #cv #icon-cv {
+    background: url(../img/icons/pdf.png) no-repeat right center; }
 
 #what-i-do header {
   width: 100%;
@@ -1605,6 +1614,9 @@ footer {
     .col-4:last-child {
       margin-right: 0; }
 
+  #about header h1 {
+    width: 50%; }
+
   #web-dev,
   #software {
     margin: 0; }
@@ -1668,6 +1680,8 @@ footer {
   #get-quote-form form label {
     width: 100%; } }
 @media screen and (max-width: 600px) {
+  #about header h1 {
+    width: 70%; }
   #about i {
     display: none; }
 
@@ -1707,6 +1721,9 @@ footer {
     .col-4:last-child,
     .col-5-1:last-child {
       margin-right: 0; }
+
+  #about header h1 {
+    width: 100%; }
 
   #what-i-do article {
     min-height: auto; }

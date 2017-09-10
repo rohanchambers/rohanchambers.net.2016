@@ -128,7 +128,7 @@ APP.caseStudy = function() {
 APP.animateTo = function() {
     // Home Page links scroll to section
 	function goToByScroll(id){
-		$('html, body').animate({scrollTop: $('#'+id).offset().top - 75}, 1500);
+		$('html, body').animate({scrollTop: $('#'+id).offset().top - 68}, 1500);
 	}
 
 	$('#intro-skills a, #what-i-do article a').click( function(e){
@@ -153,7 +153,7 @@ APP.animateTo = function() {
 	        $(this).toggleClass('scroll-up');
     	} else {
 	        $('html, body').animate({
-	            scrollTop: $('#' + 'about').offset().top -68
+	            scrollTop: $('#' + 'about').offset().top + 480
 	        }, 1000);
 	        $(this).toggleClass('scroll-up');
     	}
