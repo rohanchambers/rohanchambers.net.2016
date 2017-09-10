@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="google-site-verification" content="O_EstnFbqzbLNjMIFBb3JlSbZqtFiwRyt3LVJUUd8LE" />
     <title>Rohan Chambers | London Freelance Front End Developer and Designer</title>
     <meta name="author" content="Rohan Chambers">
     <meta name="description" content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London." />
