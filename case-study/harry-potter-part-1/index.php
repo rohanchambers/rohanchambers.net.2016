@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Harry Potter and the Deathly Hallows, Part 1 | Rohan Chambers';
+    $browserTitle = 'Harry Potter and the Deathly Hallows, Part 1 | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

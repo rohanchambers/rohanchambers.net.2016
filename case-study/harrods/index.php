@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Armani, Guerlain, Acqua Di Parma, DuChamp, Harrods Ties | Rohan Chambers';
+    $browserTitle = 'Armani, Guerlain, Acqua Di Parma, DuChamp, Harrods Ties | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Honda Made in Britain | Rohan Chambers';
+    $browserTitle = 'Honda Made in Britain | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

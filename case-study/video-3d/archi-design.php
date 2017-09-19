@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = '3D Archi Design | Rohan Chambers';
+    $browserTitle = '3D Archi Design | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

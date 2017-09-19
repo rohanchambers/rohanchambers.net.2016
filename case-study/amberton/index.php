@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Amberton Neumann Consultancy | Rohan Chambers';
+    $browserTitle = 'Amberton Neumann Consultancy | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

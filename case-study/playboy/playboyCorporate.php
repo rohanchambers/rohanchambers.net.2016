@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Playboy Corporate Site | Rohan Chambers';
+    $browserTitle = 'Playboy Corporate Site | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

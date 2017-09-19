@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Redbull Editions Instagram your Inspiration | Rohan Chambers';
+    $browserTitle = 'Redbull Editions Instagram your Inspiration | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

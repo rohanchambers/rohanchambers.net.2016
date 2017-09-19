@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'PG tips, Cuppa Club | Rohan Chambers';
+    $browserTitle = 'PG tips, Cuppa Club | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

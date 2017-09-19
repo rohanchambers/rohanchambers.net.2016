@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Bulmers, Harvestimator | Rohan Chambers';
+    $browserTitle = 'Bulmers, Harvestimator | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

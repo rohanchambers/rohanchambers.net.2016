@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = '3D Virtual House Version 1. | Rohan Chambers';
+    $browserTitle = '3D Virtual House Version 1. | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

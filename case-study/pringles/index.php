@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Pringles, Help the Oversharers | Rohan Chambers';
+    $browserTitle = 'Pringles, Help the Oversharers | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

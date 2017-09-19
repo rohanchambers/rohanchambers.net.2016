@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'London 2012 Olympics, Support your Team | Rohan Chambers';
+    $browserTitle = 'London 2012 Olympics, Support your Team | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

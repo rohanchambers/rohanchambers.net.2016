@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Tesco, The Social Wine | Rohan Chambers';
+    $browserTitle = 'Tesco, The Social Wine | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

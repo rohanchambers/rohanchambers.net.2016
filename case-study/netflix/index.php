@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Breaking Bad Spoiler Foiler | Rohan Chambers';
+    $browserTitle = 'Breaking Bad Spoiler Foiler | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

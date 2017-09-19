@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'London 2012, Young Leaders | Rohan Chambers';
+    $browserTitle = 'London 2012, Young Leaders | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

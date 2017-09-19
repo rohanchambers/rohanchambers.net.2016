@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Lenovo, The Year of the Do | Rohan Chambers';
+    $browserTitle = 'Lenovo, The Year of the Do | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

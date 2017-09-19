@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Jaguar Desire Calendar | Rohan Chambers';
+    $browserTitle = 'Jaguar Desire Calendar | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

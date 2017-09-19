@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'London 2012 Olympics, Social Media Dashboard | Rohan Chambers';
+    $browserTitle = 'London 2012 Olympics, Social Media Dashboard | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

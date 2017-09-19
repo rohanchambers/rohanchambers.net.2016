@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Jaguar, F-TYPE Sketch | Rohan Chambers';
+    $browserTitle = 'Jaguar, F-TYPE Sketch | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

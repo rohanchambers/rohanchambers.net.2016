@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Kleenex, Christmas Sparkle Competition | Rohan Chambers';
+    $browserTitle = 'Kleenex, Christmas Sparkle Competition | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

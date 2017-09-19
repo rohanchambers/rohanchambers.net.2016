@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Sheba UK Follow your Passion | Rohan Chambers';
+    $browserTitle = 'Sheba UK Follow your Passion | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

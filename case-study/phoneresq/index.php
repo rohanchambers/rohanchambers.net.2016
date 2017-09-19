@@ -1,7 +1,7 @@
 <?php
     // ENV. status
     $PRODUCTION = true;
-    $browserTitle = 'Phone ResQ. | Rohan Chambers';
+    $browserTitle = 'Phone ResQ. | Case study';
     $activePortfolio = 'active';
 ?>
 

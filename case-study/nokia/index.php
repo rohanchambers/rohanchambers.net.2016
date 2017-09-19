@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Nokia Outdoors Series | Rohan Chambers';
+    $browserTitle = 'Nokia Outdoors Series | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

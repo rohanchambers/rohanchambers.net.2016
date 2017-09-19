@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'UEFA Euro 2012, Goal of the Tournament | Rohan Chambers';
+    $browserTitle = 'UEFA Euro 2012, Goal of the Tournament | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

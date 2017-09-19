@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Tiger Beer Zodiac Pairs | Rohan Chambers';
+    $browserTitle = 'Tiger Beer Zodiac Pairs | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

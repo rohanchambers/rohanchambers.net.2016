@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'KPMG and Burberry | Rohan Chambers';
+    $browserTitle = 'KPMG and Burberry | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

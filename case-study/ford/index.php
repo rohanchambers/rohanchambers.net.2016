@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Ford Galaxy Email Newsletter | Rohan Chambers';
+    $browserTitle = 'Ford Galaxy Email Newsletter | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

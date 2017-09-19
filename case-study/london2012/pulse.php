@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'London 2012 Olympics, Olympic Pulse | Rohan Chambers';
+    $browserTitle = 'London 2012 Olympics, Olympic Pulse | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

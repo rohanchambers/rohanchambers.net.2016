@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'E.TAUTZ Fashion | Rohan Chambers';
+    $browserTitle = 'E.TAUTZ Fashion | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

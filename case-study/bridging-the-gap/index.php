@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'London 2012, Bridging the Gap | Rohan Chambers';
+    $browserTitle = 'London 2012, Bridging the Gap | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

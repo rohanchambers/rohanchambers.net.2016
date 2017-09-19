@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Debenhams Personal Finance | Rohan Chambers';
+    $browserTitle = 'Debenhams Personal Finance | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

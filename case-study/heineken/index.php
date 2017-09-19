@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Heineken, Beauty of Brewing | Rohan Chambers';
+    $browserTitle = 'Heineken, Beauty of Brewing | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

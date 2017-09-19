@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Cadbury, Advent Calendar | Rohan Chambers';
+    $browserTitle = 'Cadbury, Advent Calendar | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

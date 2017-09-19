@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Honda Test Drive Prototype | Rohan Chambers';
+    $browserTitle = 'Honda Test Drive Prototype | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

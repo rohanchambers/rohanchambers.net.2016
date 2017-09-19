@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = '3D Drumset | Rohan Chambers';
+    $browserTitle = '3D Drumset | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Jaguar UK, Live Fearless | Rohan Chambers';
+    $browserTitle = 'Jaguar UK, Live Fearless | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

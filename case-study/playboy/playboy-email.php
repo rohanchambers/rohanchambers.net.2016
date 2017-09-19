@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Playboy UK Email Newsletter | Rohan Chambers';
+    $browserTitle = 'Playboy UK Email Newsletter | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

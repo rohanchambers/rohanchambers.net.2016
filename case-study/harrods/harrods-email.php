@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Harrods Email Newsletter | Rohan Chambers';
+    $browserTitle = 'Harrods Email Newsletter | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Volvic, Tough Mudder | Rohan Chambers';
+    $browserTitle = 'Volvic, Tough Mudder | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

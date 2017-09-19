@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Perfect Peaks Brews | Rohan Chambers';
+    $browserTitle = 'Perfect Peaks Brews | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

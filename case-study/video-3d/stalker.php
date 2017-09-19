@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Interactive CD-Rom, Stalker project | Rohan Chambers';
+    $browserTitle = 'Interactive CD-Rom, Stalker project | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

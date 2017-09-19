@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Hotels.com Photo competition | Rohan Chambers';
+    $browserTitle = 'Hotels.com Photo competition | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

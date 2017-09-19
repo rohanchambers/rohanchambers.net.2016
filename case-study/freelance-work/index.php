@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Qube Managed Services Limited | Rohan Chambers';
+    $browserTitle = 'Qube Managed Services Limited | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

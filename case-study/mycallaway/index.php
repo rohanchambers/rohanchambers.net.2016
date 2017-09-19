@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'MyCallaway.eu | Rohan Chambers';
+    $browserTitle = 'MyCallaway.eu | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

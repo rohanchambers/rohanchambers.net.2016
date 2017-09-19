@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Future Life Happy, Interviews with people that matter | Rohan Chambers';
+    $browserTitle = 'Future Life Happy, Interviews with people that matter | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

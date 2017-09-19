@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'The Merchant adventurers club | Rohan Chambers';
+    $browserTitle = 'The Merchant adventurers club | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

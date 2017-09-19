@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Range Rover and Land Rover Facebook Dev. | Rohan Chambers';
+    $browserTitle = 'Range Rover and Land Rover Facebook Dev. | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

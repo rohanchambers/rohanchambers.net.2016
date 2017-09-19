@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'PG tips, Warm up Britain | Rohan Chambers';
+    $browserTitle = 'PG tips, Warm up Britain | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

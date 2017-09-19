@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Playboy UK, Thinking is Sexy | Rohan Chambers';
+    $browserTitle = 'Playboy UK, Thinking is Sexy | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

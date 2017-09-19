@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Tesco, Live Christmas Wine Tasting and Q&A | Rohan Chambers';
+    $browserTitle = 'Tesco, Live Christmas Wine Tasting and Q&A | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

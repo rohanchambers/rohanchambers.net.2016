@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Tesco Personal Finance | Rohan Chambers';
+    $browserTitle = 'Tesco Personal Finance | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

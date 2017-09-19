@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Jaguar, Cricket India | Rohan Chambers';
+    $browserTitle = 'Jaguar, Cricket India | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

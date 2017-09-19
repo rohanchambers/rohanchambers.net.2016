@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Anglo American - Get the full story | Rohan Chambers';
+    $browserTitle = 'Anglo American - Get the full story | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>

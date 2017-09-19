@@ -1,6 +1,6 @@
 <?php
     $PRODUCTION = true;
-    $browserTitle = 'Volvic, Touch of Tropical Postcards | Rohan Chambers';
+    $browserTitle = 'Volvic, Touch of Tropical Postcards | Case study';
     $activePortfolio = 'active';
 ?>
 <?php if ($PRODUCTION) { ?>
