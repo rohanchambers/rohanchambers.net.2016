@@ -21,10 +21,10 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="/assets/js/compiled.min.js?20170911"></script>
+    <script src="/assets/js/compiled.min.js?20180219"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
-    <script type="text/javascript">
+    <script>
     var sc_project=2795365; 
     var sc_invisible=1; 
     var sc_security="dbf7ea22"; 

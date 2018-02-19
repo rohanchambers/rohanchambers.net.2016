@@ -1,5 +1,5 @@
         <div>
-            <a href="case-study/heineken/"><img u="image" src="assets/img/carousel/beautyofbeer.jpg" alt="Heineken, The Beauty of Beer"/></a>
+            <a href="case-study/heineken/"><img data-u="image" src="assets/img/carousel/beautyofbeer.jpg" alt="Heineken, The Beauty of Beer"/></a>
             <div class="captions">
                 <h3>Heineken, The Beauty of Brewing</h3>
                 <p>I helped develop Heinken's 'The Beauty of Brewing'. This is a parallax website that explains the story of how beer is made. This site is fully responsive on all major devices. There was a lot of interaction with the designer on this project to get all the animations perfect.<br>
@@ -7,7 +7,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/jaguar/livefearless"><img u="image" src="assets/img/carousel/jaguar_livefearless.jpg" alt="Jaguar UK, Livefearless"/></a>
+            <a href="case-study/jaguar/livefearless"><img data-u="image" src="assets/img/carousel/jaguar_livefearless.jpg" alt="Jaguar UK, Livefearless"/></a>
             <div class="captions">
                 <h3>Jaguar UK, Livefearless</h3>
                 <p>I helped develop the front end build for Jaguar, Live Fearless. This tumblr theme is fully responsive. The F-TYPE Coupé is Jaguar’s commitment to a life lived by harnessing fear. A hunger and desire to improve, to challenge and to find a better way.<br>
@@ -15,7 +15,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/volvic/toughmudder"><img u="image" src="assets/img/carousel/toughmudder.jpg" alt="Volvic, Toughmudder Got the Bottle"/></a>
+            <a href="case-study/volvic/toughmudder"><img data-u="image" src="assets/img/carousel/toughmudder.jpg" alt="Volvic, Toughmudder Got the Bottle"/></a>
             <div class="captions">
                 <h3>Volvic, Toughmudder Got the Bottle</h3>
                 <p>I developed all of the front end build for Volic, Toughmudder Get the Bottle Facebook app. If you've #GOTTHEBOTTLE go on, show us your Game Face and you'll be in with a chance to win an adrenalin packed trip to Las Vegas or free entry to Tough Mudder.<br>
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/netflix/"><img u="image" src="assets/img/carousel/spoilerfoiler.jpg" alt="Netflix Spoiler Foiler"/></a>
+            <a href="case-study/netflix/"><img data-u="image" src="assets/img/carousel/spoilerfoiler.jpg" alt="Netflix Spoiler Foiler"/></a>
             <div class="captions">
                 <h3>Netflix, Breaking Bad Spoiler Foiler</h3>
                 <p>I built all the front end on this project. Behind on Breaking Bad? Now you can check your feed without fear. Any tweets with danger words get blacked out, as below. When you've caught up, it's safe to go back to normal Twitter. Until Heisenberg comes knocking again.<br>
@@ -31,7 +31,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/tesco/thesocialwine"><img u="image" src="assets/img/carousel/enotria-thesocialwine.jpg" alt="Tesco, The Social Wine"/></a>
+            <a href="case-study/tesco/thesocialwine"><img data-u="image" src="assets/img/carousel/enotria-thesocialwine.jpg" alt="Tesco, The Social Wine"/></a>
             <div class="captions">
                 <h3>Enotria, The Social Wine</h3>
                 <p>I developed all of the front end build for Tesco, The Social Wine Facebook app. while working closely with the backend developers that were integrating my templates in the PHP Fat-Free Framework. Take part in creating the world's first community sourced wine.<br>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/pgtips/cuppaclub"><img u="image" src="assets/img/carousel/pgtips-cuppaclub.jpg" alt="PG tips Cuppa Club"/></a>
+            <a href="case-study/pgtips/cuppaclub"><img data-u="image" src="assets/img/carousel/pgtips-cuppaclub.jpg" alt="PG tips Cuppa Club"/></a>
             <div class="captions">
                 <h3>PG tips Cuppa Club</h3>
                 <p>I developed all of the front end build for the PG tips, Cuppa Club Facebook app. while working closely with the backend developers that were integrating my templates in the PHP Fat-Free Framework.<br>
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/kleenex/collection"><img u="image" src="assets/img/carousel/kleenex-collection.jpg" alt="Kleenex Collection"/></a>
+            <a href="case-study/kleenex/collection"><img data-u="image" src="assets/img/carousel/kleenex-collection.jpg" alt="Kleenex Collection"/></a>
             <div class="captions">
                 <h3>Kleenex Collection</h3>
                 <p>I helped develop the front end of this Facebook app which lets the user design his/her Kleenex box to be entered into a gallery of which the best will selected to win a prize.<br>
@@ -55,7 +55,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/redbull/"><img u="image" src="assets/img/carousel/redbull.jpg" alt="Redbull, Our Editions"/></a>
+            <a href="case-study/redbull/"><img data-u="image" src="assets/img/carousel/redbull.jpg" alt="Redbull, Our Editions"/></a>
             <div class="captions">
                 <h3>Redbull Editions, Instagram your Inspiration</h3>
                 <p>I developed the complete front-end build for this Redbull microsite. The site is completely responsive for all major mobile devices including the iPad and iPhone. Interaction with the Instagram API for all data calling by the back-end developers I work with.<br>
@@ -63,7 +63,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/tiger/"><img u="image" src="assets/img/carousel/tiger.jpg" alt="Tiger Beer Zodia Pairs"/></a>
+            <a href="case-study/tiger/"><img data-u="image" src="assets/img/carousel/tiger.jpg" alt="Tiger Beer Zodia Pairs"/></a>
             <div class="captions">
                 <h3>Tiger Beer Zodiac Pairs</h3>
                 <p>I worked on this Facebook app. game for Tiger Beer as a front end developer. The player to get the highest score on Zodiac Pairs game during Chinese New Year will be in with the chance to win an awesome trip to Singapore.<br>
@@ -71,7 +71,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/evian/"><img u="image" src="assets/img/carousel/evian-slingshot.jpg" alt="Live young this January with Evian Hub"/></a>
+            <a href="case-study/evian/"><img data-u="image" src="assets/img/carousel/evian-slingshot.jpg" alt="Live young this January with Evian Hub"/></a>
             <div class="captions">
                 <h3>Live young this January with Evian</h3>
                 <p>I developed the complete front end builds of the Facebook apps. for Evian, Live young this January Hub while working closely with the backend developers that were integrating my templates in the PHP Fat-Free Framework.<br>
@@ -79,7 +79,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/pgtips/"><img u="image" src="assets/img/carousel/pg-tips.jpg" alt="London 2012 Olympics, Support your Team"/></a>
+            <a href="case-study/pgtips/"><img data-u="image" src="assets/img/carousel/pg-tips.jpg" alt="London 2012 Olympics, Support your Team"/></a>
             <div class="captions">
                 <h3>PG Tips, Warm up Britain</h3>
                 <p>I developed all of the front end build for the PG Tips, Warm up Britain Facebook app. while working closely with the backend developers that were integrating my templates in the PHP Fat-Free Framework.<br>
@@ -87,7 +87,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/lenovo/"><img u="image" src="assets/img/carousel/lenovo.jpg" alt="Lenovo, The Year of the Do"/></a>
+            <a href="case-study/lenovo/"><img data-u="image" src="assets/img/carousel/lenovo.jpg" alt="Lenovo, The Year of the Do"/></a>
             <div class="captions">
                 <h3>Lenovo, The Year of the Do</h3>
                 <p>I worked on the front end build of the Lenovo, The year of do Facebook app. while working closely with the backend developers that were integrating my templates in the PHP Fat-Free Framework.<br>
@@ -95,7 +95,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/london2012/supportyourteam"><img u="image" src="assets/img/carousel/supportyourteam.jpg" alt="London 2012 Olympics, Support your Team"/></a>
+            <a href="case-study/london2012/supportyourteam"><img data-u="image" src="assets/img/carousel/supportyourteam.jpg" alt="London 2012 Olympics, Support your Team"/></a>
             <div class="captions">
                 <h3>London 2012 Olypmics, Support your Team</h3>
                 <p>Support your team to Olympic glory. I developed the complete front end build for the desktop and mobile versions including iPhone and iPad. (75% of the JavaScript/jQuery code) This site was built to allow fans to tweet about their favourite event and represent their...<br>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/sheba/"><img u="image" src="assets/img/carousel/sheba.jpg" alt="Sheba UK Follow your Passion"/></a>
+            <a href="case-study/sheba/"><img data-u="image" src="assets/img/carousel/sheba.jpg" alt="Sheba UK Follow your Passion"/></a>
             <div class="captions">
                 <h3>Sheba UK Follow your Passion</h3>
                 <p>I developed the holding page and the Facebook tab page for Sheba UK which has just introduced the lovely Eva Longoria as part of the new Sheba story. Built in HTML5, CSS3 and JavaScript/jQuery for the background image resizing functionality.<br>
@@ -111,7 +111,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/harry-potter-part-2/"><img u="image" src="assets/img/carousel/harry-potter-part-2.jpg" alt="Harry Potter and the deathly Hallows, The videogame - Part 2"/></a>
+            <a href="case-study/harry-potter-part-2/"><img data-u="image" src="assets/img/carousel/harry-potter-part-2.jpg" alt="Harry Potter and the deathly Hallows, The videogame - Part 2"/></a>
             <div class="captions">
                 <h3>Harry Potter and the Deathly Hallows Part 2, Video game</h3>
                 <p>Fully developed the front end build for the latest Harry Potter game website using HTML5 and CSS3 to be then passed on to backend developers to integrate in Wordpress for its CMS capabilities. I developed the front end to be localised in 8 different languages.<br>
@@ -119,7 +119,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/anglo-american/"><img u="image" src="assets/img/carousel/anglo-american.jpg" alt="Anglo American"/></a>
+            <a href="case-study/anglo-american/"><img data-u="image" src="assets/img/carousel/anglo-american.jpg" alt="Anglo American"/></a>
             <div class="captions">
                 <h3>Anglo American</h3>
                 <p>I built most of the front end for this site including all templates in html5, css and some jquery to then be handed over to the back end developers that were integrating them in a bespoke CMS.<br>
@@ -127,7 +127,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/flh/"><img u="image" src="assets/img/carousel/flh.jpg" alt="Anglo American"/></a>
+            <a href="case-study/flh/"><img data-u="image" src="assets/img/carousel/flh.jpg" alt="Anglo American"/></a>
             <div class="captions">
                 <h3>Future Life Happy</h3>
                 <p>Complete front end development allowing users to sign up to a subscription list to receive a link and password to the full video interview. Fascinating intimate interviews with people that matter sharing their wisdom and experience.<br>
@@ -135,7 +135,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/amberton/"><img u="image" src="assets/img/carousel/amberton.jpg" alt="Amberton Neumann Consultancy"/></a>
+            <a href="case-study/amberton/"><img data-u="image" src="assets/img/carousel/amberton.jpg" alt="Amberton Neumann Consultancy"/></a>
             <div class="captions">
                 <h3>Amberton Neumann Consultancy</h3>
                 <p>Complete design, front end build and CMS integration of Wordpress for the client to update on a daily basis. This site was designed and built to revamp the image of Amberton Neumann.<br>
@@ -143,7 +143,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/honda/honda-dreamfactory"><img u="image" src="assets/img/carousel/honda-dreamfactory.jpg" alt="Honda Hub Dream Factory"/></a>
+            <a href="case-study/honda/honda-dreamfactory"><img data-u="image" src="assets/img/carousel/honda-dreamfactory.jpg" alt="Honda Hub Dream Factory"/></a>
             <div class="captions">
                 <h3>Honda Hub Dream Factory</h3>
                 <p>I helped develop the front end to another Honda hub site called Dream Factory that followed the Honda Stories site. Again this site was built and then passed on to the back end developers that were integrating it in Wordpress so that the clients could manage...<br>
@@ -151,7 +151,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/honda/honda-hub"><img u="image" src="assets/img/carousel/hub-honda.jpg" alt="Honda Hub"/></a>
+            <a href="case-study/honda/honda-hub"><img data-u="image" src="assets/img/carousel/hub-honda.jpg" alt="Honda Hub"/></a>
             <div class="captions">
                 <h3>Honda hub</h3>
                 <p>I developed the complete front end build for the Honda Hub website to be passed on to the back end developers that were integrating my templates in Wordpress. Honda hub's design was meant to support the all well known advertising agency WK's (Wieden Kennedy)...<br>
@@ -159,7 +159,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/mycallaway/"><img u="image" src="assets/img/carousel/myCallway.jpg" alt="myCallway"/></a>
+            <a href="case-study/mycallaway/"><img data-u="image" src="assets/img/carousel/myCallway.jpg" alt="myCallway"/></a>
             <div class="captions">
                 <h3>MyCallaway Golfing</h3>
                 <p>Callaway is a high end brand of golfing equipment and this site is to promote all there latest equipment and news. I developed some of the front end build for this site as a support to another developer in my team.<br>
@@ -167,7 +167,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/bridging-the-gap/"><img u="image" src="assets/img/carousel/london-2012.jpg" alt="London 2012, Bridging the Gap"/></a>
+            <a href="case-study/bridging-the-gap/"><img data-u="image" src="assets/img/carousel/london-2012.jpg" alt="London 2012, Bridging the Gap"/></a>
             <div class="captions">
                 <h3>London 2012, Bridging the gap</h3>
                 <p>Bridging the gap is a supporting site for the London 2012 Olympics site. I developed all of the front end templates for the site to be integrated in to a CMS by a third party agency using the DotNetNuke CMS. All pages had to be accessible as this is a government site...<br>
@@ -175,7 +175,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/london2012/"><img u="image" src="assets/img/carousel/london-2012-young-leaders.jpg" alt="London 2012, Young Leaders "/></a>
+            <a href="case-study/london2012/"><img data-u="image" src="assets/img/carousel/london-2012-young-leaders.jpg" alt="London 2012, Young Leaders "/></a>
             <div class="captions">
                 <h3>London 2012, Young Leaders</h3>
                 <p>I developed a section to the London 2012 website called 'Young Leaders'. I had to understandably develop this around the original site and its framework to work in the CMS....<br>
@@ -183,7 +183,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/harry-potter-part-1/"><img u="image" src="assets/img/carousel/harry-potter-part-1.jpg" alt="Harry Potter and the deathly Hallows, The videogame - Part 1"/></a>
+            <a href="case-study/harry-potter-part-1/"><img data-u="image" src="assets/img/carousel/harry-potter-part-1.jpg" alt="Harry Potter and the deathly Hallows, The videogame - Part 1"/></a>
             <div class="captions">
                 <h3>Harry Potter and the Deathly Hallows, Part 1</h3>
                 <p>Front end development site updates. Mainly updating the Harry Potter Deathly Hallow's site with new sections and pages. This site is maintained and translated in multiple languages in countries such as Spain and many more.<br>
@@ -191,7 +191,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/etautz/"><img u="image" src="assets/img/carousel/etautz.jpg" alt="Etautz"/></a>
+            <a href="case-study/etautz/"><img data-u="image" src="assets/img/carousel/etautz.jpg" alt="Etautz"/></a>
             <div class="captions">
                 <h3>E.TAUTZ Fashion</h3>
                 <p>E.TAUTZ is a fashion label for mens clothing's such as knits, shirts, ties and much more. I helped on the front end build of the site with another developer and maintain future changes requested by the client.<br>
@@ -199,7 +199,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/fashion-istical/"><img u="image" src="assets/img/carousel/fashionistical.jpg" alt="Fashion-istical"/></a>
+            <a href="case-study/fashion-istical/"><img data-u="image" src="assets/img/carousel/fashionistical.jpg" alt="Fashion-istical"/></a>
             <div class="captions">
                 <h3>Fashion-istical</h3>
                 <p>I designed and developed an idea for a fashion magazine that will be based upon articles about fashion. This is a personal project/idea for friends that maybe starting up a fashion magazine company. This site will be integrated into Wordpress for its cms capabilities...<br>
@@ -207,7 +207,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/pringles/"><img u="image" src="assets/img/carousel/pringles.jpg" alt="Pringles Help the Oversharers"/></a>
+            <a href="case-study/pringles/"><img data-u="image" src="assets/img/carousel/pringles.jpg" alt="Pringles Help the Oversharers"/></a>
             <div class="captions">
                 <h3>Pringles Help the Oversharers</h3>
                 <p>I developed the pages that would show if Flash or Javascript are not installed or turned off respectively. Mainly XHTML and CSS builds of new pages with strict accessibility and W3C standards. This was a freelance job I worked on for one of the top 5 digital advertising...<br>
@@ -215,7 +215,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/cadbury/"><img u="image" src="assets/img/carousel/cadbury.jpg" alt="Cadbury cakes"/></a>
+            <a href="case-study/cadbury/"><img data-u="image" src="assets/img/carousel/cadbury.jpg" alt="Cadbury cakes"/></a>
             <div class="captions">
                 <h3>Cadbury Cakes</h3>
                 <p>Premierfoods were needing individual supporting websites for their food brands which included Cadbury, Birds, Haywards, Branston, Mr. Kipling, Angel Delight, Hartleys and many more. I worked on this project as a front end developer working from a template to develop all...<br>
@@ -223,7 +223,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/debenhams/"><img u="image" src="assets/img/carousel/debenhams.jpg" alt="Debenhams Personal Finance"/></a>
+            <a href="case-study/debenhams/"><img data-u="image" src="assets/img/carousel/debenhams.jpg" alt="Debenhams Personal Finance"/></a>
             <div class="captions">
                 <h3>Debenhams</h3>
                 <p>I worked on the Debenhams Personal Finance website as a front end developer mainly doing XHTML and CSS amends for various sections of the site.<br>
@@ -231,7 +231,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/kpmg/"><img u="image" src="assets/img/carousel/kpmg-burberry.jpg" alt="KPMG &amp; Burberry"/></a>
+            <a href="case-study/kpmg/"><img data-u="image" src="assets/img/carousel/kpmg-burberry.jpg" alt="KPMG &amp; Burberry"/></a>
             <div class="captions">
                 <h3>KPMG &amp; Burberry</h3>
                 <p>Front end development for the KPMG Burberry website. I was working on the build of the site with another front end developer. This site is heavily based on the jQuery library for its functionality. Very tight deadline of 4 days to develop the whole site to hand over to the...<br>
@@ -239,7 +239,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/jaguar/"><img u="image" src="assets/img/carousel/jaguar-xk.jpg" alt="Jaguar XK"/></a>
+            <a href="case-study/jaguar/"><img data-u="image" src="assets/img/carousel/jaguar-xk.jpg" alt="Jaguar XK"/></a>
             <div class="captions">
                 <h3>Jaguar XK</h3>
                 <p>My brief was to put together all the assets given to me from the client (Jaguar) such as background image, rollover images, Logos, videos etc... into a simple DVD menu. I Created this using Apple's DVD Studio Pro 3.<br>
@@ -247,7 +247,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/playboy/"><img u="image" src="assets/img/carousel/playboyUK.jpg" alt="Playboy UK"/></a>
+            <a href="case-study/playboy/"><img data-u="image" src="assets/img/carousel/playboyUK.jpg" alt="Playboy UK"/></a>
             <div class="captions">
                 <h3>Playboy UK</h3>
                 <p>I helped on the build of this site as a front end developer creating modules to fit within the grid of the CMS. Working with an external web agency that were creating the back end and the build of the CMS. This site is backed up with a bespoke CMS to manage all existing...<br>
@@ -255,7 +255,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/playboy/playboyU"><img u="image" src="assets/img/carousel/playboyU.jpg" alt="PlayboyU"/></a>
+            <a href="case-study/playboy/playboyU"><img data-u="image" src="assets/img/carousel/playboyU.jpg" alt="PlayboyU"/></a>
             <div class="captions">
                 <h3>Playboy U</h3>
                 <p>I developed this page for the Playboy U campaign. Playboy is looking for outgoing and highly motivated university students in the UK to help market Playboy's businesses. This page was built using validated XHTML and CSS. PHP was used to capture the data information...<br>
@@ -263,7 +263,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/playboy/playboyCorporate"><img u="image" src="assets/img/carousel/playboytv.jpg" alt="Playboy UK Corporate"/></a>
+            <a href="case-study/playboy/playboyCorporate"><img data-u="image" src="assets/img/carousel/playboytv.jpg" alt="Playboy UK Corporate"/></a>
             <div class="captions">
                 <h3>Playboy UK Corporate</h3>
                 <p>A project for the company I work for, Playboy UK. Fully developed the Playboy UK Corporate website as a marketing asset to the company so that potential clients would be aware of what Playboy have to offer.<br>
@@ -271,7 +271,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/playboy/playboy-model-uk"><img u="image" src="assets/img/carousel/playboymodeluk.jpg" alt="Playboy Model UK 2007"/></a>
+            <a href="case-study/playboy/playboy-model-uk"><img data-u="image" src="assets/img/carousel/playboymodeluk.jpg" alt="Playboy Model UK 2007"/></a>
             <div class="captions">
                 <h3>Playboy UK Corporate</h3>
                 <p>Playboy Model UK 2007 was a competition that Playboy UK setup to increase sales via mobile texting. The UGC website would allow users to create profiles and add photos and relevant details in order to get as many people to vote for them via texting. I fully developed...<br>
@@ -279,7 +279,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/playboy/playboy-email"><img u="image" src="assets/img/carousel/playboy-newsletter.jpg" alt="Playboy UK Newsletter"/></a>
+            <a href="case-study/playboy/playboy-email"><img data-u="image" src="assets/img/carousel/playboy-newsletter.jpg" alt="Playboy UK Newsletter"/></a>
             <div class="captions">
                 <h3>Playboy UK Newsletter</h3>
                 <p>This was the new 2009 Playboy Newsletter email that we sent out to all our subscribers upon the launch of Playboy.co.uk 2009. I developed the newsletter template to allow the content managers to update and send it out on a weekly basis.<br>
@@ -287,7 +287,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/playboy/thinking-is-sexy"><img u="image" src="assets/img/carousel/thinking-is-sexy.jpg" alt="Playboy UK Thinking is Sexy"/></a>
+            <a href="case-study/playboy/thinking-is-sexy"><img data-u="image" src="assets/img/carousel/thinking-is-sexy.jpg" alt="Playboy UK Thinking is Sexy"/></a>
             <div class="captions">
                 <h3>Playboy UK, Thinking is sexy</h3>
                 <p>Work project for the company I work for, Playboy UK. This is the holding page I developed for the new Playboy.co.uk to come. It will allow users to register their details to get the latest news about the new Playboy website.<br>
@@ -295,7 +295,7 @@
             </div>
         </div>
         <div>
-            <a href="case-study/harrods/"><img u="image" src="assets/img/carousel/guerlain-kiss-kiss.jpg" alt="Guerlain Kiss Kiss lipstick"/></a>
+            <a href="case-study/harrods/"><img data-u="image" src="assets/img/carousel/guerlain-kiss-kiss.jpg" alt="Guerlain Kiss Kiss lipstick"/></a>
             <div class="captions">
                 <h3>Harrods, Guerlain Kiss Kiss lipstick</h3>
                 <p>Mainly keeping Harrods.com up to date with upcoming news, events and products. Working on premium consumer brands for the likes of Emporio Armani, Hugo Boss, Guerlain, La Prairie and many more. Design and development of landing pages and micro sites with the...<br>

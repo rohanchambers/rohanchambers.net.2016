@@ -113,7 +113,7 @@ module.exports = function(grunt){
 				},
 				options: {
 					watchTask: true,
-					proxy: "rohan.dev/index-dev.php"
+					proxy: "rohan.local/index-dev.php"
 				}
 			}
 		},

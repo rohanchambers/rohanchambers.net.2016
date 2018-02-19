@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,7 +10,7 @@
     <meta name="keywords" content="rohan chambers, rohan, chambers, freelance front end developer, front end developer, london front end developer, html5 developer, web developer, web designer, html5, css3, responsive web design" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!--(if target dev)><!-->
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
@@ -54,7 +54,7 @@
                 <span>Toggle menu</span>
             </button>
 
-            <nav role="navigation" id="nav-main" class="">
+            <nav id="nav-main" class="">
                 <ul>
                     <li class="active"><a href="/index.php#home">Home <span>Welcome</span></a></li>
                     <li class="desktop-nav-mini"><a href="/index.php#skills">Skills <span>My work</span></a></li>                    
@@ -203,17 +203,17 @@
 
             <div id="carousel" style="position: relative; top: 0px; left: 0px; width: 1024px; height: 420px; overflow: hidden;">
                 <!-- Loading Screen -->
-                <div id="loading" u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div id="loading" data-u="loading" style="position: absolute; top: 0px; left: 0px;">
                     <!-- your loading screen content here -->
                 </div>
                 <!-- Slides Container -->
-                <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1024px; height: 420px;">
+                <div data-u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 1024px; height: 420px;">
                     <?php include("incl/inc-carousel.php"); ?>
                 </div><!-- End of slides -->
                 <!-- Arrow Left -->
-                <span u="arrowleft" class="arrow jssora22l"></span>
+                <span data-u="arrowleft" class="arrow jssora22l"></span>
                 <!-- Arrow Right -->
-                <span u="arrowright" class="arrow jssora22r">
+                <span data-u="arrowright" class="arrow jssora22r">
                 </span>
             </div>
         </section>
@@ -401,9 +401,9 @@
                 <ul id="contact-list" class="">
                     <li><a href="mailto:info@rohanchambers.net" target="_blank"><img src="assets/img/icons/contact/mail.png" alt="E-mail" title="E-mail" width="24" height="24">info@rohanchambers.net</a></li>
                     <li><img src="assets/img/icons/contact/phone.png" alt="Phone" title="Phone" width="24" height="24" /> <a href="tel:+447917044052">+44 (0) 79 170 44 052</a></li>
-                    <li><a href="http://www.twitter.com/rohanchambers" target="_blank"><img src="assets/img/icons/contact/twitter_icon.png" alt="Twitter profile" title="Twitter profile" width="24" height="24">Twitter</a></li>
-                    <li><a href="http://www.linkedin.com/in/rohanchambers" target="_blank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn profile" title="LinkedIn profile" width="24" height="24" target="_blank">LinkedIn</a></li>
-                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/skype_icon.png" alt="Skype" title="Skype" width="24" height="24" target="_blank">Skype</a> (On request only)</li>
+                    <li><a href="http://www.twitter.com/rohanchambers" target="_blank"><img src="assets/img/icons/contact/twitter_icon.png" alt="Twitter profile" title="Twitter profile" width="24" height="24" />Twitter</a></li>
+                    <li><a href="http://www.linkedin.com/in/rohanchambers" target="_blank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn profile" title="LinkedIn profile" width="24" height="24" target="_blank" />LinkedIn</a></li>
+                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/skype_icon.png" alt="Skype" title="Skype" width="24" height="24" target="_blank" />Skype</a> (On request only)</li>
                 </ul>
             </article>
             <article class="col-3">

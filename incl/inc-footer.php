@@ -30,7 +30,7 @@
     <script src="/assets/js/compiled.min.js?{{rlsdate}}"></script>
     <!(endif)-->
     <!-- Start of StatCounter Code for Default Guide -->
-    <script type="text/javascript">
+    <script>
     var sc_project=2795365; 
     var sc_invisible=1; 
     var sc_security="dbf7ea22"; 
