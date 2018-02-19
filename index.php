@@ -391,23 +391,23 @@
             <header>
                 <h1>Contact</h1>
             </header>
-            <article class="col-3">
+            <div class="col-3">
                 <p>North London, Islington, UK.</p>
                 <ul id="contact-list" class="">
                     <li><a href="mailto:info@rohanchambers.net" target="_blank"><img src="assets/img/icons/contact/mail.png" alt="E-mail" title="E-mail" width="24" height="24">info@rohanchambers.net</a></li>
                     <li><img src="assets/img/icons/contact/phone.png" alt="Phone" title="Phone" width="24" height="24" /> <a href="tel:+447917044052">+44 (0) 79 170 44 052</a></li>
                     <li><a href="http://www.twitter.com/rohanchambers" target="_blank"><img src="assets/img/icons/contact/twitter_icon.png" alt="Twitter profile" title="Twitter profile" width="24" height="24" />Twitter</a></li>
-                    <li><a href="http://www.linkedin.com/in/rohanchambers" target="_blank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn profile" title="LinkedIn profile" width="24" height="24" target="_blank" />LinkedIn</a></li>
-                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/skype_icon.png" alt="Skype" title="Skype" width="24" height="24" target="_blank" />Skype</a> (On request only)</li>
+                    <li><a href="http://www.linkedin.com/in/rohanchambers" target="_blank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn profile" title="LinkedIn profile" width="24" height="24" />LinkedIn</a></li>
+                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/skype_icon.png" alt="Skype" title="Skype" width="24" height="24" />Skype</a> (On request only)</li>
                 </ul>
-            </article>
-            <article class="col-3">
+            </div>
+            <div class="col-3">
                 <div id="get-a-quote">
                     <h2>Get a quote</h2>
                     <p>If you wish to get a quote for one of your projects please click the button below and fill in the questionnaire or email me directly.</p>
                     <a href="get-a-quote" class="btn-global btn-spacer">Get a quote<span class="arrow"></span><span></span></a>
                 </div>
-            </article>
+            </div>
         </section>
 	</div><!-- End of container -->
 
@@ -447,7 +447,7 @@
     <script src="assets/js/compiled.min.js?20180219"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
-    <script type="text/javascript">
+    <script>
     var sc_project=2795365; 
     var sc_invisible=1; 
     var sc_security="dbf7ea22"; 
