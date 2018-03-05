@@ -32,9 +32,9 @@
             <p>I was fortunate to get this project through a connection of an old high school friend from Switzerland, Geneva, Deryck Burnett owner of Megabite computer services in Fernandina beach, Florida.</p>
             <p><strong>View site:</strong> <a href="http://phoneresq.com/" class="targetBlank">http://phoneresq.com</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
             <img src="img/phoneResq_home.jpg" alt="Phone ResQ.">
-        </section>
+        </div>
 	</div><!-- End of container -->
 
     <?php if ($PRODUCTION) { ?>
