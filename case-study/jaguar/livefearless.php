@@ -34,7 +34,7 @@
 			<img src="img/livefearless/jaguar_fearless_home.jpg" alt="Heineken, The Beauty of Brewing">
 			<img src="img/livefearless/jaguar_fearless_lightbox.jpg" alt="Heineken, The Beauty of Brewing">
 			<img src="img/livefearless/jaguar_fearless_mobile.jpg" alt="Heineken, The Beauty of Brewing">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
     <?php if ($PRODUCTION) { ?>

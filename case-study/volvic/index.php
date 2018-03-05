@@ -41,7 +41,7 @@
         <div id="case-study-img" class="col-8">
 			<img src="img/volvic-postcards-home.jpg" alt="Volvic, Touch of Tropical Postcards">
 			<img src="img/volvic-postcards-upload.jpg" alt="Volvic, Touch of Tropical Postcards">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

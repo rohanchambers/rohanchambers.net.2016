@@ -31,7 +31,7 @@
         </section>
         <div id="case-study-img" class="col-8">
 			<img src="img/spoilerfoiler.jpg" alt="Spoiler Foiler">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

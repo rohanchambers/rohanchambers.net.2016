@@ -32,7 +32,7 @@
         </section>
         <div id="case-study-img" class="col-8">
 			<img src="img/enotria-thesocialwine-home.jpg" alt="Enotria, The Social Wine">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -37,7 +37,7 @@
 			<img src="img/yellow.jpg" alt="Perfect Peaks Brews" />
 			<img src="img/turquoise.jpg" alt="Perfect Peaks Brews" />
 			<img src="img/variations.jpg" alt="Perfect Peaks Brews" />
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

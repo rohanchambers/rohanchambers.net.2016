@@ -35,7 +35,7 @@
 			<img src="img/bulmers-home-mobile.jpg" alt="Bulmers Harvestimator">
 			<img src="img/bulmers-challenge.jpg" alt="Bulmers Harvestimator">
 			<img src="img/bulmers-challenge-mobile.jpg" alt="Bulmers Harvestimator">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

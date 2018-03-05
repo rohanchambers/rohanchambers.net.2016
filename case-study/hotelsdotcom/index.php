@@ -40,7 +40,7 @@
 			<img src="img/home.jpg" alt="Hotels Photo competition">
 			<img src="img/fancybox.jpg" alt="Hotels Photo competition">
 			<img src="img/entry.jpg" alt="Hotels Photo competition">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

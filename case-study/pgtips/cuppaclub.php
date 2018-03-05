@@ -34,7 +34,7 @@
 			<img src="img/pgTips-cuppaclub-home.jpg" alt="PG tips, Cuppa Club">
 			<img src="img/pgTips-cuppaclub-register.jpg" alt="PG tips, Cuppa Club">
 			<img src="img/pgTips-cuppaclub-about.jpg" alt="PG tips, Cuppa Club">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

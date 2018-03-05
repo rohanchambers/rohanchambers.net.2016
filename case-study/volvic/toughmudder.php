@@ -39,7 +39,7 @@
 			<img src="img/toughmudder/toughmudder_home.jpg" alt="Volvic, Toughmudder got the bottle">
 			<img src="img/toughmudder/toughmudder_lightbox.jpg" alt="Volvic, Toughmudder got the bottle">
 			<img src="img/toughmudder/toughmudder_mobile.jpg" alt="Volvic, Toughmudder got the bottle">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

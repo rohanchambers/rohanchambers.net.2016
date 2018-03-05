@@ -34,7 +34,7 @@
 			<img src="img/movember/home.jpg" alt="Heinz, HP Movember" />
 			<img src="img/movember/challenge.jpg"" alt="Heinz, HP Movember" />
 			<img src="img/movember/gallery.jpg"" alt="Heinz, HP Movember" />
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

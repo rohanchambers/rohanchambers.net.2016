@@ -31,7 +31,7 @@
         <div id="case-study-img" class="col-8">
 			<img src="img/moetMomente.jpg" alt="#Mo&euml;t Momente">
 			<img src="img/moetMomenteMobile.jpg" alt="#Mo&euml;t Momente">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

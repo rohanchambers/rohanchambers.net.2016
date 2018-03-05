@@ -37,7 +37,7 @@
 			<img src="img/getwellsoup/buycan.jpg" alt="Heinz, Get Well Soup">
 			<img src="img/getwellsoup/buycan_form.jpg" alt="Heinz, Get Well Soup">
 			<img src="img/getwellsoup/videoshare.jpg" alt="Heinz, Get Well Soup">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

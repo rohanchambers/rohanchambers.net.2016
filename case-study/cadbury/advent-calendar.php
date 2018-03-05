@@ -35,7 +35,7 @@
 			<img src="img/advent/cadbury_advent_desktop.jpg" alt="Cadbury, Advent Calendar">
 			<img src="img/advent/cadbury_advent_fbapp.jpg" alt="Cadbury, Advent Calendar">
 			<img src="img/advent/cadbury_advent_mobile.jpg" alt="Cadbury, Advent Calendar">
-        </section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>
