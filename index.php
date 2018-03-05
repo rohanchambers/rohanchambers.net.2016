@@ -103,7 +103,7 @@
                 <p><a href="mailto:info@rohanchambers.net" class="block-link">info@rohanchambers.net</a></p>
                 <h2>Recruit me:</h2>
                 <ul class="bullets">
-                    <li>Available for freelance projects in-house or preferably remotely.</li>
+                    <li>Available for freelance projects in-house or preferably working remotely.</li>
                 </ul>
                 <div id="cv">
                     <h2 id="icon-underhood"><a class="cta-lightbox-home" title="Under the Hood of RohanChambers.net" href="#">Under the Hood:</a></h2>
