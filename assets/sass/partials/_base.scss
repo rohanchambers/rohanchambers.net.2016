@@ -20,7 +20,7 @@ ul.bullets {
 		content: '';
 		position: absolute;
 		left: -12px;
-		top: 3px;
+		top: 5px;
 		@include triangle(10px, $blue, right);
 	}
 }
