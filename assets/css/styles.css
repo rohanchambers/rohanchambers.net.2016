@@ -57,7 +57,7 @@ body {
   font-style: normal; }
 h1,
 h2,
-nav[role="navigation"],
+nav,
 .filter-button-group a,
 .view-more,
 .captions h3 {

@@ -4,12 +4,12 @@
     $activePortfolio = 'active'
 ?>
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title><?=$browserTitle?></title>
-    <meta name="author" content="Rohan Chambers">
+    <meta name="§author" content="Rohan Chambers">
     <meta name="description" content="This website is primarily designed to be an online portfolio presence for Rohan Chambers, a freelance Web Designer / Front End Developer based in London." />
     <meta name="keywords" content="rohan chambers, rohan, chambers, freelance front end developer, front end developer, london front end developer, html5 developer, web developer, web designer, html5, css3, responsive web design" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,7 +58,7 @@
                 <span>Toggle menu</span>
             </button>
 
-            <nav role="navigation" id="nav-main" class="">
+            <nav id="nav-main" class="">
                 <ul>
                     <li class="<?=$activeHome?>"><a href="/">Home <span>Welcome</span></a></li>
                     <li class="desktop-nav-mobile"><a href="/index.php#what-i-do">What I do <span>What I do</span></a></li>
@@ -632,7 +632,7 @@
     <script src="assets/js/compiled.min.js?{{rlsdate}}"></script>
     <!(endif)-->
     <!-- Start of StatCounter Code for Default Guide -->
-    <script type="text/javascript">
+    <script>
     var sc_project=2795365; 
     var sc_invisible=1; 
     var sc_security="dbf7ea22"; 

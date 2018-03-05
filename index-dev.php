@@ -81,7 +81,7 @@
                 <p>This <strong>website</strong> is primarily designed to be an online portfolio presence for <strong>Rohan Chambers</strong>, a <strong>Front-end Developer</strong> based in London, UK.
                 I have recently started working freelance but prior to this I was a <strong>Creative Technologist (Front end)</strong> for the agency, <strong><a href="http://www.wearesocial.com/uk" target="_blank">We Are Social</a></strong> for around three years. Prior to that I was working full time at <strong>Playboy UK</strong> as a web developer.</p>
                 <p>Some of the <strong>Technologies</strong> used on this site and other <strong>Projects</strong> I have done include <strong>HTML5, CSS3 (SASS) with Bourbon &amp; Neat</strong> complemented by some Javascript, <strong>Jquery</strong>, Wordpress, Bower, Grunt, and the list goes on along with good knowledge of best practices in <strong>Accessibility</strong>, SEO and <strong>W3C standards</strong>.</p>
-                <p>I am currently delving in to <strong>Angular &amp; Reatct JS</strong> but my main focus is <strong>expanding</strong> on my JavaScript skills for projects in the near <strong>future</strong>.</p>
+                <p>I am currently delving in to <strong>Angular &amp; React JS</strong> but my main focus is <strong>expanding</strong> on my JavaScript skills for projects in the near <strong>future</strong>.</p>
             </article>
 
             <article id="intro-skills" class="col-5-1 mob-2 element">
@@ -396,23 +396,23 @@
             <header>
                 <h1>Contact</h1>
             </header>
-            <article class="col-3">
+            <div class="col-3">
                 <p>North London, Islington, UK.</p>
                 <ul id="contact-list" class="">
                     <li><a href="mailto:info@rohanchambers.net" target="_blank"><img src="assets/img/icons/contact/mail.png" alt="E-mail" title="E-mail" width="24" height="24">info@rohanchambers.net</a></li>
                     <li><img src="assets/img/icons/contact/phone.png" alt="Phone" title="Phone" width="24" height="24" /> <a href="tel:+447917044052">+44 (0) 79 170 44 052</a></li>
                     <li><a href="http://www.twitter.com/rohanchambers" target="_blank"><img src="assets/img/icons/contact/twitter_icon.png" alt="Twitter profile" title="Twitter profile" width="24" height="24" />Twitter</a></li>
-                    <li><a href="http://www.linkedin.com/in/rohanchambers" target="_blank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn profile" title="LinkedIn profile" width="24" height="24" target="_blank" />LinkedIn</a></li>
-                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/skype_icon.png" alt="Skype" title="Skype" width="24" height="24" target="_blank" />Skype</a> (On request only)</li>
+                    <li><a href="http://www.linkedin.com/in/rohanchambers" target="_blank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn profile" title="LinkedIn profile" width="24" height="24" />LinkedIn</a></li>
+                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/skype_icon.png" alt="Skype" title="Skype" width="24" height="24" />Skype</a> (On request only)</li>
                 </ul>
-            </article>
-            <article class="col-3">
+            </div>
+            <div class="col-3">
                 <div id="get-a-quote">
                     <h2>Get a quote</h2>
                     <p>If you wish to get a quote for one of your projects please click the button below and fill in the questionnaire or email me directly.</p>
                     <a href="get-a-quote" class="btn-global btn-spacer">Get a quote<span class="arrow"></span><span></span></a>
                 </div>
-            </article>
+            </div>
         </section>
 	</div><!-- End of container -->
 
@@ -459,7 +459,7 @@
     <script src="assets/js/compiled.min.js?{{rlsdate}}"></script>
     <!(endif)-->
     <!-- Start of StatCounter Code for Default Guide -->
-    <script type="text/javascript">
+    <script>
     var sc_project=2795365; 
     var sc_invisible=1; 
     var sc_security="dbf7ea22"; 
