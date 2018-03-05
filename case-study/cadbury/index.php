@@ -30,10 +30,10 @@
 			<p><strong>View app:</strong> Sites offline</p>
 			<p><a href="http://www.cadburycakes.co.uk/" class="targetBlank">CadburyCakes.co.uk</a>, <a href="http://www.ambrosia.co.uk/" class="targetBlank">Ambrosia.co.uk</a>, <a href="http://www.birdscustard.co.uk/" class="targetBlank">BirdsCustard.co.uk</a>, <a href="http://www.haywardspickles.co.uk/" class="targetBlank">HaywardsPickles.co.uk</a>, <a href="http://www.angeldelightdesserts.co.uk/" class="targetBlank">AngelDelightDeserts.co.uk</a></p>			
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/home.jpg" alt="Cadbury cakes"></li>
 			<img src="img/about.jpg" alt="Cadbury cakes"></li>
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -29,9 +29,9 @@
 
 			<strong>View site:</strong> <a href="http://www.futurelifehappy.co.uk/" class="targetBlank">www.futurelifehappy.co.uk/</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/flh.jpg" alt="Future Life Happy">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -33,11 +33,11 @@
 			<a href="http://www.facebook.com/evianUK/app_511977748836025" class="targetBlank">http://www.facebook.com/evianUK (Slingshot)</a>
 			<a href="http://www.facebook.com/evianUK/app_254553244581393" class="targetBlank">http://www.facebook.com/evianUK (Photo Competition)</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/evianuk_hub.jpg" alt="Evian, Live young this January">
 			<img src="img/evianuk_slingshot.jpg" alt="Evian, Live young this January">
 			<img src="img/evianuk_comp.jpg" alt="Evian, Live young this January">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

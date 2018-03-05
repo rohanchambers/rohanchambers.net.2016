@@ -28,9 +28,9 @@
 			<p>I helped develop the front end to another Honda hub site called Dream Factory that followed the <a href="honda-hub.php">Honda Hub Stories</a> site. Again this site was built and then passed on to the back end developers that were integrating it in Wordpress so that the clients could manage future content and updates via the CMS.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://hub.honda.co.uk/dreamfactory/" class="targetBlank">http://hub.honda.co.uk/dreamfactory/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/honda-dreamfactory.jpg" alt="Honda Dream Factory">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

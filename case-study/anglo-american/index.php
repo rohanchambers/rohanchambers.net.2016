@@ -28,9 +28,9 @@
 			<p>I built most of the front end for this site including all templates in HTML5, CSS and some jquery to then be handed over to the back end developers that were integrating them in a bespoke CMS.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.getthefullstory.com/" class="targetBlank">http://www.getthefullstory.com/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/get-the-full-story.jpg" alt="Anglo American">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

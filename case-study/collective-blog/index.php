@@ -29,10 +29,10 @@
 			<p>I built all of the front end in HTML5, CSS3, jQuery and then integrated this into Wordpress for its CMS capabilities as a theme.</p>
 			<p><strong>View app:</strong> Internal site only</p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/collective-blog.jpg" alt="Collective Internal Blog">
 			<img src="img/collective-blog-single-post.jpg" alt="Collective Internal Blog">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

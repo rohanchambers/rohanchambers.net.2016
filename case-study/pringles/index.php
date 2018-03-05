@@ -29,9 +29,9 @@
 			<p>I developed the pages that would show if Flash or Javascript are not installed or turned off respectively. Mainly XHTML and CSS build's of new pages with strict accessibility and W3C standards.</p><p>This was a freelance job I worked on for one of the top 5 digital advertising agency's in the UK, Wunderman.</p>
 			<p><strong>View app:</strong> Site offline</p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/campaign.jpg" alt="Pringles, Help the Oversharers">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

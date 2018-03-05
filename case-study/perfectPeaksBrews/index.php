@@ -31,7 +31,7 @@
 			<p>During the summer the other blends will mainly be for the surfer and water sports fan, again to kick back with a cold brew... It will be sold mainly in Portugal but also Ibiza and the South of France.</p>
             <p><strong>View site:</strong> Coming soon</p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/logo_large.jpg" alt="Perfect Peaks Brews" />
 			<img src="img/black.jpg" alt="Perfect Peaks Brews" />
 			<img src="img/yellow.jpg" alt="Perfect Peaks Brews" />

@@ -28,11 +28,11 @@
 			<p>I worked on this Facebook app. game for Tiger Beer as a front end developer. It's a simple little pairs game which however has a lot of back end functionality to make the game work well within Facebook.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/tigerbeeruk/app_521667997866887" class="targetBlank">http://www.facebook.com/tigerbeeruk</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/likegate.jpg" alt="Tiger Beer Zodia Pairs">
 			<img src="img/leaderboard.jpg" alt="Tiger Beer Zodia Pairs">
 			<img src="img/play.jpg" alt="Tiger Beer Zodia Pairs">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

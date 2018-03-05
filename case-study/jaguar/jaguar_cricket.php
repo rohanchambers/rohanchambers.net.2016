@@ -28,10 +28,10 @@
 			<p>Built a Facebook app. so that people could tweet in real time about the live video using the #JaguarCricket hashtag. All tweets displayed in a twitter feed component.</p> 
             <p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/Jaguar/" class="targetBlank">http://www.facebook.com/Jaguar</a>                   
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/jaguar_cricket_likegate.jpg" alt="Jaguar cricket">
 			<img src="img/jaguar_cricket.jpg" alt="Jaguar cricket">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

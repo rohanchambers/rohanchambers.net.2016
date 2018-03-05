@@ -30,10 +30,10 @@
 
 			<strong>View site:</strong> <a href="http://www.rohanchambers.net/projects/playboyModelUK/" class="targetBlank">http://www.playboymodeluk.co.uk/</a> (This link is not live anymore but the project is hosted on my server)
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/playboymodeluk.jpg" alt="Playboy Model UK">
 			<img src="img/playboymodeluk-2.jpg" alt="Playboy Model UK">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

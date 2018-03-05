@@ -30,9 +30,9 @@
 
 			<strong>View site:</strong> <a href="http://www.rohanchambers.net/projects/fashion-istical/index.html" class="targetBlank">Fashion-istical template</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/template.jpg" alt="Fashion-istical Template">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -30,9 +30,9 @@
 
 			<strong>View site:</strong> <a href="http://www.rohanchambers.net/projects/playboyU/" class="targetBlank">http://www.playboyu.co.uk/</a> (This link is not live anymore but the project is hosted on my server)
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/playboyU.jpg" alt="PlayboyU">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

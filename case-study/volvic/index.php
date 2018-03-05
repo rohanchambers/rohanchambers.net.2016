@@ -38,7 +38,7 @@
 			</ul>		
             <p><strong>View site:</strong> <a href="http://www.facebook.com/VolvicUK/app_434850776623146" class="targetBlank">http://www.facebook.com/VolvicUK</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/volvic-postcards-home.jpg" alt="Volvic, Touch of Tropical Postcards">
 			<img src="img/volvic-postcards-upload.jpg" alt="Volvic, Touch of Tropical Postcards">
         </section>

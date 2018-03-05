@@ -40,7 +40,7 @@
     <meta name="twitter:image:src"      content="http://rohanchambers.net/assets/img/global/rohanchambers.jpg">
     <meta name="twitter:domain"         content="rohanchambers.net">
 </head>
-<body id="<?=$pageName?>">
+<body>
     <div id="home"></div>
     <div class="container">
         <header id="header-main" class="row">

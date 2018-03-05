@@ -29,14 +29,14 @@
 
 			<strong>View site:</strong> Video
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<object width="580" height="400">
 	            <param value="true" name="allowfullscreen">
 	            <param value="always" name="allowscriptaccess">
 	            <param value="http://vimeo.com/moogaloop.swf?clip_id=11481065&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" name="movie">
 	            <embed width="580" height="400" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" src="http://vimeo.com/moogaloop.swf?clip_id=11481065&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1">                    
 	        </object> 
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

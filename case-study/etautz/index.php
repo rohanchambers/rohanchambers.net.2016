@@ -28,9 +28,9 @@
 			<p>Front end development site updates. Mainly keeping the site up to date with new promotions and page developments for new product launches.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.etautz.com/" class="targetBlank">http://www.etautz.com/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/etautz.jpg" alt="E.TAUTZ">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

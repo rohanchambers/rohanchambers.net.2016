@@ -28,7 +28,7 @@
 			<p>I built the holding page for the #Mo&euml;t Momente site using the Tumblr platform.</p>			
             <p><strong>View site:</strong> <a href="http://moetmomente.de/" class="targetBlank">MoetMomente.de/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/moetMomente.jpg" alt="#Mo&euml;t Momente">
 			<img src="img/moetMomenteMobile.jpg" alt="#Mo&euml;t Momente">
         </section>

@@ -29,13 +29,13 @@
 			<p>Our competition is powered by your good times. The more Facebook posts and Tweets you share with us the more rewards we'll unlock. With new weekly winners and massive prizes on offer we've got it covered if you keep the ideas flowing. Enter now to get involved and keep checking back to see when the next prize is revealed.</p>
             <p><strong>View site:</strong> Site offline <a href="http://www.facebook.com/Bulmers/app_451962378216467" class="targetBlank">Facebook.com/BulmersUK</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/bulmers-begin-home.jpg" alt="Bulmers, Begin with a Bulmers">
 			<img src="img/bulmers-begin-mobile.jpg" alt="Bulmers, Begin with a Bulmers">
 			<img src="img/bulmers-begin-mobile2.jpg" alt="Bulmers, Begin with a Bulmers">
 			<img src="img/bulmers-begin-mobile3.jpg" alt="Bulmers, Begin with a Bulmers">
 			<img src="img/bulmers-begin-mobile4.jpg" alt="Bulmers, Begin with a Bulmers">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -30,10 +30,10 @@
 
 			<strong>View site:</strong> <a href="http://www.playboy.co.uk/" class="targetBlank">http://www.playboy.co.uk/</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/articles.jpg" alt="Playboy UK">
 			<img src="img/girls.jpg" alt="Playboy UK">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

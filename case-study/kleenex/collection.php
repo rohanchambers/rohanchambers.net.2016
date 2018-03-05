@@ -29,11 +29,11 @@
 			<p>Join us in celebrating the launch of our new Limited Edition Collections range and you could win: &pound;1000 of Vouchers. We'd like you to create your own style statement collage using our new Collection Cube designs. Go on...show off your style!</p>
             <p><strong>View site:</strong> Site offline <a href="http://www.facebook.com/KleenexUK/app_528618900509543" class="targetBlank">Facebook.com/KleenexUK</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/collection/canvas.jpg" alt="Kleenex Collection">
 			<img src="img/collection/home.jpg" alt="Kleenex Collection">
 			<img src="img/collection/picker.jpg" alt="Kleenex Collection">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -30,10 +30,10 @@
 
 			<strong>View site:</strong> <a href="http://www.strattonandhesler.com/" class="targetBlank">http://www.strattonandhesler.com/</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/hesler-home.jpg" alt="Stratton &amp; Hesler">
 			<img src="img/hesler-about.jpg" alt="Stratton &amp; Hesler">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

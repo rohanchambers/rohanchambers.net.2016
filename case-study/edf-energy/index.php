@@ -29,9 +29,9 @@
 
 			<strong>View site:</strong> View image</li>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/edf-energy.jpg" alt="Debenhams Personal Finance">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -35,7 +35,7 @@
 			</ul>
             <p><strong>View site:</strong> <a href="http://www.facebook.com/VolvicUK/app_368491036625155" class="targetBlank">http://www.facebook.com/VolvicUK</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/toughmudder/toughmudder_home.jpg" alt="Volvic, Toughmudder got the bottle">
 			<img src="img/toughmudder/toughmudder_lightbox.jpg" alt="Volvic, Toughmudder got the bottle">
 			<img src="img/toughmudder/toughmudder_mobile.jpg" alt="Volvic, Toughmudder got the bottle">

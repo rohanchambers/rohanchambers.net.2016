@@ -30,7 +30,7 @@
 			We're launching a completely bespoke bottle of wine, created entirely by you - our online community. There are fantastic prizes up for grabs and one lucky winner will get the chance to visit the vineyards in South Africa and experience first-hand how the wine is made by the local community.</p>
             <p><strong>View site:</strong> Site offline <a href="http://www.facebook.com/tesco/app_210250815791897" class="targetBlank">http://www.facebook.com/Tesco</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/enotria-thesocialwine-home.jpg" alt="Enotria, The Social Wine">
         </section>
 	</div><!-- End of container -->

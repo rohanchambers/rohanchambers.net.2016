@@ -30,13 +30,13 @@
 
 			<strong>View site:</strong> View images
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/armani-underwear.jpg" alt="Armani Underwear">
 			<img src="img/guerlain-kiss-kiss.jpg" alt="Guerlain Kiss">
 			<img src="img/acquaDiParma.jpg" alt="Acqua Di Parma">
 			<img src="img/duChamp.jpg" alt="Du Champ">
 			<img src="img/harrods-ties.jpg" alt="Du Champ">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -30,7 +30,7 @@
 			<p>BUT, it isn't all work, work, work down here on Broome Farm, no sir! For this year's apple harvest, we want you - the great Bulmers fans - to be a part of it. Take your guesses as we challenge our trees to the ultimate harvest showdown, for your chance to win FANTASTIC PRIZES!</p>
             <p><strong>View site:</strong> <a href="https://www.facebook.com/HPSauceUK/app_682253515127994" class="targetBlank">https://www.facebook.com/HPSauceUK/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/movember/home.jpg" alt="Heinz, HP Movember" />
 			<img src="img/movember/challenge.jpg"" alt="Heinz, HP Movember" />
 			<img src="img/movember/gallery.jpg"" alt="Heinz, HP Movember" />

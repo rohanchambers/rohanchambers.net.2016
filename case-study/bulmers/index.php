@@ -30,10 +30,10 @@
 			<br>WHAT DO I NEED TO DO? It's simple - sign up below and we'll pick 20 of you at random to win a case of your choice delivered to your door.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/pages/Bulmers-UK/22251068827?sk=app_488481941186963" class="targetBlank">https://www.facebook.com/bulmersUK</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/bulmers-UK-likegate.jpg" alt="Bulmers, Blends">
 			<img src="img/bulmers-UK.jpg" alt="Bulmers, Blends">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -29,11 +29,11 @@
 			<p>It's a competition that allows you to upload your christmas decorations, lights or tree to enter and the winner receives luxury christmas dinner with &pound;200 to spend at Waitrose.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/KleenexUK/app_254553244581393" class="targetBlank">http://www.facebook.com/KleenexUK</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/kleenex_likegate.jpg" alt="Kleenex, Christmas Sparkle Competition">
 			<img src="img/kleenex_about.jpg" alt="Kleenex, Christmas Sparkle Competition">
 			<img src="img/kleenex_form.jpg" alt="Kleenex, Christmas Sparkle Competition">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -29,9 +29,9 @@
 
 			<strong>View site:</strong> <a href="http://www.ambertonneumann.co.uk/" class="targetBlank">http://www.ambertonneumann.co.uk/</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/amberton.jpg" alt="Amberton Neumann">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

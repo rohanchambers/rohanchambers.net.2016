@@ -29,10 +29,10 @@
 
 			<strong>View site:</strong> <a href="http://www.qubenet.net/" class="targetBlank">http://www.qubenet.net/</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/qube-home.jpg" alt="Qube Managed Services Limited">
 			<img src="img/qube-servers.jpg" alt="Qube Managed Services Limited">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

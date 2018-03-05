@@ -29,10 +29,10 @@
 			<p>I was on location helping out the hosting of a live wine tasting at the Hospital Club, and we were there to film it and live stream it online. Tesco Wine fans could ask questions via Twitter, which we streamed with a live rolling carousel of Tweets, and the whole thing was broadcast via Ustream.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.tescowinecommunity.com/live-christmas-wine-tasting-and-qa.html" class="targetBlank">http://www.tescowinecommunity.com/live-christmas-wine-tasting-and-qa.html</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/tesco_countdown.jpg" alt="Tesco Live Christmas Wine Tasting and Q&A">
 			<img src="img/tesco_video.jpg" alt="Tesco Live Christmas Wine Tasting and Q&A">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -29,9 +29,9 @@
 
 			<strong>View site:</strong> <p><a href="http://www.tescobank.com/personal/finance/home.html" class="targetBlank">http://www.tescobank.com/personal/finance/home.html</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/tesco.jpg" alt="Tesco Personal Finance">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

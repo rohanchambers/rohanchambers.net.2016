@@ -29,11 +29,11 @@
 			<p>I was in charge of the complete front end build of the website to then pass on to the back end developers which integrated the site in Wordpress for its CMS like capabilities. The site was localised in 7 languages and was built using HTML5.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://harrypotter.ea.com/" class="targetBlank">http://harrypotter.ea.com/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/home.jpg" alt="Harry Potter">
 			<img src="img/game-part-2.jpg" alt="Harry Potter">
 			<img src="img/game-part-1.jpg" alt="Harry Potter">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -29,7 +29,7 @@
 
 			<strong>View site:</strong> Video &amp; images
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<object width="580" height="400">
                 <param value="true" name="allowfullscreen">
                 <param value="always" name="allowscriptaccess">
@@ -40,7 +40,7 @@
 	    	<img src="img/3Dhouse-4.jpg" alt="3D Virtual House Version 2.">
 	    	<img src="img/3Dhouse-5.jpg" alt="3D Virtual House Version 2.">
 	    	<img src="img/3Dhouse-2.jpg" alt="3D Virtual House Version 2.">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

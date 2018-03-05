@@ -28,9 +28,9 @@
 			<p>London2012 Social Media Dashboard. A collection of Olympic data from Facebook, Twitter, Google+ and YouTube. <br>Click on the link below to see the live site.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.london2012.com/social/" class="targetBlank">www.london2012.com/social/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/dashboard.jpg" alt="London 2012 Olympics, Social Media Dashboard">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -30,9 +30,9 @@
 
 			<strong>View site:</strong> View image</li>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/jaguar.jpg" alt="Jaguar XK">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

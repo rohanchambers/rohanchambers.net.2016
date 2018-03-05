@@ -28,10 +28,10 @@
 			<p>I developed the holding page and the Facebook tab page for Sheba UK which has just introduced the lovely Eva Longoria as part of the new Sheba story. Built in HTML5, CSS3 and JavaScript/jQuery for the background image resizing functionality. This was so the page resized proportionality depending on the size of the viewers browser window.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://uk.sheba.com" class="targetBlank">http://uk.sheba.com</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/sheba.jpg" alt="Sheba UK Follow your Passion">
 			<img src="img/shebaFB.jpg" alt="Sheba UK Follow your Passion Facebook Tab">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

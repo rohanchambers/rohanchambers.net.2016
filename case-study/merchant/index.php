@@ -29,11 +29,11 @@
 
 			<strong>View site:</strong> <p><a href="http://www.merchantadventurersclub.com/" class="targetBlank">http://www.merchantadventurersclub.com/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/home.jpg" alt="The Merchant adventurers' club">
 			<img src="img/about.jpg" alt="The Merchant adventurers' club">
 			<img src="img/benefits.jpg" alt="The Merchant adventurers' club">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

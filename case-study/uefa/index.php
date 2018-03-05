@@ -28,9 +28,9 @@
 			<p>I developed the UEFA Euro 2012 Facebook tab page with a language switcher for localisation.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/easportsfifa/app_311812848906580" class="targetBlank">www.facebook.com/easportsfifa</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/uefa.jpg" alt="UEFA Euro 2012 Goal of the Tournament" />
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

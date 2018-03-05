@@ -29,9 +29,9 @@
 
 			<strong>View site:</strong> <a href="http://finance.debenhams.com/" class="targetBlank">http://finance.debenhams.com/</a></li>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/debenhams-home.jpg" alt="Debenhams Personal Finance">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

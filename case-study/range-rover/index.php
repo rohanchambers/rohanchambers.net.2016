@@ -29,9 +29,9 @@
 			<p>I developed these modules in XHTML and CSS strict accessibility and W3C web standards. All work passed through a QA team for passing Wunderman's high standard of delivery.</p>
 			<p><strong>View app:</strong> Internal site only</p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/range-rover.jpg" alt="Range Rover &amp; Land Rover Facebook Dev.">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

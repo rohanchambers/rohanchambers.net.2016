@@ -30,7 +30,7 @@
 			<p>Share a photo of your fantastic cuppa club and you will be in with a chance of winning one out of 100 packs of PG tips every month!</p>
             <p><strong>View site:</strong> <a href="https://www.facebook.com/PGtips/app_485954381503668" class="targetBlank">http://www.facebook.com/PGtips</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/cuppaclub2-home.jpg" alt="PG tips, Cuppa Club">
 			<img src="img/cuppaclub2-login.jpg" alt="PG tips, Cuppa Club">
 			<img src="img/cuppaclub2-gallery.jpg" alt="PG tips, Cuppa Club">

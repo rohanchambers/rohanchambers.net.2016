@@ -27,9 +27,9 @@
             <p><strong>Summary: </strong></p>
 			<p>Email template build for Ford UK's Galaxy newsletter. Built so that Ford employees can update email on a weekly/monthly basis. Extensive testing on all major email clients with all major browsers such as Outlook 2007, Hotmail, Yahoo, Google mail... Accessibly built so that all content expands email without breaking when text size is increased.</p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/ford-email.jpg" alt="Ford Email Newsletter">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

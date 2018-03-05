@@ -29,13 +29,13 @@
 
 			<strong>View site:</strong> Images
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/variation2.jpg" alt="3D Drumset variation 1">
 			<img src="img/mainImage.jpg" alt="3D Drumset variation 2">
 			<img src="img/variation1.jpg" alt="3D Drumset variation 2">
 			<img src="img/variation3.jpg" alt="3D Drumset variation 3">
 			<img src="img/variation4.jpg" alt="3D Drumset variation 4">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

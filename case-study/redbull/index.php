@@ -35,10 +35,10 @@
 			</ul>
             <p><strong>View site:</strong> Site offline <a href="http://redsilverblue.redbull.co.uk/" class="targetBlank">RedSilverBlue.Redbull.co.uk</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/home.jpg" alt="Redbull, Our Editions">
 			<img src="img/home-mobile.jpg" alt="Redbull, Our Editions">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -28,10 +28,10 @@
 			<p>I developed a section to the London 2012 website called 'Young Leaders'. I had to understandably develop this around the original site and its framework to work in the CMS.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.london2012.com/young-leaders/" class="targetBlank">http://www.london2012.com/young-leaders/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/london2012-young-leaders-home.jpg" alt="The London 2012 Olympics - Young Leaders">
 			<img src="img/london2012-young-leaders-meet.jpg" alt="The London 2012 Olympics - Young Leaders">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

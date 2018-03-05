@@ -30,7 +30,7 @@
 			<p>Join us to celebrate the extraordinary for your chance to win a week-long loan of the F-TYPE Coupé and an unforgettable Fearless experience.</p>
             <p><strong>View site:</strong> <a href="http://jaguaruk.tumblr.com" class="targetBlank">http://jaguaruk.tumblr.com</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/livefearless/jaguar_fearless_home.jpg" alt="Heineken, The Beauty of Brewing">
 			<img src="img/livefearless/jaguar_fearless_lightbox.jpg" alt="Heineken, The Beauty of Brewing">
 			<img src="img/livefearless/jaguar_fearless_mobile.jpg" alt="Heineken, The Beauty of Brewing">

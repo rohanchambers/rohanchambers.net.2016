@@ -30,9 +30,9 @@
 
 			<strong>View site:</strong> View images
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/harrods-email-newsletter.jpg" alt="Harrods Email Newsletter">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

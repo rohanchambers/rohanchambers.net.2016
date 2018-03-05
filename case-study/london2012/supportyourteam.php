@@ -28,7 +28,7 @@
 			<p>Support your team to Olympic glory. This site was built to allow fans to tweet about their favourite event and represent their tweets as a visual reference via a timeline/podium animation. Other data is spread around the site such as latest activity and a leader board panel to show team rankings. <br>Click on the link below to see the live site.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.london2012.com/countries/supportyourteam/" class="targetBlank">www.london2012.com/countries/supportyourteam/</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<h3>Desktop Version, Home</h3>
 			<img src="img/supportyourteam_home.jpg" alt="London 2012 Olympics, Support your Team">
 			<h3>Desktop Version, Timeline</h3>
@@ -41,7 +41,7 @@
 			<img src="img/supportyourteam_podium.jpg" alt="London 2012 Olympics, Support your Team">
 			<h3>Desktop Version, Leaderboard</h3>
 			<img src="img/supportyourteam_overall.jpg" alt="London 2012 Olympics, Support your Team">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

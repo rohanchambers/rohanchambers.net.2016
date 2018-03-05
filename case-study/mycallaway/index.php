@@ -29,9 +29,9 @@
 			<p>I developed some of the front end build for this site as a support to another developer in my team.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.mycallaway.eu/" class="targetBlank">http://www.mycallaway.eu/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/mycallaway-home.jpg" alt="MyCallaway Golfing">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

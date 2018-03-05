@@ -28,12 +28,12 @@
 
 			<strong>View site:</strong> Images
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
             <img src="img/stalker-home.jpg" alt="Stalker project">
 			<img src="img/stalker-main.jpg" alt="stalker-main-2">
 			<img src="img/stalker-main-2.jpg" alt="stalker-main-2">
 			<img src="img/stalker-main-3.jpg" alt="stalker-main-3">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

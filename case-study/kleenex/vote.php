@@ -29,7 +29,7 @@
 			<p>We've been searching high and low across the UK design community for the best, innovative designs for our next range of Kleenex Collection boxes. We had some amazing entries, but together with Kelly Hoppen MBE, we've managed to whittle it down to our favourite 10 designs. Now we need your help! Please vote on the design you like <strong>the best and the top three with the most votes will be the ones that we'll put on the shelf in-store this Autumn.</strong></p>
             <p><strong>View site:</strong> Site offline <a href="https://www.facebook.com/KleenexUK/app_307317556065287" class="targetBlank">Facebook.com/KleenexUK</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/kleenex-vote.jpg" alt="Kleenex Vote">
         </section>
 	</div><!-- End of container -->

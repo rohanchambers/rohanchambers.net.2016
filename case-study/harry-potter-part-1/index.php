@@ -28,10 +28,10 @@
 			<p>Front end development site updates. Mainly updating the Harry Potter Deathly Hallow's site with new sections and pages. This site is maintained and translated in multiple languages in countries such as Spain and many more.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://harrypotter.ea.com/" class="targetBlank">http://harrypotter.ea.com/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/wallpaper.jpg" alt="Harry Potter and the Deathly Hallows, Part 1" >
 			<img src="img/home.jpg" alt="Harry Potter and the Deathly Hallows, Part 1">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

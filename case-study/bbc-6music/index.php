@@ -29,9 +29,9 @@
 
 			<strong>View site:</strong> <a href="http://www.bbc.co.uk/6music/" class="targetBlank">http://www.bbc.co.uk/6music/</a></li>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/bbc-6music.jpg" alt="BBC 6Music">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

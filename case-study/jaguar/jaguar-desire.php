@@ -30,9 +30,9 @@
 			<p>Each day we will be revealing one of your desires via this Facebook app and giving you a chance to win a whole host of prizes, including exclusive trips, drives and gifts to be won every day over the next fortnight</p>
             <p>View app: Site offline <a href="http://www.facebook.com/JaguarUK/app_194134714044030" class="targetBlank">https://www.facebook.com/jaguarUK</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/jaguar_calendar.jpg" alt="Jaguar Design Calendar">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

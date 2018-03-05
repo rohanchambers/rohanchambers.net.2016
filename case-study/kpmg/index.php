@@ -28,11 +28,11 @@
 			<p>Front end development for the KPMG Burberry website. I was working on the build of the site with another front end developer. This site is heavily based on the jQuery library for its functionality. Very tight deadline of 4 days to develop the whole site to hand over to the clients. This site is not for public viewing but only for internal employees of KPMG so only a snapshot is here available.</p>
 			<p><strong>View app:</strong> Internal site only</p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/kpmg-home.jpg" alt="KPMG &amp; Burberry">
 			<img src="img/kpmg-audit.jpg" alt="KPMG &amp; Burberry">
 			<img src="img/kpmg-team.jpg" alt="KPMG &amp; Burberry">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -31,7 +31,7 @@
             <p><strong>View site:</strong> <a href="http://www.unwrapcadbury.co.uk/" class="targetBlank">http://www.unwrapcadbury.co.uk/</a></p>
             <p><strong>View app:</strong> <a href="http://www.facebook.com/CadburyUK/app_225899240917375" class="targetBlank">http://www.facebook.com/CadburyUK/</a></p>	
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/advent/cadbury_advent_desktop.jpg" alt="Cadbury, Advent Calendar">
 			<img src="img/advent/cadbury_advent_fbapp.jpg" alt="Cadbury, Advent Calendar">
 			<img src="img/advent/cadbury_advent_mobile.jpg" alt="Cadbury, Advent Calendar">

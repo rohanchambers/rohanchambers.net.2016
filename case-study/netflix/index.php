@@ -29,7 +29,7 @@
 			<p>Behind on Breaking Bad? Now you can check your feed without fear. Any tweets with danger words get blacked out, as below. When you've caught up, it's safe to go back to normal Twitter. Until Heisenberg comes knocking again on Monday.</p>
             <p><strong>View site:</strong> Site currently offline</p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/spoilerfoiler.jpg" alt="Spoiler Foiler">
         </section>
 	</div><!-- End of container -->

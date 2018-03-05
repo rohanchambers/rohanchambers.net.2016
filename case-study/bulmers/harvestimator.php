@@ -30,7 +30,7 @@
 			<p>BUT, it isn't all work, work, work down here on Broome Farm, no sir! For this year's apple harvest, we want you - the great Bulmers fans - to be a part of it. Take your guesses as we challenge our trees to the ultimate harvest showdown, for your chance to win FANTASTIC PRIZES!</p>
             <p><strong>View app:</strong> <a href="http://www.facebook.com/Bulmers/app_368187236649450" class="targetBlank">http://www.facebook.com/Bulmers/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/bulmers-home.jpg" alt="Bulmers Harvestimator">
 			<img src="img/bulmers-home-mobile.jpg" alt="Bulmers Harvestimator">
 			<img src="img/bulmers-challenge.jpg" alt="Bulmers Harvestimator">

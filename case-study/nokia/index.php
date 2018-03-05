@@ -28,9 +28,9 @@
 			<p>Email template build for the Nokia Outdoor Series newsletter. Built so that Nokia employees can update email on a weekly/monthly basis. Extensive testing on all major email clients with all major browsers such as Outlook 2007, Hotmail, Yahoo, Google mail... Accessibly built so that all content expands email without breaking when text size is increased.</p>
 			<p><strong>View app:</strong> Internal site only</p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/nokia-outdoors.jpg" alt="Nokia Outdoors">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

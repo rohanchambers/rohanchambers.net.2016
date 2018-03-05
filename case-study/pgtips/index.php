@@ -30,10 +30,10 @@
 			<p>We sold all 5,000 packs of tea in a smidge over 24 hours, when the campaign was originally intended to last a month.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/PGtips?sk=app_416359025098342" class="targetBlank">http://www.facebook.com/PGtips</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/pgTips-home.jpg" alt="PG tips, Warm up Britain">
 			<img src="img/pgTips-form.jpg" alt="PG tips, Warm up Britain">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

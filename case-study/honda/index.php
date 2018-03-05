@@ -28,9 +28,9 @@
 			<p>Facebook page build for the new Honda Jazz car. Honda UK is a client of Collective London which is the agency I work for.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/hondacarsuk?sk=app_4949752878" class="targetBlank">www.facebook.com/hondacarsuk</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/honda-jazz.jpg" alt="Honda Jazz Facebook">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -29,11 +29,11 @@
 			<p>It was tested in a professional environment to understand how users were interacting with the interface and the journey. Amends were then made with the feedback we received/observed from the test users. As this was just a prototype it was developed for the Google Chrome browser.</p>
 			<p><strong>View app:</strong> <a href="http://www.rohanchambers.net/projects/test-drive-prototype/index.html" class="targetBlank">Book a Test Drive Prototype</a> <br />(View in Google Chrome browser)</p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/prototype-home.jpg" alt="prototype-home">
 			<img src="img/prototype-time.jpg" alt="prototype-time">
 			<img src="img/prototype-dealer.jpg" alt="prototype-dealer">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

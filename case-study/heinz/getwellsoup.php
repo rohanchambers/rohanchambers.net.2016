@@ -32,7 +32,7 @@
 			We're on the lookout for fantastic photos of your city breaks, beach getaways and adventures in the great outdoors. Whether you've traveled for culture, relaxation, or mother nature at her finest, we want to see your best shots!</p>
             <p><strong>View site:</strong> <a href="http://www.facebook.com/HeinzSoupUK/app_130419560462124" class="targetBlank">http://www.facebook.com/HeinzSoupUK/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/getwellsoup/home.jpg" alt="Heinz, Get Well Soup">
 			<img src="img/getwellsoup/buycan.jpg" alt="Heinz, Get Well Soup">
 			<img src="img/getwellsoup/buycan_form.jpg" alt="Heinz, Get Well Soup">

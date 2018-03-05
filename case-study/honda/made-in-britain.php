@@ -28,9 +28,9 @@
 			<p>Facebook page build for Honda Made in Britain. Honda UK is a client of Collective London which is the agency I work for.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/hondamadeinbritain?v=app_10442206389" class="targetBlank">www.facebook.com/hondamadeinbritain</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/honda-made-in-britain.jpg" alt="Honda Made in Britain Facebook">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

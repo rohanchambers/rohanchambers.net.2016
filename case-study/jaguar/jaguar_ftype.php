@@ -29,9 +29,9 @@
 			<p>In association with our access-all-areas iPad apps, we are giving sketches signed by Jaguar's Design Team - includiing Director of Design, Ian Callum.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://www.facebook.com/Jaguar/app_204797316323588" class="targetBlank">http://www.facebook.com/Jaguar</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/jaguar_map.jpg" alt="Jaguar, F-TYPE Sketch">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

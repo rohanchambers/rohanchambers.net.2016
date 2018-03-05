@@ -31,9 +31,9 @@
 
 			<p><strong>View app:</strong> Sites offline <a href="http://www.facebook.com/lenovo/app_568121793204954" class="targetBlank">http://www.facebook.com/lenovo</a>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/lenovo_resolutions.jpg" alt="Lenovo, The year of the do">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

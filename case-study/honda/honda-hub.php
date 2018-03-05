@@ -30,9 +30,9 @@
 			<p>Honda hub's design was meant to support the all well known advertising agency <a href="http://www.wk.com/" class="targetBlank">WK</a>'s (Wieden Kennedy) promotional video for Honda.</p>
 			<p><strong>View app:</strong> Site offline <a href="http://hub.honda.co.uk/" class="targetBlank">http://hub.honda.co.uk</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/honda-hub-home.jpg" alt="Honda Hub Stories">
-		</section>
+		</div>
 	</div><!-- End of container -->
 
 <?php if ($PRODUCTION) { ?>

@@ -36,7 +36,7 @@
 			</ul>
             <p><strong>View site:</strong> <a href="http://www.facebook.com/Hotels.comEurope/app_1376986462540953" class="targetBlank">http://www.facebook.com/Hotels.comEurope/</a></p>
         </section>
-        <section id="case-study-img" class="col-8">
+        <div id="case-study-img" class="col-8">
 			<img src="img/home.jpg" alt="Hotels Photo competition">
 			<img src="img/fancybox.jpg" alt="Hotels Photo competition">
 			<img src="img/entry.jpg" alt="Hotels Photo competition">
