@@ -13,6 +13,7 @@
 	</div><!-- #main -->
 
 	<div id="footer" role="contentinfo">
+		<footer class="layout">
 			<div id="copyright">
 				<p>Website Designed and Developed by Rohan Chambers &copy;<?php echo date("Y"); ?><br />
 				Valid <a href="http://validator.w3.org/check?uri=referer">HTML 5</a> and <a href="http://rohanchambers.net/includes/css/layout.css">CSS 3</a> | <a href="http://www.rohanchambers.net/site-map.php">Site map</a> | <a href="http://www.rohanchambers.net/accessibility.php">Accessibility</a> | <a href="contact.php">Contact</a></p>
