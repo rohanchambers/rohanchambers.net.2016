@@ -22,7 +22,7 @@ header { position: relative; height: 90px;}
 section { margin: 30px 0 20px 0; height: auto; overflow: hidden; clear: both;}
 section#carousel { margin: 20px 0 -10px 0;}
 
-footer { background: url(http://www.rohanchambers.net/img/global/bg-footer.jpg); height: auto; overflow: hidden; clear: both;}
+footer { height: auto; overflow: hidden; clear: both;}
 .pageTop { background: #F5F6F7 url(http://www.rohanchambers.net/img/global/bg-main.jpg) repeat-x;}
 .pageBottom { background: url(http://www.rohanchambers.net/img/global/bg-footer.jpg);}
 .pageTop, .pageBottom, header, #content, footer, section { clear:both;}
@@ -43,7 +43,7 @@ nav ul li { background-color: #171922; width: 140px; height: auto; line-height: 
 margin: 0 0 0 10px;}
 nav ul li:hover { background-color: #0074C0;}
 nav ul li.currentpage { background-color: #0074C0;}
-nav ul li a { display: block; height: auto; padding-left: 8px; background: url(http://www.rohanchambers.net/img/global/bg-nav-divider.gif) repeat-y; 
+nav ul li a { display: block; height: auto; padding-left: 8px; 
 color: #FFF!important; text-transform: uppercase; text-align: center; text-decoration: none;}
 nav ul li a:hover { text-decoration: none;}
 nav ul li a span { display: block; clear: both; margin-top: -10px; letter-spacing: 1px; text-transform: none;}

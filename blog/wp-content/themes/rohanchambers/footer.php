@@ -30,34 +30,22 @@
 
 	wp_footer();
 ?>
-<!-- Start of StatCounter Code -->
-<script type="text/javascript">
+<!-- Start of StatCounter Code for Default Guide -->
+<script>
 var sc_project=2795365; 
 var sc_invisible=1; 
 var sc_security="dbf7ea22"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
 </script>
-<script type="text/javascript"
-src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div
-class="statcounter"><a title="tumblr statistics"
-class="statcounter"
-href="http://www.statcounter.com/tumblr/"><img
-class="statcounter"
-src="http://c.statcounter.com/2795365/0/dbf7ea22/1/"
-alt="tumblr statistics" /></a></div></noscript>
-<!-- End of StatCounter Code -->
-
-<!-- Start of Google Analytics Code -->
-<!--
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-2815826-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
--->
-<!-- End of Google Analytics Code -->        
+<noscript><div class="statcounter"><a title="website
+statistics" href="http://statcounter.com/free-web-stats/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/2795365/0/dbf7ea22/1/" alt="website
+statistics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->     
 </body>
 </html>

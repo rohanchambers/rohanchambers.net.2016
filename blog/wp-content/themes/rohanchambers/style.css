@@ -544,10 +544,7 @@ div.menu li {
 }
 .hentry {
 	margin: 0 0 20px 0;
-	padding-bottom: 15px;
-	/* border-bottom: 1px solid #0074C0; */
-	background: url(http://www.rohanchambers.net/img/global/article-line.png) no-repeat left bottom;
-}
+	padding-bottom: 15px;}
 .home .sticky {
 	background: #f2f7fc;
 	border-top: 4px solid #000;
@@ -1249,7 +1246,6 @@ h3#reply-title {
 
 #footer {
 	width: 100%;
-	background: url(http://www.rohanchambers.net/assets/img/global/bg_footer.jpg);
 }
 #colophon {
 	border-top: 4px solid #000;
