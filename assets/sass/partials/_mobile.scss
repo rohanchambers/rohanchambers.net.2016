@@ -83,6 +83,10 @@ $tablet-980: new-breakpoint(min-width 980px);
 			h1 {
 				width: 50%;
 			}
+
+			i {
+				display: none;
+			} 			
 		}
 	}
 
@@ -183,10 +187,6 @@ $width-600: new-breakpoint(max-width 600px);
 				width: 70%;
 			}
 		}
-
-		i {
-			display: none;
-		} 
 	}
 
 	#copyright {

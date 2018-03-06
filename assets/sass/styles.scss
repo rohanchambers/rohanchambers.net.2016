@@ -34,7 +34,7 @@ a:hover {
 .btn-global {
     position: relative;
     display: inline-block;
-    padding: 7px 18px 5px 12px;
+    padding: 6px 18px 5px 12px;
     background-color: $dark-blue;
     font-size: 1.2rem;
     color: $white;
@@ -288,7 +288,7 @@ a:hover {
 		i {
 			// float: right;
 			position: absolute;
-			bottom: 0;
+			bottom: -25px;
 			left: 0;
 			padding-left: 2px; 			
 		}

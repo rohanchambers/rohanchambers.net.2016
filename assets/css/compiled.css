@@ -1046,7 +1046,7 @@ a:hover {
 .btn-global {
   position: relative;
   display: inline-block;
-  padding: 7px 18px 5px 12px;
+  padding: 6px 18px 5px 12px;
   background-color: #171922;
   font-size: 1.2rem;
   color: #FFF;
@@ -1225,7 +1225,7 @@ a:hover {
     content: "\f139"; }
   #about header i {
     position: absolute;
-    bottom: 0;
+    bottom: -25px;
     left: 0;
     padding-left: 2px; }
   #about header i:hover {
@@ -1616,6 +1616,8 @@ footer {
 
   #about header h1 {
     width: 50%; }
+  #about header i {
+    display: none; }
 
   #web-dev,
   #software {
@@ -1682,8 +1684,6 @@ footer {
 @media screen and (max-width: 600px) {
   #about header h1 {
     width: 70%; }
-  #about i {
-    display: none; }
 
   #copyright img, #copyright div {
     margin-bottom: 15px; }
