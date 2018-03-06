@@ -394,7 +394,7 @@
             <div class="col-3">
                 <p>North London, Islington, UK.</p>
                 <ul id="contact-list" class="">
-                    <li><a href="mailto:info@rohanchambers.net" target="_blank"><img src="assets/img/icons/contact/mail.png" alt="E-mail" title="E-mail" width="24" height="24">info@rohanchambers.net</a></li>
+                    <li><a href="mailto:info@rohanchambers.net"><img src="assets/img/icons/contact/mail.png" alt="E-mail" title="E-mail" width="24" height="24">info@rohanchambers.net</a></li>
                     <li><img src="assets/img/icons/contact/phone.png" alt="Phone" title="Phone" width="24" height="24" /> <a href="tel:+447917044052">+44 (0) 79 170 44 052</a></li>
                     <li><a href="http://www.twitter.com/rohanchambers" target="_blank"><img src="assets/img/icons/contact/twitter_icon.png" alt="Twitter profile" title="Twitter profile" width="24" height="24" />Twitter</a></li>
                     <li><a href="http://www.linkedin.com/in/rohanchambers" target="_blank"><img src="assets/img/icons/contact/linkedin_icon.png" alt="LinkedIn profile" title="LinkedIn profile" width="24" height="24" />LinkedIn</a></li>
