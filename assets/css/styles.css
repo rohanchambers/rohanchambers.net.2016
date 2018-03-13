@@ -660,9 +660,10 @@ a:hover {
     float: left; }
     #header-main #logo a {
       float: left;
-      width: 175px;
+      width: 185px;
       height: 55px;
       background: url(../img/global/rohanchambers_logo.png) no-repeat 0 0;
+      background-size: 100%;
       overflow: hidden;
       text-indent: 101%;
       white-space: nowrap; }
