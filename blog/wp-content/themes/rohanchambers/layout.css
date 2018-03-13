@@ -27,7 +27,7 @@ footer { height: auto; overflow: hidden; clear: both;}
 .pageBottom { background: url(http://www.rohanchambers.net/img/global/bg-footer.jpg);}
 .pageTop, .pageBottom, header, #content, footer, section { clear:both;}
 .pageTop, .pageBottom { width:100%;}
-#logo a { float: left; margin: 36px 0 0 0; width: 175px; height: 55px; background: url(http://www.rohanchambers.net/assets/img/global/rohanchambers_logo.png) no-repeat 0 0;}
+#logo a { float: left; margin: 36px 0 0 0; width: 185px; height: 55px; background: url(http://www.rohanchambers.net/assets/img/global/rohanchambers_logo.png) no-repeat 0 0; background-size: 100%;}
 
 #scroll { position: absolute; top: 0; right: /* -67px */8px; width: 46px; height: 46px;}
 #scroll a { display: block; width: 46px; height: 46px; cursor: pointer; background: transparent url(http://www.rohanchambers.net/img/btn/sprite.png) no-repeat -287px 0; }
