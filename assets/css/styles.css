@@ -657,7 +657,8 @@ a:hover {
   position: relative;
   padding-top: 15px; }
   #header-main #logo {
-    float: left; }
+    float: left;
+    padding-top: 4px; }
     #header-main #logo a {
       float: left;
       width: 185px;
