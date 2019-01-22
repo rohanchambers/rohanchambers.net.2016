@@ -19,7 +19,7 @@
 				<li><a href="../bridging-the-gap/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Honda Test Drive Prototype</h1>
-            <p><strong>Date: </strong>2011</p>
+            <!-- <p><strong>Date: </strong>2011</p> -->
             <p><strong>Client: </strong>Honda UK</p>
             <p><strong>Agency: </strong><a href="http://www.collectivelondon.com/" class="targetBlank">Collective London</a></p>
             <p><strong>Technologies: </strong> XHTML, CSS, jQuery, Google Chrome</p>

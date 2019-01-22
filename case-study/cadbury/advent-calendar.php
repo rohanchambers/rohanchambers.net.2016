@@ -20,7 +20,7 @@
 			</ul>
 
             <h1>Cadbury, Advent Calendar</h1>
-            <p><strong>Date: </strong>2015</p>
+            <!-- <p><strong>Date: </strong>2015</p> -->
             <p><strong>Client: </strong>Cadbury</p>
             <p><strong>Agency: </strong><a href="http://www.wearesocial.net/" class="targetBlank">We Are Social</a></p>
             <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Responsive development</p>

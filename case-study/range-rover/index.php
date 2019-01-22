@@ -19,7 +19,7 @@
 				<li><a href="../ford/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Range Rover &amp; Land Rover Facebook Dev.</h1>
-            <p><strong>Date: </strong>2010</p>
+            <!-- <p><strong>Date: </strong>2010</p> -->
             <p><strong>Client: </strong>Range Rover</p>
             <p><strong>Agency: </strong><a href="http://www.wunderman.co.uk/" class="targetBlank">Wunderman</a></p>
             <p><strong>Technologies: </strong>HTML, CSS</p>

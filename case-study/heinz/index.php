@@ -19,7 +19,7 @@
 				<li><a href="../bulmers/harvestimator" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>HP Movember</h1>
-            <p><strong>Date: </strong>2015</p>
+            <!-- <p><strong>Date: </strong>2015</p> -->
             <p><strong>Client: </strong>Heinz</p>
             <p><strong>Agency: </strong><a href="http://www.wearesocial.net/" class="targetBlank">We Are Social</a></p>
             <p><strong>Technologies: </strong>HTML5, CSS3, jQuery</p>

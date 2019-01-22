@@ -19,7 +19,7 @@
 				<li><a href="../playboy/playboyU" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Playboy UK</h1>
-            <p><strong>Date: </strong>2009</p>
+            <!-- <p><strong>Date: </strong>2009</p> -->
             <p><strong>Client: </strong>Playboy UK</p>
             <p><strong>Agency: </strong><a href="http://www.playboy.co.uk/" class="targetBlank">http://www.playboy.co.uk/</a></p>
             <p><strong>Technologies: </strong>I helped on this site as a front end developer creating modules to fit the grid within the CMS. Working with an external web agency that were creating the back end and the build of the CMS.</p>

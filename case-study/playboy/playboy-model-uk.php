@@ -19,7 +19,7 @@
 				<li><a href="../playboy/playboy-email" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Playboy Model UK</h1>
-            <p><strong>Date: </strong>2008</p>
+            <!-- <p><strong>Date: </strong>2008</p> -->
             <p><strong>Client: </strong>Playboy UK</p>
             <p><strong>Company: </strong><a href="http://www.playboy.co.uk/" class="targetBlank">http://www.playboy.co.uk/</a></p>
             <p><strong>Technologies: </strong> The Playboy Model UK page currently shows the results of the winners for the months of 2007. This was built with compliant XHTML 1.0 and CSS.</p>

@@ -19,7 +19,7 @@
 				<li><a href="../kleenex/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>PG tips, Warm up Britain</h1>
-            <p><strong>Date: </strong>2014</p>
+            <!-- <p><strong>Date: </strong>2014</p> -->
             <p><strong>Client: </strong>PG tips</p>
             <p><strong>Agency: </strong><a href="http://www.wearesocial.net/" class="targetBlank">We Are Social</a></p>
             <p><strong>Technologies: </strong>HTML5, CSS3, JavaScript/jQuery, Responsive development</p>

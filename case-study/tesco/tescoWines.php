@@ -19,7 +19,7 @@
 				<li><a href="../bulmers/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Tesco, Live Christmas Wine Tasting and Q&amp;A</h1>
-            <p><strong>Date: </strong>2014</p>
+            <!-- <p><strong>Date: </strong>2014</p> -->
             <p><strong>Client: </strong>Tesco</p>
             <p><strong>Agency: </strong><a href="http://www.wearesocial.net/" class="targetBlank">We Are Social</a></p>
             <p><strong>Technologies: </strong>HTML5, CSS3, JavaScript/jQuery and live streaming through Ustream software.</p>

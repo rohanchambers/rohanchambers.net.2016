@@ -19,7 +19,7 @@
 				<li><a href="../video-3d/stalker" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>3D Drumset</h1>
-            <p><strong>Date: </strong>2007</p>
+            <!-- <p><strong>Date: </strong>2007</p> -->
             <p><strong>Client: </strong>Uni. project</p>
             <p><strong>Technologies: </strong> Maya, Photoshop</p>
             <p><strong>Tasks:</strong>  I had to model, animate, light and finally render stills of the model appropriately using professional 3D software Maya.

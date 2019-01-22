@@ -19,7 +19,7 @@
 				<li><a href="../flh/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>The Merchant adventurers' club</h1>
-            <p><strong>Date: </strong>2012</p>
+            <!-- <p><strong>Date: </strong>2012</p> -->
             <p><strong>Client: </strong>The Merchant adventurers' club</p>
             <p><strong>Technologies: </strong> HTML5, CSS3, JavaScript/jQuery, Responsive design implementation</p>
             <p><strong>Tasks:</strong> Front end build of site

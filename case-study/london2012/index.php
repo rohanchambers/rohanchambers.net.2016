@@ -19,7 +19,7 @@
 				<li><a href="../honda/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>London 2012, Young Leaders</h1>
-            <p><strong>Date: </strong>2011</p>
+            <!-- <p><strong>Date: </strong>2011</p> -->
             <p><strong>Client: </strong>London 2012</p>
             <p><strong>Agency: </strong><a href="http://www.collectivelondon.com/" class="targetBlank">Collective London</a></p>
             <p><strong>Technologies: </strong> XHTML, CSS, jQuery</p>

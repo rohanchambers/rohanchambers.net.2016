@@ -19,7 +19,7 @@
 				<li><a href="../freelance-work/stratton-hesler" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Amberton Neumann Consultancy</h1>
-            <p><strong>Date: </strong>2012</p>
+            <!-- <p><strong>Date: </strong>2012</p> -->
             <p><strong>Client: </strong>Amberton Neumann</p>
             <p><strong>Technologies: </strong> HTML5, CSS, jQuery, Wordpress Theme development</p>
             <p><strong>Tasks:</strong> Design, Front-end development, cross browser compatibility testing, build of templates, CMS integration

@@ -20,7 +20,7 @@
 			</ul>
 
             <h1>The Beauty of Brewing</h1>
-            <p><strong>Date: </strong>2015</p>
+            <!--  <p><strong>Date: </strong>2015</p> -->
             <p><strong>Client: </strong>Heineken</p>
             <p><strong>Agency: </strong>We are Social</p>
             <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Skrollr plugin, Canvas, CSS transitions, Fully responsive</p>

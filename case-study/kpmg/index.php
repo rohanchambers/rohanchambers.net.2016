@@ -19,7 +19,7 @@
 				<li><a href="../nokia/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>KPMG &amp; Burberry</h1>
-            <p><strong>Date: </strong>2011</p>
+            <!-- <p><strong>Date: </strong>2011</p> -->
             <p><strong>Client: </strong>KPMG</p>
             <p><strong>Agency: </strong><a href="http://www.conrandesigngroup.com/" class="targetBlank">Conran Design Group</a></p>
             <p><strong>Technologies: </strong>HTML, CSS3 and jQuery</p>

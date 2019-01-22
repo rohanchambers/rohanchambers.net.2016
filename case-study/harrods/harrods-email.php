@@ -19,7 +19,7 @@
 				<li><a href="../tesco/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Harrods Email Newsletter</h1>
-            <p><strong>Date: </strong>2006</p>
+            <!-- <p><strong>Date: </strong>2006</p> -->
             <p><strong>Client: </strong>Harrods</p>
             <p><strong>Company: </strong><a href="http://www.harrods.com/" class="targetBlank">http://www.harrods.com/</a></p>
             <p><strong>Technologies: </strong> Photoshop, XHTML &amp; inline CSS</p>

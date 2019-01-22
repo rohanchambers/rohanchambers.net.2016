@@ -19,7 +19,7 @@
 				<li><a href="../freelance-work/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Fashion-istical</h1>
-            <p><strong>Date: </strong>2010</p>
+            <!-- <p><strong>Date: </strong>2010</p> -->
             <p><strong>Client: </strong>Fashion-istical (Personal project)</p>
             <p><strong>Technologies: </strong> XHTML, CSS, jQuery, Wordpress integration</p>
             <p><strong>Tasks:</strong> XHTML, CSS, jQuery, Wordpress integration

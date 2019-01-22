@@ -19,7 +19,7 @@
 				<li><a href="../cadbury/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Pringles, Help the Oversharers</h1>
-            <p><strong>Date: </strong>2011</p>
+            <!-- <p><strong>Date: </strong>2011</p> -->
             <p><strong>Client: </strong>Pringles</p>
             <p><strong>Agency: </strong><a href="http://www.wunderman.co.uk/" class="targetBlank">Wunderman</a></p>
             <p><strong>Technologies: </strong>HTML5, CSS3 and jQuery</p>

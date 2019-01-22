@@ -19,7 +19,7 @@
 				<li><a href="../edf-energy/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Debenhams Personal Finance</h1>
-            <p><strong>Date: </strong>2009</p>
+            <!-- <p><strong>Date: </strong>2009</p> -->
             <p><strong>Client: </strong>Debenhams</p>
             <p><strong>Agency: </strong><a href="http://www.steellondon.com/" class="targetBlank">Steel London</a></p>
             <p><strong>Technologies: </strong>XHTML, CSS</p>

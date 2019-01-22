@@ -19,7 +19,7 @@
 				<li><a href="../video-3d/archi-design" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>3D Virtual House Version 1.</h1>
-            <p><strong>Date: </strong>2007</p>
+            <!-- <p><strong>Date: </strong>2007</p> -->
             <p><strong>Client: </strong>Uni. thesis project</p>
             <p><strong>Technologies: </strong> 3D Animation &amp;and Video</p>
             <p><strong>Tasks:</strong> 3D modelling, animation and video editing.

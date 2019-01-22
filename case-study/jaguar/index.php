@@ -19,7 +19,7 @@
 				<li><a href="../playboy/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Jaguar XK</h1>
-            <p><strong>Date: </strong>2009</p>
+            <!-- <p><strong>Date: </strong>2009</p> -->
             <p><strong>Client: </strong>Jaguar XK</p>
             <p><strong>Agency: </strong><a href="http://www.wunderman.co.uk/" class="targetBlank">Wunderman</a></p>
             <p><strong>Technologies: </strong>My brief was to put together all the assets given to me from the client (Jaguar) such as background image, rollover images, Logos, videos etc... into a simple DVD menu. I Created this using Apple's DVD Studio Pro 3.</p>

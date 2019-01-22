@@ -19,7 +19,7 @@
 				<li><a href="../honda/honda-dreamfactory" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Anglo American - Get the full story</h1>
-            <p><strong>Date: </strong>2012</p>
+            <!-- <p><strong>Date: </strong>2012</p> -->
             <p><strong>Client: </strong>Anglo American</p>
             <p><strong>Agency: </strong><a href="http://www.collectivelondon.com/" class="targetBlank">Collective London</a></p>
             <p><strong>Technologies: </strong>HTML5, CSS3 and jQuery</p>

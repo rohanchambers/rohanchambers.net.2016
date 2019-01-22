@@ -20,7 +20,7 @@
 			</ul>
 
             <h1>Perfect Peaks Brews</h1>
-            <p><strong>Date: </strong>2016</p>
+            <!-- <p><strong>Date: </strong>2016</p> -->
             <p><strong>Client: </strong>Perfect Peaks Brews</p>
             <p><strong>Agency: </strong>Freelance project</p>
             <p><strong>Technologies: </strong>HTML5, CSS3, jQuery, Grunt, Wordpress, Bourbon + Neat responsive grid, CSS3 transitions, Fully responsive, Font awesome.</p>

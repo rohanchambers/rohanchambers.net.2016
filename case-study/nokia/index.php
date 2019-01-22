@@ -19,7 +19,7 @@
 				<li><a href="../range-rover/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Nokia Outdoors Series</h1>
-            <p><strong>Date: </strong>2010</p>
+            <!-- <p><strong>Date: </strong>2010</p> -->
             <p><strong>Client: </strong>Nokia</p>
             <p><strong>Agency: </strong><a href="http://www.wunderman.co.uk/" class="targetBlank">Wunderman</a></p>
             <p><strong>Technologies: </strong>HTML tables, inline CSS, Campaign monitor</p>

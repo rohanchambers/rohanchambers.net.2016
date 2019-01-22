@@ -19,7 +19,7 @@
 				<li><a href="../amberton/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Future Life Happy,<br> Interviews with people that matter</h1>
-            <p><strong>Date: </strong>2012</p>
+            <!-- <p><strong>Date: </strong>2012</p> -->
             <p><strong>Client: </strong>Future Life Happy</p>
             <p><strong>Technologies: </strong> HTML5, CSS3, JavaScript/jQuery, Campaign monitor and Vimeo setup</p>
             <p><strong>Tasks:</strong> Front end build of site

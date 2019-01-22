@@ -19,7 +19,7 @@
 				<li><a href="../london2012/pulse" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>London 2012 Olympics,<br> Support your Team</h1>
-            <p><strong>Date: </strong>2012</p>
+            <!-- <p><strong>Date: </strong>2012</p> -->
             <p><strong>Client: </strong>London 2012 Olympics</p>
             <p><strong>Agency: </strong><a href="http://www.collectivelondon.com/" class="targetBlank">Collective London</a></p>
             <p><strong>Technologies: </strong>Front end development for the desktop and mobile versions including iPhone and iPad. (75% of the JavaScript/jQuery code)</p>

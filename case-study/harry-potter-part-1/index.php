@@ -19,7 +19,7 @@
 				<li><a href="../honda/made-in-britain" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Harry Potter and the Deathly Hallows,<br /> Part 1</h1>
-            <p><strong>Date: </strong>2011</p>
+            <!-- <p><strong>Date: </strong>2011</p> -->
             <p><strong>Client: </strong>EA</p>
             <p><strong>Agency: </strong><a href="http://www.collectivelondon.com/" class="targetBlank">Collective London</a></p>
             <p><strong>Technologies: </strong>HTML5, CSS3 and jQuery, Wordpress</p>

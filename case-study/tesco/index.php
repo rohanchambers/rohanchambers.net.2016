@@ -19,7 +19,7 @@
 				<li><a href="../merchant/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Tesco Personal Finance</h1>
-            <p><strong>Date: </strong>2006</p>
+            <!-- <p><strong>Date: </strong>2006</p> -->
             <p><strong>Client: </strong>DC Interact (Now <a href="http://www.wcrsandco.com/" class="targetBlank">www.WCRS&CoM.com</a>)</p>
             <p><strong>Technologies: </strong> Photoshop, XHTML &amp; inline CSS</p>
             <p><strong>Tasks:</strong> Photoshop

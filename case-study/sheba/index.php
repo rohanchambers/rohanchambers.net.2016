@@ -19,7 +19,7 @@
 				<li><a href="../anglo-american/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Sheba UK Follow your Passion</h1>
-            <p><strong>Date: </strong>2012</p>
+            <!-- <p><strong>Date: </strong>2012</p> -->
             <p><strong>Client: </strong>Sheba UK</p>
             <p><strong>Agency: </strong><a href="http://www.collectivelondon.com/" class="targetBlank">Collective London</a></p>
             <p><strong>Technologies: </strong>HTML5, CSS3, Javascript and jQuery</p>

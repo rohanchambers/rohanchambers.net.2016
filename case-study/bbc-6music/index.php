@@ -19,7 +19,7 @@
 				<li><a href="../debenhams/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>BBC 6Music</h1>
-            <p><strong>Date: </strong>2010</p>
+            <!-- <p><strong>Date: </strong>2010</p> -->
             <p><strong>Client: </strong>BBC</p>
             <p><strong>Agency: </strong><a href="http://www.atticmedia.com/" class="targetBlank">Attic Media</a></p>
             <p><strong>Technologies: </strong>XHTML, CSS</p>

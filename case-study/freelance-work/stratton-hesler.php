@@ -19,7 +19,7 @@
 				<li><a href="../video-3d" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Stratton &amp; Hesler</h1>
-            <p><strong>Date: </strong>2010</p>
+            <!-- <p><strong>Date: </strong>2010</p> -->
             <p><strong>Client: </strong>Stratton &amp; Hesler</p>
             <p><strong>Technologies: </strong> XHTML strict, CSS and W3C compliant</p>
             <p><strong>Tasks:</strong> Web Design and Development

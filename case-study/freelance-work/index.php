@@ -19,7 +19,7 @@
 				<li><a href="../freelance-work/stratton-hesler" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Qube Managed Services Limited</h1>
-            <p><strong>Date: </strong>2010</p>
+            <!-- <p><strong>Date: </strong>2010</p> -->
             <p><strong>Client: </strong>Qube MS</p>
             <p><strong>Technologies: </strong> XHTML strict, CSS, Javascript, Jquery, PHP. Built with semantic markup and with SEO and accessibilitiy in mind. Cross browser compatibility will be thorougly tested to work on all major browsers and versions.</p>
             <p><strong>Tasks:</strong> Web Design and Development

@@ -19,7 +19,7 @@
 				<li><a href="/portfolio" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Interactive CD-Rom, Stalker project</h1>
-            <p><strong>Date: </strong>2007</p>
+            <!-- <p><strong>Date: </strong>2007</p> -->
             <p><strong>Client: </strong>Uni. project</p>
             <p><strong>Tasks:</strong> The software' s used for this project were Illustrator, Photoshop and the more advanced use of Director MX using its lingo scripting.
 

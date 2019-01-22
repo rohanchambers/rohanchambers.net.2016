@@ -19,7 +19,7 @@
 				<li><a href="../playboy/playboy-model-uk" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Playboy UK, Thinking is Sexy</h1>
-            <p><strong>Date: </strong>2007</p>
+            <!-- <p><strong>Date: </strong>2007</p> -->
             <p><strong>Client: </strong>Playboy UK</p>
             <p><strong>Company: </strong><a href="http://www.playboy.co.uk/" class="targetBlank">http://www.playboy.co.uk/</a></p>
             <p><strong>Technologies: </strong> XHTML, CSS, W3C Compliant, Javascript</p>

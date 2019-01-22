@@ -19,7 +19,7 @@
 				<li><a href="../jaguar/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>EDF Energy</h1>
-            <p><strong>Date: </strong>2009</p>
+            <!-- <p><strong>Date: </strong>2009</p> -->
             <p><strong>Client: </strong>EDF Energy</p>
             <p><strong>Agency: </strong><a href="http://www.redhouselane.com/" class="targetBlank">RedHouseLane</a></p>
             <p><strong>Technologies: </strong>XHTML, CSS</p>

@@ -19,7 +19,7 @@
 				<li><a href="../playboy/playboyCorporate" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>PlayboyU</h1>
-            <p><strong>Date: </strong>2009</p>
+            <!-- <p><strong>Date: </strong>2009</p> -->
             <p><strong>Client: </strong>Playboy UK</p>
             <p><strong>Company: </strong><a href="http://www.playboy.co.uk/" class="targetBlank">http://www.playboy.co.uk/</a></p>
             <p><strong>Technologies: </strong>This page was built using validated XHTML and CSS. PHP was used to capture the data information users would enter and then sent to our database. Our marketing team would then use these details to analyse and market PlayboyU as best we can.</p>

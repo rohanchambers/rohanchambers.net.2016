@@ -19,7 +19,7 @@
 				<li><a href="../kpmg/" class="go-next" title="Next Project"></a></li>
 			</ul>
             <h1>Cadbury Cakes</h1>
-            <p><strong>Date: </strong>2010</p>
+            <!-- <p><strong>Date: </strong>2010</p> -->
             <p><strong>Client: </strong>Cadbury</p>
             <p><strong>Agency: </strong><a href="http://www.elviscommunications.com/" class="targetBlank">Elvis Communications</a></p>
             <p><strong>Technologies: </strong>XHTML Strict, CSS3, jQuery, Cufon, Curvy corners, Cross browser compatibility and W3C web standards.</p>
