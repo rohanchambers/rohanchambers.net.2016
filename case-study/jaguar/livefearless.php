@@ -20,7 +20,6 @@
 			</ul>
 
             <h1>Jaguar UK, Live Fearless</h1>
-            <p><strong>Date: </strong>June, 2015</p>
             <p><strong>Client: </strong>Jaguar</p>
             <p><strong>Agency: </strong>We are Social</p>
             <p><strong>Technologies: </strong>HTML5, CSS3, JavaScript/jQuery, Fully responsive, Tumblr framework</p>

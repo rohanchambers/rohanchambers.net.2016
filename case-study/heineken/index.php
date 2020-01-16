@@ -29,7 +29,7 @@
 			<p>I helped develop Heinken's 'The Beauty of Brewing'. This is a parallax website that explains the story of how beer is made. It is broken down in to sections, each of being a vital ingredient to the brewing process Barley, Hops and Water.</p>
 			<p>I developed this site to be fully responsive for all major devices. There was a lot of interaction with the designer on this project to get all the animations perfect as well as all the other design elements in the project.</p>
 			<p>The beauty of brewing is that it's a natural process, enhanced by craftsmanship to create the perfect beverage.</p>
-            <p><strong>View site:</strong> <a href="http://heineken.co.uk/beautyofbrewing" class="targetBlank">http://heineken.co.uk/beautyofbrewing</a></p>
+            <p><strong>View site:</strong> <a href="http://beautyofbrewing.com" class="targetBlank">http://beautyofbrewing.com</a></p>
         </section>
         <div id="case-study-img" class="col-8">
 			<img src="img/home.jpg" alt="Heineken, The Beauty of Brewing" />

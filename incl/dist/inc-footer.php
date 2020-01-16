@@ -21,7 +21,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="/assets/js/compiled.min.js?20180313"></script>
+    <script src="/assets/js/compiled.min.js?20200116"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
     <script>

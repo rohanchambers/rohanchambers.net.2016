@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20180313">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20200116">
     
     
 
@@ -56,7 +56,7 @@
                     <li class="desktop-nav-mobile"><a href="/index.php#what-i-do">What I do <span>What I do</span></a></li>
                     <li class="desktop-nav services"><a href="/index.php#services">Services <span>What I do</span></a></li>
                     <li class=""><a href="/index.php#contact">Contact <span>Get in touch</span></a></li>
-                    <li class="<?=$activePortfolio?>"><a href="/portfolio">Portfolio <span>My work</span></a></li>
+                    <li class=""><a href="/portfolio">Portfolio <span>My work</span></a></li>
                     <li class="desktop-nav last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
                 </ul>
             </nav>
@@ -444,7 +444,7 @@
     </div><!-- End of Lightbox -->
     
     
-    <script src="assets/js/compiled.min.js?20180313"></script>
+    <script src="assets/js/compiled.min.js?20200116"></script>
     
     <!-- Start of StatCounter Code for Default Guide -->
     <script>

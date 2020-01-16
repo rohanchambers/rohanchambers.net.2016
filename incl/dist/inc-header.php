@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     
     
-    <link rel="stylesheet" href="/assets/css/compiled.min.css?20180313">
+    <link rel="stylesheet" href="/assets/css/compiled.min.css?20200116">
     
     
 
@@ -50,7 +50,7 @@
 
             <nav id="nav-main" class="">
                 <ul>
-                    <li class="<?=$activeHome?>"><a href="/">Home <span>Welcome</span></a></li>
+                    <li class=""><a href="/">Home <span>Welcome</span></a></li>
                     <li class="desktop-nav-mobile"><a href="/index.php#what-i-do">What I do <span>What I do</span></a></li>
                     <li class="desktop-nav services"><a href="/index.php#services">Services <span>What I do</span></a></li>
                     <li class="desktop-nav-mini"><a href="/index.php#skills">Skills <span>My work</span></a></li>

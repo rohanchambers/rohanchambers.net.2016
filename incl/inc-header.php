@@ -55,7 +55,7 @@
 
             <nav id="nav-main" class="">
                 <ul>
-                    <li class="<?=$activeHome?>"><a href="/">Home <span>Welcome</span></a></li>
+                    <li class=""><a href="/">Home <span>Welcome</span></a></li>
                     <li class="desktop-nav-mobile"><a href="/index.php#what-i-do">What I do <span>What I do</span></a></li>
                     <li class="desktop-nav services"><a href="/index.php#services">Services <span>What I do</span></a></li>
                     <li class="desktop-nav-mini"><a href="/index.php#skills">Skills <span>My work</span></a></li>

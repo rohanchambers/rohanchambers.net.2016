@@ -61,7 +61,7 @@
                     <li class="desktop-nav-mobile"><a href="/index.php#what-i-do">What I do <span>What I do</span></a></li>
                     <li class="desktop-nav services"><a href="/index.php#services">Services <span>What I do</span></a></li>
                     <li class=""><a href="/index.php#contact">Contact <span>Get in touch</span></a></li>
-                    <li class="<?=$activePortfolio?>"><a href="/portfolio">Portfolio <span>My work</span></a></li>
+                    <li class=""><a href="/portfolio">Portfolio <span>My work</span></a></li>
                     <li class="desktop-nav last"><a href="http://blog.rohanchambers.net/">Blog <span>Various</span></a></li>
                 </ul>
             </nav>
