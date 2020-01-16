@@ -76,20 +76,20 @@
                 <p>This <strong>website</strong> is primarily designed to be an online portfolio presence for <strong>Rohan Chambers</strong>, a <strong>Front-end Developer</strong> based in London, UK.
                 I have recently started working freelance but prior to this I was a <strong>Creative Technologist (Front end)</strong> for the agency, <strong><a href="http://www.wearesocial.com/uk" target="_blank">We Are Social</a></strong> for around three years. Prior to that I was working full time at <strong>Playboy UK</strong> as a web developer.</p>
                 <p>Some of the <strong>technologies</strong> used on this site and other <strong>projects</strong> I have worked on include <strong>HTML5, CSS3 (SASS)</strong> complemented by the <strong>Bourbon &amp; Neat grid layout</strong> and Wordpress theme creation when necessary. For more dynamic solutions I use Javascript, <strong>Jquery</strong>,  and automation tools such as Grunt, Bower and Github along with good knowledge of best practices in Accessibility, <strong>User experience</strong>, SEO and <strong>W3C standards</strong>.</p>
-                <p>I am currently delving in to <strong>React JS &amp; Angular</strong> but my main focus is always on <strong>expanding</strong> my JavaScript level for projects in the near <strong>future</strong>.</p>
+                <p>I am currently delving in to <strong>React JS</strong> but my main focus is always on <strong>expanding</strong> my JavaScript level for projects in the near <strong>future</strong>.</p>
             </article>
 
             <article id="intro-skills" class="col-5-1 mob-2 element">
                 <h2>My skills:</h2>
                 <ul class="bullets">
                     <li>HTML5 &amp; CSS3 / SASS (Advanced)</li>
-                    <li>Responsive web design &amp; dev.</li>
-                    <li>Grid: Bourbon &amp; Neat / Boostrap / Compass</li>                    
+                    <li>Responsive Web Design &amp; Dev.</li>
+                    <li>Grid: Bourbon &amp; Neat / Boostrap / CSS Flex &amp; Grid </li>                    
                     <li>JavaScript/jQuery (UI implementation)</li>                                
                     <li>Cross browser compatibility</li>
-                    <li>Bower / Grunt / Gulp / Github</li>                                        
+                    <li>Grunt / Webpack / Bower / Github</li>                                        
                     <li>Wordpress theme development</li>
-                    <li>PHP (Basic level)</li>                    
+                    <li>UX and Wireframing App. workflows</li>                    
                     <li>Coding to W3C Web Standards</li>
                     <li>Accessibility standards</li>                    
                     <li>Search engine optimisation best coding practices (SEO)</li>
@@ -123,10 +123,10 @@
                 <article class="col-2">
                     <h2>Languages</h2>
                     <ul class="bullets">
-                        <li>XHTML - HTML5 (Advanced) </li>
-                        <li>CSS3, SASS, Compass and Pre processors (Advanced)</li>
+                        <li>XHTML - HTML5 (Advanced)</li>
+                        <li>CSS3, SASS, and Pre processors (Advanced) using the BEM structure</li>
                         <li>Responsive Tools: Bourbon and Neat grid, Bootstrap</li>
-                        <li>Automation tools: Bower, Grunt, Gulp and Git hub</li>
+                        <li>Automation tools: Grunt, Webapack, Bower, and Git hub</li>
                         <li>JavaScript / jQuery (UI implemnetation) (<a href="/dev" class="block-link">View examples</a>)</li>
                         <li>Wordpress theme creation</li>
                     </ul>
@@ -134,10 +134,11 @@
                 <article class="col-2">
                     <h2>Software</h2>
                     <ul class="bullets">
-                        <li>Sublime / Coda (IDE), Terminal</li>
+                        <li>Mac OSX</li>
+                        <li>Sublime, Visual Studio Code, Terminal</li>
                         <li>Git Hub, Source Tree</li>
                         <li>SVN Turtoise / Synchro SVN(MacOSX)</li>
-                        <li>Adobe Suite</li>
+                        <li>Adobe Photoshop and CC suite</li>
                         <li>Mail Chimp / Campaign monitor (Email distribution service)</li>
                     </ul>
                 </article>
